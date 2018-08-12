@@ -1,5 +1,5 @@
 # Tuttle__Learning_Japanese_Kanji
-"The innovative method for learning the 520 most essential Japanese kanji characters."
+## "The innovative method for learning the 520 most essential Japanese kanji characters."
 
 This project is originally inspired by the book: "Tuttle, Learning Japanese Kanji" by Glen Nolan Grant (ISBN 978-4-8053-1168-4).
 
