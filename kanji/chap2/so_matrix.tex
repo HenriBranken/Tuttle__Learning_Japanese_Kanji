@@ -1,0 +1,142 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_shellfish.pdf}} &
+		{\includegraphics[width=4cm]{so_six.pdf}} & 
+		{\includegraphics[width=4cm]{so_king.pdf}} & 
+		{\includegraphics[width=4cm]{so_jewel.pdf}} \\
+		{\includegraphics[width=4cm]{so_heart.pdf}} & 
+		{\includegraphics[width=4cm]{so_country.pdf}} &
+		{\includegraphics[width=4cm]{so_complete.pdf}} &
+		{\includegraphics[width=4cm]{so_ten.pdf}} \\
+		{\includegraphics[width=4cm]{so_early.pdf}} &
+		{\includegraphics[width=4cm]{so_upper.pdf}} &
+		{\includegraphics[width=4cm]{so_lower.pdf}} &
+		{\includegraphics[width=4cm]{so_rice.pdf}} \\
+		{\includegraphics[width=4cm]{so_self.pdf}} &
+		{\includegraphics[width=4cm]{so_inside.pdf}} &
+		{\includegraphics[width=4cm]{so_right.pdf}} &
+		{\includegraphics[width=4cm]{so_have.pdf}} \\
+		{\includegraphics[width=4cm]{so_meat.pdf}} &
+		{\includegraphics[width=4cm]{so_half.pdf}} &
+		{\includegraphics[width=4cm]{so_nine.pdf}} &
+		{\includegraphics[width=4cm]{so_spring.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Shellfish};
+\node [tag] at (m-1-2.north west) {\Fontlukas Six};
+\node [tag] at (m-1-3.north west) {\Fontlukas King};
+\node [tag] at (m-1-4.north west) {\Fontlukas Jewel};
+\node [tag] at (m-2-1.north west) {\Fontlukas Heart};
+\node [tag] at (m-2-2.north west) {\Fontlukas Country};
+\node [tag] at (m-2-3.north west) {\Fontlukas Complete};
+\node [tag] at (m-2-4.north west) {\Fontlukas Ten};
+\node [tag] at (m-3-1.north west) {\Fontlukas Early};
+\node [tag] at (m-3-2.north west) {\Fontlukas Upper};
+\node [tag] at (m-3-3.north west) {\Fontlukas Lower};
+\node [tag] at (m-3-4.north west) {\Fontlukas Rice};
+\node [tag] at (m-4-1.north west) {\Fontlukas Self};
+\node [tag] at (m-4-2.north west) {\Fontlukas Inside};
+\node [tag] at (m-4-3.north west) {\Fontlukas Right};
+\node [tag] at (m-4-4.north west) {\Fontlukas Have};
+\node [tag] at (m-5-1.north west) {\Fontlukas Meat};
+\node [tag] at (m-5-2.north west) {\Fontlukas Half};
+\node [tag] at (m-5-3.north west) {\Fontlukas Nine};
+\node [tag] at (m-5-4.north west) {\Fontlukas Spring};
+
+%\node [pron] at (m-1-1.south west) {\vier{--}{kai}{BAI}{--}};
+%\node [pron] at (m-1-2.south west) {\vier{ROKU}{--}{RIKU}{mui; mu-; mu}};
+%\node [pron] at (m-1-3.south west) {\vier{OU}{--}{--}{--}};
+%\node [pron] at (m-1-4.south west) {\vier{--}{tama}{GYOKU}{--}};
+%\node [pron] at (m-2-1.south west) {\vier{SHIN}{kokoro}{--}{--}};
+%\node [pron] at (m-2-2.south west) {\vier{KOKU}{kuni}{--}{--}};
+%\node [pron] at (m-2-3.south west) {\vier{ZEN}{--}{--}{matta}};
+%\node [pron] at (m-2-4.south west) {\vier{JUU}{--}{JITSU}{tou; to}};
+%\node [pron] at (m-3-1.south west) {\vier{SOU}{haya}{SATSU}{--}};
+%\node [pron] at (m-3-2.south west) {\vier{JOU}{kami; ue; nobo; a; uwa}{SHOU}{--}};
+%\node [pron] at (m-3-3.south west) {\vier{KA; GE}{shita; shimo; o; sa; kuda}{--}{moto}};
+%\node [pron] at (m-3-4.south west) {\vier{MAI; BEI}{kome}{--}{--}};
+%\node [pron] at (m-4-1.south west) {\vier{JI}{--}{SHI}{mizuka}};
+%\node [pron] at (m-4-2.south west) {\vier{NAI}{uchi}{DAI}{--}};
+%\node [pron] at (m-4-3.south west) {\vier{--}{migi}{YUU; U}{--}};
+%\node [pron] at (m-4-4.south west) {\vier{YUU}{a}{U}{--}};
+%\node [pron] at (m-5-1.south west) {\vier{NIKU}{--}{--}{--}};
+%\node [pron] at (m-5-2.south west) {\vier{HAN}{--}{--}{naka}};
+%\node [pron] at (m-5-3.south west) {\vier{KYUU; KU}{--}{--}{kokono}};
+%\node [pron] at (m-5-4.south west) {\vier{SHUN}{haru}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 2---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

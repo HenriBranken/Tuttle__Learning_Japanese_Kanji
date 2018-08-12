@@ -1,0 +1,194 @@
+\documentclass[10pt]{ltjbook}
+\usepackage{luatexja}
+\usepackage[left=1cm,right=1cm,bottom=1.5cm,top=1.5cm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{ruby}
+\usepackage{tikz,pgfplots,xfrac,makecell,aurical,array,booktabs,multicol,multirow,calc}
+\usepackage{environ}
+\usepackage{tabularx}
+\usepackage{hhline}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{microtype}
+
+\newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
+\newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
+
+\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\usepackage{graphicx}
+\graphicspath{
+    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/} }
+
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
+
+\setlength{\parindent}{0cm}
+
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\newcommand{\rye}[2]{\multicolumn{#1}{|l|}{\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+
+\usepackage{tocloft}
+\newcommand{\listofkanji}{List of Kanji}
+\newlistof{glyph}{lok}{\listofkanji}
+\NewEnviron{glyph}[2]% environment name
+{	\refstepcounter{glyph}%
+	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
+	\begin{tabularx}{\columnwidth}{@{}|@{}c@{}|@{}c@{}|B@{}|@{}}
+	\multicolumn{3}{@{}|l|@{}}{\cellcolor{black}{\color{white}\textbf{\large{\theglyph{:}\,{#1}}}}}\\\hline
+	\raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{#2.pdf}} & \raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{so_#2.pdf}} & \textbf{\underline{Notes:}} \\\hline
+	\multicolumn{3}{@{}|l|@{}}{\begin{tabularx}{0.95\columnwidth}{@{}B@{}}
+	\BODY
+	\end{tabularx}}\\\hline
+	\end{tabularx}
+}
+
+\NewEnviron{comps}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|l|A|@{}}
+\hhline{~|-|}\multicolumn{1}{c}{} & \multicolumn{1}{|c|}{\cellcolor{lightgray}$\in$ \textbf{Composition}} \\
+\hline
+\BODY
+\end{tabularx}
+}
+
+\NewEnviron{somme}%
+{%
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|c|B|A|@{}}%
+\hline%
+\multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{+ Words and Compounds}}\\\hline%
+\multicolumn{1}{|l|}{\cellcolor{lightgray}Kanji} & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronounciation\\\hline
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{prons}%
+{%
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|l|B|B|@{}}%
+\hhline{~|--|}\multicolumn{1}{c}{} & \multicolumn{2}{|c|}{\cellcolor{lightgray}\bfseries{{\textmusicalnote} Pronounciations}}\\
+\hhline{~|-|-|}\multicolumn{1}{c}{} & \multicolumn{1}{|l|}{\cellcolor{lightgray}ONYOMI} & \multicolumn{1}{l|}{\cellcolor{lightgray}kunyomi}\\\hline
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{remglyph}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|B|@{}}%
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}$\bell\in$ \textbf{Meaning $\leftrightarrow$ Glyph Components}}\\%
+\hhline{|-|}\BODY%
+\end{tabularx}%
+}
+
+\NewEnviron{remprons}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|B|@{}}
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{{\bell\textmusicalnote} Meaning $\leftrightarrow$ Pronounciations}}\\
+\hhline{|-|}\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{irrr}%
+{%
+\begin{tabularx}{\columnwidth}{@{}|c|B|A|@{}}%
+\hline%
+\multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{++ Irregular Reading(s)}}\\\hline%
+\cellcolor{lightgray}Kanji & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronounciation\\\hline
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{sentence}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{|B|}
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\
+\hhline{|-|}\rule{0pt}{\baselineskip}
+\BODY
+\end{tabularx}
+}
+
+\newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
+\newcommand{\ekwiv}{\ensuremath{\equiv}}
+
+\newcommand{\hooglig}[1]{\colorbox{lightgray!60!white}{#1}}
+
+\newcommand{\comon}[1]{\uppercase{\textbf{$\prec$#1$\succ$}}}
+\newcommand{\comkun}[1]{\textbf{$\prec$#1$\succ$}}
+\newcommand{\ucomon}[1]{\uppercase{$\prec$#1$\succ$}}
+\newcommand{\ucomkun}[1]{$\prec$#1$\succ$}
+
+\newcommand{\remcom}[1]{$\prec$#1$\succ$}
+
+\newcommand{\comprtwocone}{\cellcolor{lightgray}Glyphs}
+\newcommand{\comprthreecone}{\cellcolor{lightgray}English (\#)}
+\newcommand{\pronsrtwocone}{\cellcolor{lightgray}\textbf{Cm.}}
+\newcommand{\pronsrthreecone}{\cellcolor{lightgray}L.C.}
+
+\setlength{\parskip}{4pt}
+
+\makeatletter
+   \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+%-------------------------------------------------------
+%-------------------------------------------------------
+%-------------------------------------------------------
+\begin{document}
+\listofglyph
+\clearpage
+\phantomsection
+
+%\begin{multicols}{2}
+%\chapter{Kanji 1--20}
+%\input{chap1}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 21--40}
+%\input{chap2}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 41--60}
+%\input{chap3}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 61--80}
+%\input{chap4}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 81--100}
+%\input{chap5}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 101--120}
+%\input{chap6}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 121--140}
+%\input{chap7}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 141--160}
+%\input{chap8}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 161--180}
+%\input{chap9}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 181--200}
+%\input{chap10}
+
+\begin{multicols}{2}
+\chapter{Kanji 201--225}
+\input{chap11}
+
+\end{document}

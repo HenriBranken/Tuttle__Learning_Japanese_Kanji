@@ -1,0 +1,106 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=south east,
+				minimum height=3cm,minimum width=3cm
+			}
+	]
+	{
+		{\includegraphics[width=3cm]{opinion.pdf}} &
+		{\includegraphics[width=3cm]{make.pdf}} &
+		{\includegraphics[width=3cm]{joint.pdf}} &
+		{\includegraphics[width=3cm]{rule.pdf}} &
+		{\includegraphics[width=3cm]{now.pdf}} &
+		{\includegraphics[width=3cm]{eternal.pdf}} \\
+		{\includegraphics[width=3cm]{ice.pdf}} &
+		{\includegraphics[width=3cm]{law.pdf}} &
+		{\includegraphics[width=3cm]{place.pdf}} &
+		{\includegraphics[width=3cm]{course.pdf}} &
+		{\includegraphics[width=3cm]{younger_brother.pdf}} &
+		{\includegraphics[width=3cm]{manner.pdf}} \\
+		{\includegraphics[width=3cm]{insect.pdf}} &
+		{\includegraphics[width=3cm]{station.pdf}} &
+		{\includegraphics[width=3cm]{commerce.pdf}} &
+		{\includegraphics[width=3cm]{bad.pdf}} &
+		{\includegraphics[width=3cm]{know.pdf}} &
+		{\includegraphics[width=3cm]{borrow.pdf}} \\
+		{\includegraphics[width=3cm]{decide.pdf}} &
+		{\includegraphics[width=3cm]{partition.pdf}} &
+		{\includegraphics[width=3cm]{discharge.pdf}} &
+		{\includegraphics[width=3cm]{how_many.pdf}} &
+		{\includegraphics[width=3cm]{room.pdf}} &
+		{\includegraphics[width=3cm]{fall.pdf}} \\
+		{\includegraphics[width=3cm]{fast.pdf}} &
+		{\includegraphics[width=3cm]{color.pdf}} &
+		{\includegraphics[width=3cm]{start.pdf}} &
+		{\includegraphics[width=3cm]{approve.pdf}} &
+		{\includegraphics[width=3cm]{straight.pdf}} &
+		{\includegraphics[width=3cm]{illness.pdf}} \\
+		{\includegraphics[width=3cm]{together.pdf}} &
+		{\includegraphics[width=3cm]{desire.pdf}} &
+		{\includegraphics[width=3cm]{what.pdf}} &
+		{\includegraphics[width=3cm]{polish.pdf}} &
+		{\includegraphics[width=3cm]{busy.pdf}} &
+		{\includegraphics[width=3cm]{slow.pdf}} \\
+		{\includegraphics[width=3cm]{fee.pdf}} &
+		{\includegraphics[width=3cm]{business.pdf}} & 
+		{\includegraphics[width=3cm]{swim.pdf}} &
+		{\includegraphics[width=3cm]{connection.pdf}} &
+		{\includegraphics[width=3cm]{yellow.pdf}} &
+		{\includegraphics[width=3cm]{drink.pdf}} \\
+		{\includegraphics[width=3cm]{answer.pdf}} &
+		{\includegraphics[width=3cm]{travel.pdf}} &
+		{\includegraphics[width=3cm]{dish.pdf}} &
+		{\includegraphics[width=3cm]{govern.pdf}} &
+		{\includegraphics[width=3cm]{confer.pdf}} &
+		{\includegraphics[width=3cm]{daytime.pdf}} \\
+		{\includegraphics[width=3cm]{produce.pdf}} &
+		{\includegraphics[width=3cm]{construct.pdf}} &
+		{\includegraphics[width=3cm]{younger_sister.pdf}} &
+		{\includegraphics[width=3cm]{pond.pdf}} &
+		{\includegraphics[width=3cm]{regulation.pdf}} &
+		{\includegraphics[width=3cm]{transport.pdf}} \\
+		%{\includegraphics[width=3cm]{.pdf}}
+	};
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (page)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Page 8}
+	};
+\end{tikzpicture}
+\end{document}

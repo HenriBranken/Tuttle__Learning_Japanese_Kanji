@@ -1,0 +1,157 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_trust.pdf}} &
+		{\includegraphics[width=4cm]{so_literature.pdf}} &
+		{\includegraphics[width=4cm]{so_advance.pdf}} &
+		{\includegraphics[width=4cm]{so_sake.pdf}} &
+		{\includegraphics[width=4cm]{so_door.pdf}} \\
+		{\includegraphics[width=4cm]{so_matter.pdf}} &
+		{\includegraphics[width=4cm]{so_wait.pdf}} &
+		{\includegraphics[width=4cm]{so_elder_brother.pdf}} &
+		{\includegraphics[width=4cm]{so_prefecture.pdf}} &
+		{\includegraphics[width=4cm]{so_back.pdf}} \\
+		{\includegraphics[width=4cm]{so_clear.pdf}} &
+		{\includegraphics[width=4cm]{so_run.pdf}} &
+		{\includegraphics[width=4cm]{so_wash.pdf}} &
+		{\includegraphics[width=4cm]{so_oneself.pdf}} &
+		{\includegraphics[width=4cm]{so_roll.pdf}} \\
+		{\includegraphics[width=4cm]{so_music.pdf}} &
+		{\includegraphics[width=4cm]{so_reason.pdf}} &
+		{\includegraphics[width=4cm]{so_order.pdf}} &
+		{\includegraphics[width=4cm]{so_both.pdf}} &
+		{\includegraphics[width=4cm]{so_people.pdf}} \\
+		{\includegraphics[width=4cm]{so_quality.pdf}} &
+		{\includegraphics[width=4cm]{so_proper.pdf}} &
+		{\includegraphics[width=4cm]{so_direction.pdf}} &
+		{\includegraphics[width=4cm]{so_voice.pdf}} &
+		{\includegraphics[width=4cm]{so_reside.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Trust};
+\node [tag] at (m-1-2.north west) {\Fontlukas Literature};
+\node [tag] at (m-1-3.north west) {\Fontlukas Advance};
+\node [tag] at (m-1-4.north west) {\Fontlukas Sak\'{e}};
+\node [tag] at (m-1-5.north west) {\Fontlukas Door};
+\node [tag] at (m-2-1.north west) {\Fontlukas Matter};
+\node [tag] at (m-2-2.north west) {\Fontlukas Wait};
+\node [tag] at (m-2-3.north west) {\Fontlukas Elder Brother};
+\node [tag] at (m-2-4.north west) {\Fontlukas Prefecture};
+\node [tag] at (m-2-5.north west) {\Fontlukas Back};
+\node [tag] at (m-3-1.north west) {\Fontlukas Clear};
+\node [tag] at (m-3-2.north west) {\Fontlukas Run};
+\node [tag] at (m-3-3.north west) {\Fontlukas Wash};
+\node [tag] at (m-3-4.north west) {\Fontlukas Oneself};
+\node [tag] at (m-3-5.north west) {\Fontlukas Roll};
+\node [tag] at (m-4-1.north west) {\Fontlukas Music};
+\node [tag] at (m-4-2.north west) {\Fontlukas Reason};
+\node [tag] at (m-4-3.north west) {\Fontlukas Order};
+\node [tag] at (m-4-4.north west) {\Fontlukas Both};
+\node [tag] at (m-4-5.north west) {\Fontlukas People};
+\node [tag] at (m-5-1.north west) {\Fontlukas Quality};
+\node [tag] at (m-5-2.north west) {\Fontlukas Proper};
+\node [tag] at (m-5-3.north west) {\Fontlukas Direction};
+\node [tag] at (m-5-4.north west) {\Fontlukas Voice};
+\node [tag] at (m-5-5.north west) {\Fontlukas Reside};
+
+%\node [pron] at (m-1-1.south west) {\vier{SHIN}{--}{--}{--}};
+%\node [pron] at (m-1-2.south west) {\vier{BUN; MON}{--}{--}{fumi}};
+%\node [pron] at (m-1-3.south west) {\vier{SHIN}{susu}{JIN}{--}};
+%\node [pron] at (m-1-4.south west) {\vier{SHU}{sake; saka}{--}{--}};
+%\node [pron] at (m-1-5.south west) {\vier{KO}{to}{--}{--}};
+%\node [pron] at (m-2-1.south west) {\vier{JI}{koto}{ZU}{--}};
+%\node [pron] at (m-2-2.south west) {\vier{TAI}{ma}{--}{--}};
+%\node [pron] at (m-2-3.south west) {\vier{KEI}{ani}{KYOU}{--}};
+%\node [pron] at (m-2-4.south west) {\vier{KEN}{--}{--}{--}};
+%\node [pron] at (m-2-5.south west) {\vier{HAI}{se; sei}{--}{somu}};
+%\node [pron] at (m-3-1.south west) {\vier{SEI}{ha}{--}{--}};
+%\node [pron] at (m-3-2.south west) {\vier{SOU}{hashi}{--}{--}};
+%\node [pron] at (m-3-3.south west) {\vier{SEN}{ara}{--}{--}};
+%\node [pron] at (m-3-4.south west) {\vier{KO}{--}{KI}{onore}};
+%\node [pron] at (m-3-5.south west) {\vier{TEN}{koro}{--}{--}};
+%\node [pron] at (m-4-1.south west) {\vier{GAKU; RAKU}{tano}{--}{--}};
+%\node [pron] at (m-4-2.south west) {\vier{RI}{--}{--}{--}};
+%\node [pron] at (m-4-3.south west) {\vier{BAN}{--}{--}{--}};
+%\node [pron] at (m-4-4.south west) {\vier{RYOU}{--}{--}{--}};
+%\node [pron] at (m-4-5.south west) {\vier{MIN}{--}{--}{tami}};
+%\node [pron] at (m-5-1.south west) {\vier{SHITSU; SHICHI}{--}{CHI}{--}};
+%\node [pron] at (m-5-2.south west) {\vier{SEI; SHOU}{tada}{--}{masa}};
+%\node [pron] at (m-5-3.south west) {\vier{HOU}{kata}{--}{--}};
+%\node [pron] at (m-5-4.south west) {\vier{SEI}{koe}{SHOU}{kowa}};
+%\node [pron] at (m-5-5.south west) {\vier{JUU}{su}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 11---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

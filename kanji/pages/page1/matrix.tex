@@ -1,0 +1,105 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=south east,
+				minimum height=3cm,minimum width=3cm
+			}
+	]
+	{
+		{\includegraphics[width=3cm]{mountain.pdf}} &
+		{\includegraphics[width=3cm]{person.pdf}} &
+		{\includegraphics[width=3cm]{one.pdf}} &
+		{\includegraphics[width=3cm]{two.pdf}} &
+		{\includegraphics[width=3cm]{three.pdf}} &
+		{\includegraphics[width=3cm]{sun.pdf}} \\ 
+		{\includegraphics[width=3cm]{white.pdf}} & 
+		{\includegraphics[width=3cm]{mouth.pdf}} &
+		{\includegraphics[width=3cm]{rotate.pdf}} &
+		{\includegraphics[width=3cm]{four.pdf}} & 
+		{\includegraphics[width=3cm]{moon.pdf}} & 
+		{\includegraphics[width=3cm]{bright.pdf}} \\
+		{\includegraphics[width=3cm]{tree.pdf}} & 
+		{\includegraphics[width=3cm]{five.pdf}} & 
+		{\includegraphics[width=3cm]{eye.pdf}} & 
+		{\includegraphics[width=3cm]{woman.pdf}} &
+		{\includegraphics[width=3cm]{large.pdf}} & 
+		{\includegraphics[width=3cm]{middle.pdf}}\\ 
+		{\includegraphics[width=3cm]{eight.pdf}} & 
+		{\includegraphics[width=3cm]{small.pdf}} &
+		{\includegraphics[width=3cm]{shellfish.pdf}} &
+		{\includegraphics[width=3cm]{six.pdf}} &
+		{\includegraphics[width=3cm]{king.pdf}} &
+		{\includegraphics[width=3cm]{jewel.pdf}} \\
+		{\includegraphics[width=3cm]{heart.pdf}} &
+		{\includegraphics[width=3cm]{country.pdf}} &
+		{\includegraphics[width=3cm]{complete.pdf}} &
+		{\includegraphics[width=3cm]{ten.pdf}} &
+		{\includegraphics[width=3cm]{early.pdf}} &
+		{\includegraphics[width=3cm]{upper.pdf}} \\
+		{\includegraphics[width=3cm]{lower.pdf}} &
+		{\includegraphics[width=3cm]{rice.pdf}} &
+		{\includegraphics[width=3cm]{self.pdf}} &
+		{\includegraphics[width=3cm]{inside.pdf}} &
+		{\includegraphics[width=3cm]{right.pdf}} &
+		{\includegraphics[width=3cm]{have.pdf}} \\
+		{\includegraphics[width=3cm]{meat.pdf}} &
+		{\includegraphics[width=3cm]{half.pdf}} &
+		{\includegraphics[width=3cm]{nine.pdf}} &
+		{\includegraphics[width=3cm]{spring.pdf}} &
+		{\includegraphics[width=3cm]{capital.pdf}} &
+		{\includegraphics[width=3cm]{see.pdf}} \\
+		{\includegraphics[width=3cm]{stop.pdf}} &
+		{\includegraphics[width=3cm]{seven.pdf}} &
+		{\includegraphics[width=3cm]{few.pdf}} &
+		{\includegraphics[width=3cm]{south.pdf}} &
+		{\includegraphics[width=3cm]{craft.pdf}} &
+		{\includegraphics[width=3cm]{left.pdf}} \\
+		{\includegraphics[width=3cm]{tall.pdf}} &
+		{\includegraphics[width=3cm]{buy.pdf}} &
+		{\includegraphics[width=3cm]{hundred.pdf}} &
+		{\includegraphics[width=3cm]{circle.pdf}} &
+		{\includegraphics[width=3cm]{basis.pdf}} &
+		{\includegraphics[width=3cm]{neck.pdf}} \\
+	};
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (page)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Page 1}
+	};
+\end{tikzpicture}
+\end{document}

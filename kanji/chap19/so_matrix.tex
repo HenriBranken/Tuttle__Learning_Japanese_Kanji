@@ -1,0 +1,167 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_what.pdf}} &
+		{\includegraphics[width=4cm]{so_polish.pdf}} &
+		{\includegraphics[width=4cm]{so_busy.pdf}} &
+		{\includegraphics[width=4cm]{so_slow.pdf}} &
+		{\includegraphics[width=4cm]{so_fee.pdf}} \\
+		{\includegraphics[width=4cm]{so_business.pdf}} &
+		{\includegraphics[width=4cm]{so_swim.pdf}} &
+		{\includegraphics[width=4cm]{so_connection.pdf}} &
+		{\includegraphics[width=4cm]{so_drink.pdf}} &
+		{\includegraphics[width=4cm]{so_yellow.pdf}} \\
+		{\includegraphics[width=4cm]{so_answer.pdf}} &
+		{\includegraphics[width=4cm]{so_travel.pdf}} &
+		{\includegraphics[width=4cm]{so_dish.pdf}} &
+		{\includegraphics[width=4cm]{so_govern.pdf}} &
+		{\includegraphics[width=4cm]{so_confer.pdf}} \\
+		{\includegraphics[width=4cm]{so_daytime.pdf}} &
+		{\includegraphics[width=4cm]{so_produce.pdf}} &
+		{\includegraphics[width=4cm]{so_construct.pdf}} &
+		{\includegraphics[width=4cm]{so_younger_sister.pdf}} &
+		{\includegraphics[width=4cm]{so_pond.pdf}} \\
+		{\includegraphics[width=4cm]{so_regulation.pdf}} &
+		{\includegraphics[width=4cm]{so_transport.pdf}} &
+		{\includegraphics[width=4cm]{so_mechanism.pdf}} &
+		{\includegraphics[width=4cm]{so_strong.pdf}} &
+		{\includegraphics[width=4cm]{so_shine.pdf}} \\
+		{\includegraphics[width=4cm]{so_difficult.pdf}} &
+		{\includegraphics[width=4cm]{so_company.pdf}} &
+		{\includegraphics[width=4cm]{so_laugh.pdf}} &
+		{\includegraphics[width=4cm]{so_test.pdf}} &
+		{\includegraphics[width=4cm]{so_history.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas What};
+\node [tag] at (m-1-2.north west) {\Fontlukas Polish};
+\node [tag] at (m-1-3.north west) {\Fontlukas Busy};
+\node [tag] at (m-1-4.north west) {\Fontlukas Slow};
+\node [tag] at (m-1-5.north west) {\Fontlukas Fee};
+\node [tag] at (m-2-1.north west) {\Fontlukas Business};
+\node [tag] at (m-2-2.north west) {\Fontlukas Swim};
+\node [tag] at (m-2-3.north west) {\Fontlukas Connection};
+\node [tag] at (m-2-4.north west) {\Fontlukas Drink};
+\node [tag] at (m-2-5.north west) {\Fontlukas Yellow};
+\node [tag] at (m-3-1.north west) {\Fontlukas Answer};
+\node [tag] at (m-3-2.north west) {\Fontlukas Travel};
+\node [tag] at (m-3-3.north west) {\Fontlukas Dish};
+\node [tag] at (m-3-4.north west) {\Fontlukas Govern};
+\node [tag] at (m-3-5.north west) {\Fontlukas Confer};
+\node [tag] at (m-4-1.north west) {\Fontlukas Daytime};
+\node [tag] at (m-4-2.north west) {\Fontlukas Produce};
+\node [tag] at (m-4-3.north west) {\Fontlukas Construct};
+\node [tag] at (m-4-4.north west) {\Fontlukas Younger sister};
+\node [tag] at (m-4-5.north west) {\Fontlukas Pond};
+\node [tag] at (m-5-1.north west) {\Fontlukas Regulation};
+\node [tag] at (m-5-2.north west) {\Fontlukas Transport};
+\node [tag] at (m-5-3.north west) {\Fontlukas Mechanism};
+\node [tag] at (m-5-4.north west) {\Fontlukas Strong};
+\node [tag] at (m-5-5.north west) {\Fontlukas Shine};
+\node [tag] at (m-6-1.north west) {\Fontlukas Difficult};
+\node [tag] at (m-6-2.north west) {\Fontlukas Company};
+\node [tag] at (m-6-3.north west) {\Fontlukas Laugh};
+\node [tag] at (m-6-4.north west) {\Fontlukas Test};
+\node [tag] at (m-6-5.north west) {\Fontlukas History};
+
+%\node [pron] at (m-1-1.south west) {\vier{FU}{tsu}{--}{--}};
+%\node [pron] at (m-1-2.south west) {\vier{KEI}{karu}{--}{karo}};
+%\node [pron] at (m-1-3.south west) {\vier{CHO}{--}{--}{tomura}};
+%\node [pron] at (m-1-4.south west) {\vier{--}{na}{KYUU}{--}};
+%\node [pron] at (m-1-5.south west) {\vier{GIN}{--}{--}{--}};
+%\node [pron] at (m-2-1.south west) {\vier{MON}{to}{--}{--}};
+%\node [pron] at (m-2-2.south west) {\vier{AN}{kura}{--}{--}};
+%\node [pron] at (m-2-3.south west) {\vier{E}{--}{KAI}{--}};
+%\node [pron] at (m-2-4.south west) {\vier{SHI}{--}{--}{uji}};
+%\node [pron] at (m-2-5.south west) {\vier{--}{waka}{JAKU; NYAKU}{--}};
+%\node [pron] at (m-3-1.south west) {\vier{YU; YUU}{--}{YUI}{yoshi}};
+%\node [pron] at (m-3-2.south west) {\vier{SHIN}{mou}{--}{--}};
+%\node [pron] at (m-3-3.south west) {\vier{YOU}{i}{--}{--}};
+%\node [pron] at (m-3-4.south west) {\vier{SHI}{ita}{--}{--}};
+%\node [pron] at (m-3-5.south west) {\vier{HI}{kura}{--}{--}};
+%\node [pron] at (m-4-1.south west) {\vier{KEI}{haka}{--}{--}};
+%\node [pron] at (m-4-2.south west) {\vier{SHO}{tokoro}{--}{--}};
+%\node [pron] at (m-4-3.south west) {\vier{DAI}{--}{--}{--}};
+%\node [pron] at (m-4-4.south west) {\vier{--}{mune}{SHI}{--}};
+%\node [pron] at (m-4-5.south west) {\vier{CHAKU}{ki; tsu}{JAKU}{--}};
+%\node [pron] at (m-5-1.south west) {\vier{KETSU}{ka}{--}{--}};
+%\node [pron] at (m-5-2.south west) {\vier{JI}{shime}{SHI}{--}};
+%\node [pron] at (m-5-3.south west) {\vier{SHI}{--}{JI}{tsuka}};
+%\node [pron] at (m-5-4.south west) {\vier{JUU}{omo}{CHOU}{kasa; e}};
+%\node [pron] at (m-5-5.south west) {\vier{GOU}{a}{GA-; KA-}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 19---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

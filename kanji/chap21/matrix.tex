@@ -1,0 +1,163 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{Aozora Mincho Regular}
+
+\newcommand{\lmr}{\fontfamily{lmr}\selectfont} % Latin Modern Roman
+
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\scriptsize,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=5cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{cargo.pdf}} &
+		{\includegraphics[width=4cm]{port.pdf}} &
+		{\includegraphics[width=4cm]{hit.pdf}} &
+		{\includegraphics[width=4cm]{row.pdf}} &
+		{\includegraphics[width=4cm]{round.pdf}} \\
+		{\includegraphics[width=4cm]{manor.pdf}} &
+		{\includegraphics[width=4cm]{fly.pdf}} &
+		{\includegraphics[width=4cm]{number.pdf}} &
+		{\includegraphics[width=4cm]{learn.pdf}} &
+		{\includegraphics[width=4cm]{display.pdf}} \\
+		{\includegraphics[width=4cm]{mask.pdf}} &
+		{\includegraphics[width=4cm]{select.pdf}} &
+		{\includegraphics[width=4cm]{homeward.pdf}} &
+		{\includegraphics[width=4cm]{section.pdf}} &
+		{\includegraphics[width=4cm]{topic.pdf}} \\
+		{\includegraphics[width=4cm]{period.pdf}} &
+		{\includegraphics[width=4cm]{grant.pdf}} &
+		{\includegraphics[width=4cm]{delivery.pdf}} &
+		{\includegraphics[width=4cm]{annual.pdf}} &
+		{\includegraphics[width=4cm]{exclusive.pdf}} \\
+		{\includegraphics[width=4cm]{orient.pdf}} &
+		{\includegraphics[width=4cm]{train.pdf}} &
+		{\includegraphics[width=4cm]{raise.pdf}} &
+		{\includegraphics[width=4cm]{consider.pdf}} &
+		{\includegraphics[width=4cm]{member.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Cargo};
+\node [tag] at (m-1-2.north west) {\Fontlukas Port};
+\node [tag] at (m-1-3.north west) {\Fontlukas Hit};
+\node [tag] at (m-1-4.north west) {\Fontlukas Row};
+\node [tag] at (m-1-5.north west) {\Fontlukas Round};
+\node [tag] at (m-2-1.north west) {\Fontlukas Manor};
+\node [tag] at (m-2-2.north west) {\Fontlukas Fly};
+\node [tag] at (m-2-3.north west) {\Fontlukas Number};
+\node [tag] at (m-2-4.north west) {\Fontlukas Learn};
+\node [tag] at (m-2-5.north west) {\Fontlukas Display};
+\node [tag] at (m-3-1.north west) {\Fontlukas Mask};
+\node [tag] at (m-3-2.north west) {\Fontlukas Select};
+\node [tag] at (m-3-3.north west) {\Fontlukas Homeward};
+\node [tag] at (m-3-4.north west) {\Fontlukas Section};
+\node [tag] at (m-3-5.north west) {\Fontlukas Topic};
+\node [tag] at (m-4-1.north west) {\Fontlukas Period};
+\node [tag] at (m-4-2.north west) {\Fontlukas Grant};
+\node [tag] at (m-4-3.north west) {\Fontlukas Delivery};
+\node [tag] at (m-4-4.north west) {\Fontlukas Annual};
+\node [tag] at (m-4-5.north west) {\Fontlukas Exclusive};
+\node [tag] at (m-5-1.north west) {\Fontlukas Orient};
+\node [tag] at (m-5-2.north west) {\Fontlukas Train};
+\node [tag] at (m-5-3.north west) {\Fontlukas Raise};
+\node [tag] at (m-5-4.north west) {\Fontlukas Consider};
+\node [tag] at (m-5-5.north west) {\Fontlukas Member};
+
+\node [pron] at (m-1-1.south west) {\vier{カ}{に}{--}{--}};
+\node [pron] at (m-1-2.south west) {\vier{コウ}{みなと}{--}{--}};
+\node [pron] at (m-1-3.south west) {\vier{ダ}{う}{--}{--}};
+\node [pron] at (m-1-4.south west) {\vier{レツ}{--}{--}{--}};
+\node [pron] at (m-1-5.south west) {\vier{--}{まる}{ガン}{--}};
+\node [pron] at (m-2-1.south west) {\vier{カン}{--}{--}{--}};
+\node [pron] at (m-2-2.south west) {\vier{ヒ}{と}{--}{--}};
+\node [pron] at (m-2-3.south west) {\vier{スウ}{かず; かぞ}{ス}{--}};
+\node [pron] at (m-2-4.south west) {\vier{シュウ}{なら}{--}{--}};
+\node [pron] at (m-2-5.south west) {\vier{テン}{--}{--}{--}};
+\node [pron] at (m-3-1.south west) {\vier{メン}{おもて}{--}{つら}};
+\node [pron] at (m-3-2.south west) {\vier{セン}{えら}{--}{--}};
+\node [pron] at (m-3-3.south west) {\vier{キ}{かえ}{--}{--}};
+\node [pron] at (m-3-4.south west) {\vier{ブ}{--}{--}{--}};
+\node [pron] at (m-3-5.south west) {\vier{ダイ}{--}{--}{--}};
+\node [pron] at (m-4-1.south west) {\vier{キ}{--}{ゴ}{--}};
+\node [pron] at (m-4-2.south west) {\vier{ジュ}{--}{--}{さず}};
+\node [pron] at (m-4-3.south west) {\vier{ベン; ビン}{--}{--}{たよ}};
+\node [pron] at (m-4-4.south west) {\vier{サイ}{--}{セイ}{--}};
+\node [pron] at (m-4-5.south west) {\vier{セン}{--}{--}{もっぱ}};
+\node [pron] at (m-5-1.south west) {\vier{コウ}{む}{--}{--}};
+\node [pron] at (m-5-2.south west) {\vier{レン}{ね}{--}{--}};
+\node [pron] at (m-5-3.south west) {\vier{イク}{そだ}{--}{--}};
+\node [pron] at (m-5-4.south west) {\vier{コウ}{かんが}{--}{--}};
+\node [pron] at (m-5-5.south west) {\vier{イン}{--}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{\lmr Chapter 21}
+	};
+\end{tikzpicture}
+\end{document}

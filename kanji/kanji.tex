@@ -1,0 +1,385 @@
+\documentclass[12pt]{report}
+\usepackage[a4paper,top=5mm,bottom=5mm,left=5mm,right=5mm]{geometry}
+\usepackage{tabularx}
+\usepackage{everypage}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{pgfplots}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\pagenumbering{gobble}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\mhead}[1]{\scriptsize{\ensuremath{\natural}\emph{\textbf{#1}}}}
+\renewcommand{\arraystretch}{1}
+
+\begin{document}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node
+			[
+				inner sep=0,
+				outer sep=0,
+				font=\scriptsize
+			]
+				at ([yshift=-1.3cm]current page.west)
+			{
+				$>>>>>$
+			};
+	\end{tikzpicture}
+	\begin{tikzpicture}
+		\node (kanji_roman)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north west,
+				minimum width=10cm,
+				minimum height=1.2cm,
+				font=\huge,
+				fill=white!70!lightgray
+			]
+			{
+			};
+		\node (meaning)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north west,
+				minimum width=10cm,
+				minimum height=2.8cm,
+				font=\huge,
+				pattern=horizontal lines,
+				pattern color=lightgray
+			]
+				at (kanji_roman.south west)
+			{
+			};
+		\node (kanji_pictogram)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north west,
+				minimum width=4cm,
+				minimum height=4cm,
+				font=\huge,
+				fill=white!70!lightgray
+			]
+				at (kanji_roman.north east)
+			{
+			};	
+		\node (stroke_order)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north west,
+				minimum width=4cm,
+				minimum height=4cm,
+				font=\huge,
+			]
+				at (kanji_pictogram.north east)
+			{
+			};			
+		\node (comp_1)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north east,
+				minimum width=16cm,
+				minimum height=1.2cm,
+				font=\huge,
+				pattern=horizontal lines,
+				pattern color=lightgray
+			]
+				at (stroke_order.south east)
+			{
+			};
+		\node (comp_2)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north east,
+				minimum width=16cm,
+				minimum height=1.2cm,
+				font=\huge,
+				pattern=horizontal lines,
+				pattern color=lightgray
+			]
+				at (comp_1.south east)
+			{
+			};
+		\node (remember)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north east,
+				minimum width=18cm,
+				minimum height=1.8cm,
+				font=\huge,
+				pattern=horizontal lines,
+				pattern color=lightgray
+			]
+				at (comp_2.south east)
+			{
+			};			
+		\node (separator)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north west,
+				minimum width=18cm,
+				minimum height=1mm,
+				fill=black
+			]
+				at ([yshift=-0.7cm]remember.south west)
+			{
+			};
+		\setlength{\tabcolsep}{0pt}
+		\renewcommand{\arraystretch}{1.2}
+		\node (sounds)
+			[
+				outer sep=0,
+				inner sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				pattern=horizontal lines,
+				pattern color=lightgray,
+				anchor=north west,
+				minimum width=18cm,
+				font=\normalsize
+			]
+				at ([yshift=-0.7cm]separator.south west)
+			{
+					\begin{tabular}{@{}C{3cm} | C{7.5cm} | C{7.5cm}@{}}
+						 & \textbf{Common} & \textbf{Less Common} \tabularnewline
+						 \cline{1-3}
+						 \textbf{ONYOMI} & & \tabularnewline
+						 \cline{1-3}
+						 \textbf{kunyomi} & & \tabularnewline
+					\end{tabular}
+			};			
+		\node (keyword)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north west,
+				minimum width=18cm,
+				font=\large,
+				pattern=horizontal lines,
+				pattern color=lightgray,
+				text width=17.5cm
+			]
+				at ([yshift=-0.7cm]sounds.south west)
+			{
+				\textbf{ONYOMI keyword} $\Vert$
+			};		
+		\node (remember_sounds)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north east,
+				minimum width=18cm,
+				minimum height=1.8cm,
+				font=\huge,
+				pattern=horizontal lines,
+				pattern color=lightgray
+			]
+				at ([yshift=-0.7cm]keyword.south east)
+			{
+			};		
+		\renewcommand{\arraystretch}{1.2}
+		\node (sample_words)
+			[
+				outer sep=0,
+				inner sep=1mm,
+				draw,
+				rectangle,
+				ultra thick,
+				pattern=horizontal lines,
+				pattern color=lightgray,
+				anchor=north west,
+				minimum width=18cm,
+				font=\normalsize
+			]
+				at ([yshift=-0.7cm]remember_sounds.south west)
+			{
+					\begin{tabular}{@{}L{4.5cm} | C{6.5cm} | C{6.5cm}@{}}
+						\multicolumn{1}{c|}{\textbf{Word}} & \multicolumn{1}{c|}{\textbf{Composition}} & \multicolumn{1}{c}{\textbf{Pronounciation}} \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+						\cline{1-3}
+						& & \tabularnewline
+					\end{tabular}
+			};	
+		\node (sentence)
+			[
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thick,
+				anchor=north east,
+				minimum width=18cm,
+				minimum height=3.5cm,
+				font=\huge,
+				pattern=horizontal lines,
+				pattern color=lightgray
+			]
+				at ([yshift=-0.7cm]sample_words.south east)
+			{
+			};
+		\node (head_kanji_roman)
+			[
+				outer sep=0,
+				anchor=south west,
+				font=\scriptsize
+			]
+				at (kanji_roman.north west)
+			{
+				$\natural$\emph{\textbf{Section [.......] No. [.......] p. [.......]}}
+			};
+		\node (head_meaning)
+			[
+				outer sep=0,
+				anchor=south west,
+				rotate=90
+			]
+				at (meaning.south west)
+			{
+				\mhead{Meaning}
+			};
+		\node (head_kanji_pictogram)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (kanji_pictogram.north west)
+			{
+				\mhead{Pictogram}
+			};	
+		\node (head_stroke_order)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (stroke_order.north west)
+			{
+				\mhead{Stroke Order}
+			};		
+		\node (head_comp)
+			[
+				outer sep=0,
+				anchor=south west,
+				font=\footnotesize,
+				rotate=-90
+			]
+				at (comp_1.north east)
+			{
+				\mhead{Composition}
+			};
+		\node (head_remember)
+			[
+				outer sep=0,
+				anchor=north west
+			]
+				at (remember.south west)
+			{
+				\mhead{Remembering the Pictogram}
+			};		
+		\node (head_sounds)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (sounds.north west)
+			{
+				\mhead{Pronounciations}
+			};		
+		\node (head_keyword)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (keyword.north west)
+			{
+				\mhead{Mnemonic}
+			};
+		\node (head_remember_sounds)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (remember_sounds.north west)
+			{
+				\mhead{Connect Meaning with Pronounciations}
+			};
+		\node (head_sample_words)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (sample_words.north west)
+			{
+				\mhead{Sample Words}
+			};
+		\node (head_sentence)
+			[
+				outer sep=0,
+				anchor=south west
+			]
+				at (sentence.north west)
+			{
+				\mhead{Sample Sentence}
+			};
+		\node (head_series)
+			[
+				outer sep=0,
+				anchor=east,
+				draw,
+				circle,
+				ultra thick
+			]
+				at (comp_1.south west)
+			{
+				\mhead{TUTTLE}
+			};
+	\end{tikzpicture}
+\end{document}

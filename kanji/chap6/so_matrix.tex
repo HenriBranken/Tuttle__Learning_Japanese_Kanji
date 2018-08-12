@@ -1,0 +1,142 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_beautiful.pdf}} &
+		{\includegraphics[width=4cm]{so_island.pdf}} &
+		{\includegraphics[width=4cm]{so_tiny.pdf}} &
+		{\includegraphics[width=4cm]{so_temple.pdf}} \\
+		{\includegraphics[width=4cm]{so_precede.pdf}} &
+		{\includegraphics[width=4cm]{so_open.pdf}} &
+		{\includegraphics[width=4cm]{so_bird.pdf}} &
+		{\includegraphics[width=4cm]{so_evening.pdf}} \\
+		{\includegraphics[width=4cm]{so_outside.pdf}} &
+		{\includegraphics[width=4cm]{so_tongue.pdf}} &
+		{\includegraphics[width=4cm]{so_diagram.pdf}} &
+		{\includegraphics[width=4cm]{so_stand.pdf}} \\
+		{\includegraphics[width=4cm]{so_parent.pdf}} &
+		{\includegraphics[width=4cm]{so_star.pdf}} &
+		{\includegraphics[width=4cm]{so_autumn.pdf}} &
+		{\includegraphics[width=4cm]{so_west.pdf}} \\
+		{\includegraphics[width=4cm]{so_sword.pdf}} &
+		{\includegraphics[width=4cm]{so_cut.pdf}} &
+		{\includegraphics[width=4cm]{so_day_of_the_week.pdf}} &
+		{\includegraphics[width=4cm]{so_around.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Beautiful};
+\node [tag] at (m-1-2.north west) {\Fontlukas Island};
+\node [tag] at (m-1-3.north west) {\Fontlukas Tiny};
+\node [tag] at (m-1-4.north west) {\Fontlukas Temple};
+\node [tag] at (m-2-1.north west) {\Fontlukas Precede};
+\node [tag] at (m-2-2.north west) {\Fontlukas Open};
+\node [tag] at (m-2-3.north west) {\Fontlukas Bird};
+\node [tag] at (m-2-4.north west) {\Fontlukas Evening};
+\node [tag] at (m-3-1.north west) {\Fontlukas Outside};
+\node [tag] at (m-3-2.north west) {\Fontlukas Tongue};
+\node [tag] at (m-3-3.north west) {\Fontlukas Diagram};
+\node [tag] at (m-3-4.north west) {\Fontlukas Stand};
+\node [tag] at (m-4-1.north west) {\Fontlukas Parent};
+\node [tag] at (m-4-2.north west) {\Fontlukas Star};
+\node [tag] at (m-4-3.north west) {\Fontlukas Autumn};
+\node [tag] at (m-4-4.north west) {\Fontlukas West};
+\node [tag] at (m-5-1.north west) {\Fontlukas Sword};
+\node [tag] at (m-5-2.north west) {\Fontlukas Cut};
+\node [tag] at (m-5-3.north west) {\Fontlukas Day of the Week};
+\node [tag] at (m-5-4.north west) {\Fontlukas Around};
+
+%\node [pron] at (m-1-1.south west) {\vier{BI}{utsuku}{--}{--}};
+%\node [pron] at (m-1-2.south west) {\vier{TOU}{shima}{--}{--}};
+%\node [pron] at (m-1-3.south west) {\vier{SUN}{--}{--}{--}};
+%\node [pron] at (m-1-4.south west) {\vier{JI}{tera}{--}{--}};
+%\node [pron] at (m-2-1.south west) {\vier{SEN}{saki}{--}{--}};
+%\node [pron] at (m-2-2.south west) {\vier{KAI}{a; hira}{--}{--}};
+%\node [pron] at (m-2-3.south west) {\vier{CHOU}{tori}{--}{--}};
+%\node [pron] at (m-2-4.south west) {\vier{--}{yuu}{SEKI}{--}};
+%\node [pron] at (m-3-1.south west) {\vier{GAI}{soto}{GE}{hoka; hazu}};
+%\node [pron] at (m-3-2.south west) {\vier{--}{shita}{ZETSU}{--}};
+%\node [pron] at (m-3-3.south west) {\vier{ZU; TO}{--}{--}{haka}};
+%\node [pron] at (m-3-4.south west) {\vier{RITSU}{ta}{RYUU}{--}};
+%\node [pron] at (m-4-1.south west) {\vier{SHIN}{oya}{--}{shita}};
+%\node [pron] at (m-4-2.south west) {\vier{SEI}{hoshi}{SHOU}{--}};
+%\node [pron] at (m-4-3.south west) {\vier{SHUU}{aki}{--}{--}};
+%\node [pron] at (m-4-4.south west) {\vier{SEI}{nishi}{SAI}{--}};
+%\node [pron] at (m-5-1.south west) {\vier{TOU}{katana}{--}{--}};
+%\node [pron] at (m-5-2.south west) {\vier{SETSU}{ki}{SAI}{--}};
+%\node [pron] at (m-5-3.south west) {\vier{YOU}{--}{--}{--}};
+%\node [pron] at (m-5-4.south west) {\vier{SHUU}{--}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 6---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

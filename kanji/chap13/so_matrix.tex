@@ -1,0 +1,167 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_painting.pdf}} &
+		{\includegraphics[width=4cm]{so_possible.pdf}} &
+		{\includegraphics[width=4cm]{so_god.pdf}} &
+		{\includegraphics[width=4cm]{so_perish.pdf}} &
+		{\includegraphics[width=4cm]{so_occupy.pdf}} \\
+		{\includegraphics[width=4cm]{so_society.pdf}} &
+		{\includegraphics[width=4cm]{so_fixed.pdf}} &
+		{\includegraphics[width=4cm]{so_paper.pdf}} &
+		{\includegraphics[width=4cm]{so_appearance.pdf}} &
+		{\includegraphics[width=4cm]{so_army.pdf}} \\
+		{\includegraphics[width=4cm]{so_elder_sister.pdf}} &
+		{\includegraphics[width=4cm]{so_sheep.pdf}} &
+		{\includegraphics[width=4cm]{so_intervene.pdf}} &
+		{\includegraphics[width=4cm]{so_platform.pdf}} &
+		{\includegraphics[width=4cm]{so_hasten.pdf}} \\
+		{\includegraphics[width=4cm]{so_state.pdf}} &
+		{\includegraphics[width=4cm]{so_spicy.pdf}} &
+		{\includegraphics[width=4cm]{so_clothes.pdf}} &
+		{\includegraphics[width=4cm]{so_lucky.pdf}} &
+		{\includegraphics[width=4cm]{so_utilize.pdf}} \\
+		{\includegraphics[width=4cm]{so_next.pdf}} &
+		{\includegraphics[width=4cm]{so_low.pdf}} &
+		{\includegraphics[width=4cm]{so_filial_piety.pdf}} &
+		{\includegraphics[width=4cm]{so_tea.pdf}} &
+		{\includegraphics[width=4cm]{so_profit.pdf}} \\
+		{\includegraphics[width=4cm]{so_not_yet.pdf}} &
+		{\includegraphics[width=4cm]{so_end.pdf}} &
+		{\includegraphics[width=4cm]{so_dipper.pdf}} &
+		{\includegraphics[width=4cm]{so_play.pdf}} &
+		{\includegraphics[width=4cm]{so_bean.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Painting};
+\node [tag] at (m-1-2.north west) {\Fontlukas Possible};
+\node [tag] at (m-1-3.north west) {\Fontlukas God};
+\node [tag] at (m-1-4.north west) {\Fontlukas Perish};
+\node [tag] at (m-1-5.north west) {\Fontlukas Occupy};
+\node [tag] at (m-2-1.north west) {\Fontlukas Society};
+\node [tag] at (m-2-2.north west) {\Fontlukas Fixed};
+\node [tag] at (m-2-3.north west) {\Fontlukas Paper};
+\node [tag] at (m-2-4.north west) {\Fontlukas Appearance};
+\node [tag] at (m-2-5.north west) {\Fontlukas Army};
+\node [tag] at (m-3-1.north west) {\Fontlukas Elder Sister};
+\node [tag] at (m-3-2.north west) {\Fontlukas Sheep};
+\node [tag] at (m-3-3.north west) {\Fontlukas Intervene};
+\node [tag] at (m-3-4.north west) {\Fontlukas Platform};
+\node [tag] at (m-3-5.north west) {\Fontlukas Hasten};
+\node [tag] at (m-4-1.north west) {\Fontlukas State};
+\node [tag] at (m-4-2.north west) {\Fontlukas Spicy};
+\node [tag] at (m-4-3.north west) {\Fontlukas Clothes};
+\node [tag] at (m-4-4.north west) {\Fontlukas Lucky};
+\node [tag] at (m-4-5.north west) {\Fontlukas Utilize};
+\node [tag] at (m-5-1.north west) {\Fontlukas Next};
+\node [tag] at (m-5-2.north west) {\Fontlukas Low};
+\node [tag] at (m-5-3.north west) {\Fontlukas Filial Piety};
+\node [tag] at (m-5-4.north west) {\Fontlukas Tea};
+\node [tag] at (m-5-5.north west) {\Fontlukas Profit};
+\node [tag] at (m-6-1.north west) {\Fontlukas Not yet};
+\node [tag] at (m-6-2.north west) {\Fontlukas End};
+\node [tag] at (m-6-3.north west) {\Fontlukas Dipper};
+\node [tag] at (m-6-4.north west) {\Fontlukas Play};
+\node [tag] at (m-6-5.north west) {\Fontlukas Bean};
+
+%\node [pron] at (m-1-1.south west) {\vier{FU}{tsu}{--}{--}};
+%\node [pron] at (m-1-2.south west) {\vier{KEI}{karu}{--}{karo}};
+%\node [pron] at (m-1-3.south west) {\vier{CHO}{--}{--}{tomura}};
+%\node [pron] at (m-1-4.south west) {\vier{--}{na}{KYUU}{--}};
+%\node [pron] at (m-1-5.south west) {\vier{GIN}{--}{--}{--}};
+%\node [pron] at (m-2-1.south west) {\vier{MON}{to}{--}{--}};
+%\node [pron] at (m-2-2.south west) {\vier{AN}{kura}{--}{--}};
+%\node [pron] at (m-2-3.south west) {\vier{E}{--}{KAI}{--}};
+%\node [pron] at (m-2-4.south west) {\vier{SHI}{--}{--}{uji}};
+%\node [pron] at (m-2-5.south west) {\vier{--}{waka}{JAKU; NYAKU}{--}};
+%\node [pron] at (m-3-1.south west) {\vier{YU; YUU}{--}{YUI}{yoshi}};
+%\node [pron] at (m-3-2.south west) {\vier{SHIN}{mou}{--}{--}};
+%\node [pron] at (m-3-3.south west) {\vier{YOU}{i}{--}{--}};
+%\node [pron] at (m-3-4.south west) {\vier{SHI}{ita}{--}{--}};
+%\node [pron] at (m-3-5.south west) {\vier{HI}{kura}{--}{--}};
+%\node [pron] at (m-4-1.south west) {\vier{KEI}{haka}{--}{--}};
+%\node [pron] at (m-4-2.south west) {\vier{SHO}{tokoro}{--}{--}};
+%\node [pron] at (m-4-3.south west) {\vier{DAI}{--}{--}{--}};
+%\node [pron] at (m-4-4.south west) {\vier{--}{mune}{SHI}{--}};
+%\node [pron] at (m-4-5.south west) {\vier{CHAKU}{ki; tsu}{JAKU}{--}};
+%\node [pron] at (m-5-1.south west) {\vier{KETSU}{ka}{--}{--}};
+%\node [pron] at (m-5-2.south west) {\vier{JI}{shime}{SHI}{--}};
+%\node [pron] at (m-5-3.south west) {\vier{SHI}{--}{JI}{tsuka}};
+%\node [pron] at (m-5-4.south west) {\vier{JUU}{omo}{CHOU}{kasa; e}};
+%\node [pron] at (m-5-5.south west) {\vier{GOU}{a}{GA-; KA-}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 13---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

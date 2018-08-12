@@ -1,0 +1,105 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=south east,
+				minimum height=3cm,minimum width=3cm
+			}
+	]
+	{
+		{\includegraphics[width=3cm]{walk.pdf}} &
+		{\includegraphics[width=3cm]{child.pdf}} &
+		{\includegraphics[width=3cm]{like.pdf}} &
+		{\includegraphics[width=3cm]{old.pdf}} &
+		{\includegraphics[width=3cm]{fire.pdf}} &
+		{\includegraphics[width=3cm]{winter.pdf}} \\
+		{\includegraphics[width=3cm]{water.pdf}} &
+		{\includegraphics[width=3cm]{ease.pdf}} &
+		{\includegraphics[width=3cm]{strength.pdf}} &
+		{\includegraphics[width=3cm]{summer.pdf}} &
+		{\includegraphics[width=3cm]{thousand.pdf}} &
+		{\includegraphics[width=3cm]{rest.pdf}} \\
+		{\includegraphics[width=3cm]{hand.pdf}} &
+		{\includegraphics[width=3cm]{main.pdf}} &
+		{\includegraphics[width=3cm]{change.pdf}} &
+		{\includegraphics[width=3cm]{river.pdf}} &
+		{\includegraphics[width=3cm]{body.pdf}} &
+		{\includegraphics[width=3cm]{north.pdf}} \\
+		{\includegraphics[width=3cm]{rice_field.pdf}} &
+		{\includegraphics[width=3cm]{man.pdf}} &
+		{\includegraphics[width=3cm]{house.pdf}} &
+		{\includegraphics[width=3cm]{east.pdf}} &
+		{\includegraphics[width=3cm]{think.pdf}} &
+		{\includegraphics[width=3cm]{ear.pdf}} \\
+		{\includegraphics[width=3cm]{father.pdf}} &
+		{\includegraphics[width=3cm]{say.pdf}} &
+		{\includegraphics[width=3cm]{dry.pdf}} &
+		{\includegraphics[width=3cm]{gold.pdf}} &
+		{\includegraphics[width=3cm]{words.pdf}} &
+		{\includegraphics[width=3cm]{gentleman.pdf}} \\
+		{\includegraphics[width=3cm]{morning.pdf}} &
+		{\includegraphics[width=3cm]{blue.pdf}} &
+		{\includegraphics[width=3cm]{earth.pdf}} &
+		{\includegraphics[width=3cm]{hang.pdf}} &
+		{\includegraphics[width=3cm]{ten_thousand.pdf}} &
+		{\includegraphics[width=3cm]{rain.pdf}} \\
+		{\includegraphics[width=3cm]{electric.pdf}} &
+		{\includegraphics[width=3cm]{sell.pdf}} &
+		{\includegraphics[width=3cm]{individual.pdf}} &
+		{\includegraphics[width=3cm]{enter.pdf}} &
+		{\includegraphics[width=3cm]{snow.pdf}} &
+		{\includegraphics[width=3cm]{gate.pdf}} \\
+		{\includegraphics[width=3cm]{interval.pdf}} &
+		{\includegraphics[width=3cm]{exit.pdf}} &
+		{\includegraphics[width=3cm]{life.pdf}} &
+		{\includegraphics[width=3cm]{cow.pdf}} &
+		{\includegraphics[width=3cm]{beautiful.pdf}} &
+		{\includegraphics[width=3cm]{island.pdf}} \\
+		{\includegraphics[width=3cm]{tiny.pdf}} &
+		{\includegraphics[width=3cm]{temple.pdf}} &
+		{\includegraphics[width=3cm]{precede.pdf}} &
+		{\includegraphics[width=3cm]{open.pdf}} &
+		{\includegraphics[width=3cm]{bird.pdf}} &
+		{\includegraphics[width=3cm]{evening.pdf}} \\
+	};
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (page)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Page 2}
+	};
+\end{tikzpicture}
+\end{document}

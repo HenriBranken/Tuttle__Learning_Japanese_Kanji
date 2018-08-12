@@ -1,0 +1,152 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_cargo.pdf}} &
+		{\includegraphics[width=4cm]{so_port.pdf}} &
+		{\includegraphics[width=4cm]{so_hit.pdf}} &
+		{\includegraphics[width=4cm]{so_row.pdf}} &
+		{\includegraphics[width=4cm]{so_round.pdf}} \\
+		{\includegraphics[width=4cm]{so_manor.pdf}} &
+		{\includegraphics[width=4cm]{so_fly.pdf}} &
+		{\includegraphics[width=4cm]{so_number.pdf}} &
+		{\includegraphics[width=4cm]{so_learn.pdf}} &
+		{\includegraphics[width=4cm]{so_display.pdf}} \\
+		{\includegraphics[width=4cm]{so_mask.pdf}} &
+		{\includegraphics[width=4cm]{so_select.pdf}} &
+		{\includegraphics[width=4cm]{so_homeward.pdf}} &
+		{\includegraphics[width=4cm]{so_section.pdf}} &
+		{\includegraphics[width=4cm]{so_topic.pdf}} \\
+		{\includegraphics[width=4cm]{so_period.pdf}} &
+		{\includegraphics[width=4cm]{so_grant.pdf}} &
+		{\includegraphics[width=4cm]{so_delivery.pdf}} &
+		{\includegraphics[width=4cm]{so_annual.pdf}} &
+		{\includegraphics[width=4cm]{so_exclusive.pdf}} \\
+		{\includegraphics[width=4cm]{so_orient.pdf}} &
+		{\includegraphics[width=4cm]{so_train.pdf}} &
+		{\includegraphics[width=4cm]{so_raise.pdf}} &
+		{\includegraphics[width=4cm]{so_consider.pdf}} &
+		{\includegraphics[width=4cm]{so_member.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Cargo};
+\node [tag] at (m-1-2.north west) {\Fontlukas Port};
+\node [tag] at (m-1-3.north west) {\Fontlukas Hit};
+\node [tag] at (m-1-4.north west) {\Fontlukas Row};
+\node [tag] at (m-1-5.north west) {\Fontlukas Round};
+\node [tag] at (m-2-1.north west) {\Fontlukas Manor};
+\node [tag] at (m-2-2.north west) {\Fontlukas Fly};
+\node [tag] at (m-2-3.north west) {\Fontlukas Number};
+\node [tag] at (m-2-4.north west) {\Fontlukas Learn};
+\node [tag] at (m-2-5.north west) {\Fontlukas Display};
+\node [tag] at (m-3-1.north west) {\Fontlukas Mask};
+\node [tag] at (m-3-2.north west) {\Fontlukas Select};
+\node [tag] at (m-3-3.north west) {\Fontlukas Homeward};
+\node [tag] at (m-3-4.north west) {\Fontlukas Section};
+\node [tag] at (m-3-5.north west) {\Fontlukas Topic};
+\node [tag] at (m-4-1.north west) {\Fontlukas Period};
+\node [tag] at (m-4-2.north west) {\Fontlukas Grant};
+\node [tag] at (m-4-3.north west) {\Fontlukas Delivery};
+\node [tag] at (m-4-4.north west) {\Fontlukas Annual};
+\node [tag] at (m-4-5.north west) {\Fontlukas Exclusive};
+\node [tag] at (m-5-1.north west) {\Fontlukas Orient};
+\node [tag] at (m-5-2.north west) {\Fontlukas Train};
+\node [tag] at (m-5-3.north west) {\Fontlukas Raise};
+\node [tag] at (m-5-4.north west) {\Fontlukas Consider};
+\node [tag] at (m-5-5.north west) {\Fontlukas Member};
+
+%\node [pron] at (m-1-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-1-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-1-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-1-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-4.south west) {\vier{}{}{}{}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 21---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

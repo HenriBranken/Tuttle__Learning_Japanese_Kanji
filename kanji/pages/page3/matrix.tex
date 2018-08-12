@@ -1,0 +1,105 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=south east,
+				minimum height=3cm,minimum width=3cm
+			}
+	]
+	{
+		{\includegraphics[width=3cm]{outside.pdf}} &
+		{\includegraphics[width=3cm]{tongue.pdf}} &
+		{\includegraphics[width=3cm]{diagram.pdf}} &
+		{\includegraphics[width=3cm]{stand.pdf}} &
+		{\includegraphics[width=3cm]{parent.pdf}} &
+		{\includegraphics[width=3cm]{star.pdf}} \\
+		{\includegraphics[width=3cm]{autumn.pdf}} &
+		{\includegraphics[width=3cm]{west.pdf}} &
+		{\includegraphics[width=3cm]{sword.pdf}} &
+		{\includegraphics[width=3cm]{cut.pdf}} &
+		{\includegraphics[width=3cm]{day_of_the_week.pdf}} &
+		{\includegraphics[width=3cm]{around.pdf}} \\
+		{\includegraphics[width=3cm]{read.pdf}} &
+		{\includegraphics[width=3cm]{road.pdf}} &
+		{\includegraphics[width=3cm]{heaven.pdf}} &
+		{\includegraphics[width=3cm]{part.pdf}} &
+		{\includegraphics[width=3cm]{thing.pdf}} &
+		{\includegraphics[width=3cm]{axe.pdf}} \\
+		{\includegraphics[width=3cm]{new.pdf}} &
+		{\includegraphics[width=3cm]{flower.pdf}} &
+		{\includegraphics[width=3cm]{name.pdf}} &
+		{\includegraphics[width=3cm]{mother.pdf}} &
+		{\includegraphics[width=3cm]{private.pdf}} &
+		{\includegraphics[width=3cm]{night.pdf}} \\
+		{\includegraphics[width=3cm]{before.pdf}} &
+		{\includegraphics[width=3cm]{many.pdf}} &
+		{\includegraphics[width=3cm]{hold.pdf}} &
+		{\includegraphics[width=3cm]{write.pdf}} &
+		{\includegraphics[width=3cm]{sound.pdf}} &
+		{\includegraphics[width=3cm]{meet.pdf}} \\
+		{\includegraphics[width=3cm]{hear.pdf}} &
+		{\includegraphics[width=3cm]{center.pdf}} &
+		{\includegraphics[width=3cm]{near.pdf}} &
+		{\includegraphics[width=3cm]{lose.pdf}} &
+		{\includegraphics[width=3cm]{bow.pdf}} &
+		{\includegraphics[width=3cm]{horse.pdf}} \\
+		{\includegraphics[width=3cm]{week.pdf}} &
+		{\includegraphics[width=3cm]{pull.pdf}} &
+		{\includegraphics[width=3cm]{second.pdf}} &
+		{\includegraphics[width=3cm]{shell.pdf}} &
+		{\includegraphics[width=3cm]{spirit.pdf}} &
+		{\includegraphics[width=3cm]{time.pdf}} \\
+		{\includegraphics[width=3cm]{speak.pdf}} &
+		{\includegraphics[width=3cm]{english.pdf}} &
+		{\includegraphics[width=3cm]{instruction.pdf}} &
+		{\includegraphics[width=3cm]{push.pdf}} &
+		{\includegraphics[width=3cm]{year.pdf}} &
+		{\includegraphics[width=3cm]{come.pdf}} \\
+		{\includegraphics[width=3cm]{study.pdf}} &
+		{\includegraphics[width=3cm]{mind.pdf}} &
+		{\includegraphics[width=3cm]{again.pdf}} &
+		{\includegraphics[width=3cm]{red.pdf}} &
+		{\includegraphics[width=3cm]{public.pdf}} &
+		{\includegraphics[width=3cm]{cloth.pdf}} \\
+	};
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (page)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Page 3}
+	};
+\end{tikzpicture}
+\end{document}

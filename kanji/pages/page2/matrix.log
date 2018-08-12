@@ -1,0 +1,1361 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.2)  18 SEP 2017 19:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**matrix.tex
+(./matrix.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
+alone
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count80
+\c@sapage=\count81
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2015/07/15 v1.2 Default configuration file for 'standalone
+' class
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen103
+\pgfutil@tempdimb=\dimen104
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count90
+\c@pgf@countb=\count91
+\c@pgf@countc=\count92
+\c@pgf@countd=\count93
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count94
+\pgfsyssoftpath@bigbuffer@items=\count95
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count96
+\pgfmath@box=\box27
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count97
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count98
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count99
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count100
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count101
+\tikznumberofchildren=\count102
+\tikznumberofcurrentchild=\count103
+\tikz@fig@count=\count104
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count105
+\pgfmatrixcurrentcolumn=\count106
+\pgf@matrix@numberofcolumns=\count107
+)
+\tikz@expandcount=\count108
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+\sa@box=\box37
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks28
+\t@pgfplots@tokb=\toks29
+\t@pgfplots@tokc=\toks30
+\pgfplots@tmpa=\dimen151
+\c@pgfplots@coordindex=\count109
+\c@pgfplots@scanlineindex=\count110
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_pgflibraryfpu.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count111
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count112
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count113
+\t@pgfplotstable@a=\toks31
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count114
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen152
+\pgfdecoratedremainingdistance=\dimen153
+\pgfdecoratedinputsegmentcompleteddistance=\dimen154
+\pgfdecoratedinputsegmentremainingdistance=\dimen155
+\pgf@decorate@distancetomove=\dimen156
+\pgf@decorate@repeatstate=\count115
+\pgfdecorationsegmentamplitude=\dimen157
+\pgfdecorationsegmentlength=\dimen158
+)
+\tikz@lib@dec@box=\box38
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count116
+\pgfplots@xmin@reg=\dimen159
+\pgfplots@xmax@reg=\dimen160
+\pgfplots@ymin@reg=\dimen161
+\pgfplots@ymax@reg=\dimen162
+\pgfplots@zmin@reg=\dimen163
+\pgfplots@zmax@reg=\dimen164
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.groupplots.code.tex
+\pgfplots@group@current@plot=\count117
+\pgfplots@group@current@row=\count118
+\pgfplots@group@current@column=\count119
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box39
+\pgfnodeparttwobox=\box40
+\pgfnodepartthreebox=\box41
+\pgfnodepartfourbox=\box42
+\pgfnodeparttwentybox=\box43
+\pgfnodepartnineteenbox=\box44
+\pgfnodeparteighteenbox=\box45
+\pgfnodepartseventeenbox=\box46
+\pgfnodepartsixteenbox=\box47
+\pgfnodepartfifteenbox=\box48
+\pgfnodepartfourteenbox=\box49
+\pgfnodepartthirteenbox=\box50
+\pgfnodeparttwelvebox=\box51
+\pgfnodepartelevenbox=\box52
+\pgfnodeparttenbox=\box53
+\pgfnodepartninebox=\box54
+\pgfnodeparteightbox=\box55
+\pgfnodepartsevenbox=\box56
+\pgfnodepartsixbox=\box57
+\pgfnodepartfivebox=\box58
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.1a (rcs-revision 1.3)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen165
+\extrarowheight=\dimen166
+\NC@list=\toks32
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen167
+\TX@old@table=\dimen168
+\TX@old@col=\dimen169
+\TX@target=\dimen170
+\TX@delta=\dimen171
+\TX@cols=\count120
+\TX@ftn=\toks33
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/07/19 L3 programming layer (loader) 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/07/19 L3 programming layer (code)
+\c_max_int=\count121
+\l_tmpa_int=\count122
+\l_tmpb_int=\count123
+\g_tmpa_int=\count124
+\g_tmpb_int=\count125
+\g__intarray_font_int=\count126
+\g__prg_map_int=\count127
+\c_log_iow=\count128
+\l_iow_line_count_int=\count129
+\l__iow_line_target_int=\count130
+\l__iow_one_indent_int=\count131
+\l__iow_indent_int=\count132
+\c_zero_dim=\dimen172
+\c_max_dim=\dimen173
+\l_tmpa_dim=\dimen174
+\l_tmpb_dim=\dimen175
+\g_tmpa_dim=\dimen176
+\g_tmpb_dim=\dimen177
+\c_zero_skip=\skip45
+\c_max_skip=\skip46
+\l_tmpa_skip=\skip47
+\l_tmpb_skip=\skip48
+\g_tmpa_skip=\skip49
+\g_tmpb_skip=\skip50
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count133
+\c__fp_leading_shift_int=\count134
+\c__fp_middle_shift_int=\count135
+\c__fp_trailing_shift_int=\count136
+\c__fp_big_leading_shift_int=\count137
+\c__fp_big_middle_shift_int=\count138
+\c__fp_big_trailing_shift_int=\count139
+\c__fp_Bigg_leading_shift_int=\count140
+\c__fp_Bigg_middle_shift_int=\count141
+\c__fp_Bigg_trailing_shift_int=\count142
+\c__fp_rand_size_int=\count143
+\c__fp_rand_four_int=\count144
+\c__fp_rand_eight_int=\count145
+\l__sort_length_int=\count146
+\l__sort_min_int=\count147
+\l__sort_top_int=\count148
+\l__sort_max_int=\count149
+\l__sort_true_max_int=\count150
+\l__sort_block_int=\count151
+\l__sort_begin_int=\count152
+\l__sort_end_int=\count153
+\l__sort_A_int=\count154
+\l__sort_B_int=\count155
+\l__sort_C_int=\count156
+\l__tl_build_start_index_int=\count157
+\l__tl_build_index_int=\count158
+\l__tl_analysis_normal_int=\count159
+\l__tl_analysis_index_int=\count160
+\l__tl_analysis_nesting_int=\count161
+\l__tl_analysis_type_int=\count162
+\l__regex_internal_a_int=\count163
+\l__regex_internal_b_int=\count164
+\l__regex_internal_c_int=\count165
+\l__regex_balance_int=\count166
+\l__regex_group_level_int=\count167
+\l__regex_mode_int=\count168
+\c__regex_cs_in_class_mode_int=\count169
+\c__regex_cs_mode_int=\count170
+\l__regex_catcodes_int=\count171
+\l__regex_default_catcodes_int=\count172
+\c__regex_catcode_D_int=\count173
+\c__regex_catcode_S_int=\count174
+\c__regex_catcode_L_int=\count175
+\c__regex_catcode_O_int=\count176
+\c__regex_catcode_A_int=\count177
+\c__regex_all_catcodes_int=\count178
+\l__regex_show_lines_int=\count179
+\l__regex_min_state_int=\count180
+\l__regex_max_state_int=\count181
+\l__regex_left_state_int=\count182
+\l__regex_right_state_int=\count183
+\l__regex_capturing_group_int=\count184
+\l__regex_min_pos_int=\count185
+\l__regex_max_pos_int=\count186
+\l__regex_curr_pos_int=\count187
+\l__regex_start_pos_int=\count188
+\l__regex_success_pos_int=\count189
+\l__regex_curr_char_int=\count190
+\l__regex_curr_catcode_int=\count191
+\l__regex_last_char_int=\count192
+\l__regex_case_changed_char_int=\count193
+\l__regex_curr_state_int=\count194
+\l__regex_step_int=\count195
+\l__regex_min_active_int=\count196
+\l__regex_max_active_int=\count197
+\l__regex_replacement_csnames_int=\count198
+\l__regex_match_count_int=\count199
+\l__regex_min_submatch_int=\count266
+\l__regex_submatch_int=\count267
+\l__regex_zeroth_submatch_int=\count268
+\g__debug_trace_regex_int=\count269
+\c_empty_box=\box59
+\l_tmpa_box=\box60
+\l_tmpb_box=\box61
+\g_tmpa_box=\box62
+\g_tmpb_box=\box63
+\l__box_top_dim=\dimen178
+\l__box_bottom_dim=\dimen179
+\l__box_left_dim=\dimen180
+\l__box_right_dim=\dimen181
+\l__box_top_new_dim=\dimen182
+\l__box_bottom_new_dim=\dimen183
+\l__box_left_new_dim=\dimen184
+\l__box_right_new_dim=\dimen185
+\l__box_internal_box=\box64
+\l__coffin_internal_box=\box65
+\l__coffin_internal_dim=\dimen186
+\l__coffin_offset_x_dim=\dimen187
+\l__coffin_offset_y_dim=\dimen188
+\l__coffin_x_dim=\dimen189
+\l__coffin_y_dim=\dimen190
+\l__coffin_x_prime_dim=\dimen191
+\l__coffin_y_prime_dim=\dimen192
+\c_empty_coffin=\box66
+\l__coffin_aligned_coffin=\box67
+\l__coffin_aligned_internal_coffin=\box68
+\l_tmpa_coffin=\box69
+\l_tmpb_coffin=\box70
+\l__coffin_display_coffin=\box71
+\l__coffin_display_coord_coffin=\box72
+\l__coffin_display_pole_coffin=\box73
+\l__coffin_display_offset_dim=\dimen193
+\l__coffin_display_x_dim=\dimen194
+\l__coffin_display_y_dim=\dimen195
+\l__coffin_bounding_shift_dim=\dimen196
+\l__coffin_left_corner_dim=\dimen197
+\l__coffin_right_corner_dim=\dimen198
+\l__coffin_bottom_corner_dim=\dimen199
+\l__coffin_top_corner_dim=\dimen256
+\l__coffin_scaled_total_height_dim=\dimen257
+\l__coffin_scaled_width_dim=\dimen258
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count270
+\l__driver_tmp_box=\box74
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen259
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2017/07/19 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/07/19 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count271
+\g__xparse_grabber_int=\count272
+\l__xparse_m_args_int=\count273
+\l__xparse_mandatory_args_int=\count274
+\l__xparse_v_nesting_int=\count275
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y
+Package: xtemplate 2017/07/19 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen260
+\l__xtemplate_tmp_int=\count276
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip51
+)
+Package: xfrac 2017/07/19 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box75
+\l__xfrac_tmp_box=\box76
+\l__xfrac_denominator_bot_sep_dim=\dimen261
+\l__xfrac_numerator_bot_sep_dim=\dimen262
+\l__xfrac_numerator_top_sep_dim=\dimen263
+\l__xfrac_slash_left_sep_dim=\dimen264
+\l__xfrac_slash_right_sep_dim=\dimen265
+\l__xfrac_slash_left_muskip=\muskip17
+\l__xfrac_slash_right_muskip=\muskip18
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xfrac' taking 3 argument(s) on line 80.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sfrac with sig. 'omom' on line 419.
+.................................................
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen266
+\c@nlinenum=\count277
+\TeXr@lab=\toks35
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/aurical/aurical.sty
+Package: aurical 2006/10/12 aurical - a set of three decorative fonts with acce
+nts
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (./matrix.aux)
+\openout1 = `matrix.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 12.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 12.
+
+ABD: EveryShipout initializing macros
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count278
+\scratchdimen=\dimen267
+\scratchbox=\box77
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen268
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks37
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<walk.pdf, id=4, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: walk.pdf Graphic file (type pdf)
+<use walk.pdf>
+Package pdftex.def Info: walk.pdf  used on input line 28. on input line 28.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+28.
+<child.pdf, id=5, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: child.pdf Graphic file (type pdf)
+<use child.pdf>
+Package pdftex.def Info: child.pdf  used on input line 29. on input line 29.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+29.
+<like.pdf, id=6, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: like.pdf Graphic file (type pdf)
+<use like.pdf>
+Package pdftex.def Info: like.pdf  used on input line 30. on input line 30.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+30.
+<old.pdf, id=7, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: old.pdf Graphic file (type pdf)
+<use old.pdf>
+Package pdftex.def Info: old.pdf  used on input line 31. on input line 31.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+31.
+<fire.pdf, id=8, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: fire.pdf Graphic file (type pdf)
+<use fire.pdf>
+Package pdftex.def Info: fire.pdf  used on input line 32. on input line 32.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+32.
+<winter.pdf, id=9, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: winter.pdf Graphic file (type pdf)
+<use winter.pdf>
+Package pdftex.def Info: winter.pdf  used on input line 33. on input line 33.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+33.
+<water.pdf, id=10, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: water.pdf Graphic file (type pdf)
+<use water.pdf>
+Package pdftex.def Info: water.pdf  used on input line 34. on input line 34.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+34.
+<ease.pdf, id=11, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: ease.pdf Graphic file (type pdf)
+<use ease.pdf>
+Package pdftex.def Info: ease.pdf  used on input line 35. on input line 35.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+35.
+<strength.pdf, id=12, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: strength.pdf Graphic file (type pdf)
+<use strength.pdf>
+Package pdftex.def Info: strength.pdf  used on input line 36. on input line 36.
+
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+36.
+<summer.pdf, id=13, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: summer.pdf Graphic file (type pdf)
+<use summer.pdf>
+Package pdftex.def Info: summer.pdf  used on input line 37. on input line 37.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+37.
+<thousand.pdf, id=14, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: thousand.pdf Graphic file (type pdf)
+<use thousand.pdf>
+Package pdftex.def Info: thousand.pdf  used on input line 38. on input line 38.
+
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+38.
+<rest.pdf, id=15, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: rest.pdf Graphic file (type pdf)
+<use rest.pdf>
+Package pdftex.def Info: rest.pdf  used on input line 39. on input line 39.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+39.
+<hand.pdf, id=16, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: hand.pdf Graphic file (type pdf)
+<use hand.pdf>
+Package pdftex.def Info: hand.pdf  used on input line 40. on input line 40.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+40.
+<main.pdf, id=17, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: main.pdf Graphic file (type pdf)
+<use main.pdf>
+Package pdftex.def Info: main.pdf  used on input line 41. on input line 41.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+41.
+<change.pdf, id=18, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: change.pdf Graphic file (type pdf)
+<use change.pdf>
+Package pdftex.def Info: change.pdf  used on input line 42. on input line 42.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+42.
+<river.pdf, id=19, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: river.pdf Graphic file (type pdf)
+<use river.pdf>
+Package pdftex.def Info: river.pdf  used on input line 43. on input line 43.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+43.
+<body.pdf, id=20, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: body.pdf Graphic file (type pdf)
+<use body.pdf>
+Package pdftex.def Info: body.pdf  used on input line 44. on input line 44.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+44.
+<north.pdf, id=21, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: north.pdf Graphic file (type pdf)
+<use north.pdf>
+Package pdftex.def Info: north.pdf  used on input line 45. on input line 45.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+45.
+<rice_field.pdf, id=22, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: rice_field.pdf Graphic file (type pdf)
+<use rice_field.pdf>
+Package pdftex.def Info: rice_field.pdf  used on input line 46. on input line 4
+6.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+46.
+<man.pdf, id=23, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: man.pdf Graphic file (type pdf)
+<use man.pdf>
+Package pdftex.def Info: man.pdf  used on input line 47. on input line 47.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+47.
+<house.pdf, id=24, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: house.pdf Graphic file (type pdf)
+<use house.pdf>
+Package pdftex.def Info: house.pdf  used on input line 48. on input line 48.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+48.
+<east.pdf, id=25, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: east.pdf Graphic file (type pdf)
+<use east.pdf>
+Package pdftex.def Info: east.pdf  used on input line 49. on input line 49.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+49.
+<think.pdf, id=26, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: think.pdf Graphic file (type pdf)
+<use think.pdf>
+Package pdftex.def Info: think.pdf  used on input line 50. on input line 50.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+50.
+<ear.pdf, id=27, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: ear.pdf Graphic file (type pdf)
+<use ear.pdf>
+Package pdftex.def Info: ear.pdf  used on input line 51. on input line 51.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+51.
+<father.pdf, id=28, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: father.pdf Graphic file (type pdf)
+<use father.pdf>
+Package pdftex.def Info: father.pdf  used on input line 52. on input line 52.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+52.
+<say.pdf, id=29, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: say.pdf Graphic file (type pdf)
+<use say.pdf>
+Package pdftex.def Info: say.pdf  used on input line 53. on input line 53.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+53.
+<dry.pdf, id=30, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: dry.pdf Graphic file (type pdf)
+<use dry.pdf>
+Package pdftex.def Info: dry.pdf  used on input line 54. on input line 54.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+54.
+<gold.pdf, id=31, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: gold.pdf Graphic file (type pdf)
+<use gold.pdf>
+Package pdftex.def Info: gold.pdf  used on input line 55. on input line 55.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+55.
+<words.pdf, id=32, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: words.pdf Graphic file (type pdf)
+<use words.pdf>
+Package pdftex.def Info: words.pdf  used on input line 56. on input line 56.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+56.
+<gentleman.pdf, id=33, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: gentleman.pdf Graphic file (type pdf)
+<use gentleman.pdf>
+Package pdftex.def Info: gentleman.pdf  used on input line 57. on input line 57
+.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+57.
+<morning.pdf, id=34, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: morning.pdf Graphic file (type pdf)
+<use morning.pdf>
+Package pdftex.def Info: morning.pdf  used on input line 58. on input line 58.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+58.
+<blue.pdf, id=35, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: blue.pdf Graphic file (type pdf)
+<use blue.pdf>
+Package pdftex.def Info: blue.pdf  used on input line 59. on input line 59.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+59.
+<earth.pdf, id=36, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: earth.pdf Graphic file (type pdf)
+<use earth.pdf>
+Package pdftex.def Info: earth.pdf  used on input line 60. on input line 60.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+60.
+<hang.pdf, id=37, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: hang.pdf Graphic file (type pdf)
+<use hang.pdf>
+Package pdftex.def Info: hang.pdf  used on input line 61. on input line 61.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+61.
+<ten_thousand.pdf, id=38, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: ten_thousand.pdf Graphic file (type pdf)
+<use ten_thousand.pdf>
+Package pdftex.def Info: ten_thousand.pdf  used on input line 62. on input line
+ 62.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+62.
+<rain.pdf, id=39, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: rain.pdf Graphic file (type pdf)
+<use rain.pdf>
+Package pdftex.def Info: rain.pdf  used on input line 63. on input line 63.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+63.
+<electric.pdf, id=40, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: electric.pdf Graphic file (type pdf)
+<use electric.pdf>
+Package pdftex.def Info: electric.pdf  used on input line 64. on input line 64.
+
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+64.
+<sell.pdf, id=41, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: sell.pdf Graphic file (type pdf)
+<use sell.pdf>
+Package pdftex.def Info: sell.pdf  used on input line 65. on input line 65.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+65.
+<individual.pdf, id=42, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: individual.pdf Graphic file (type pdf)
+<use individual.pdf>
+Package pdftex.def Info: individual.pdf  used on input line 66. on input line 6
+6.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+66.
+<enter.pdf, id=43, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: enter.pdf Graphic file (type pdf)
+<use enter.pdf>
+Package pdftex.def Info: enter.pdf  used on input line 67. on input line 67.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+67.
+<snow.pdf, id=44, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: snow.pdf Graphic file (type pdf)
+<use snow.pdf>
+Package pdftex.def Info: snow.pdf  used on input line 68. on input line 68.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+68.
+<gate.pdf, id=45, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: gate.pdf Graphic file (type pdf)
+<use gate.pdf>
+Package pdftex.def Info: gate.pdf  used on input line 69. on input line 69.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+69.
+<interval.pdf, id=46, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: interval.pdf Graphic file (type pdf)
+<use interval.pdf>
+Package pdftex.def Info: interval.pdf  used on input line 70. on input line 70.
+
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+70.
+<exit.pdf, id=47, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: exit.pdf Graphic file (type pdf)
+<use exit.pdf>
+Package pdftex.def Info: exit.pdf  used on input line 71. on input line 71.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+71.
+<life.pdf, id=48, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: life.pdf Graphic file (type pdf)
+<use life.pdf>
+Package pdftex.def Info: life.pdf  used on input line 72. on input line 72.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+72.
+<cow.pdf, id=49, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: cow.pdf Graphic file (type pdf)
+<use cow.pdf>
+Package pdftex.def Info: cow.pdf  used on input line 73. on input line 73.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+73.
+<beautiful.pdf, id=50, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: beautiful.pdf Graphic file (type pdf)
+<use beautiful.pdf>
+Package pdftex.def Info: beautiful.pdf  used on input line 74. on input line 74
+.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+74.
+<island.pdf, id=51, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: island.pdf Graphic file (type pdf)
+<use island.pdf>
+Package pdftex.def Info: island.pdf  used on input line 75. on input line 75.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+75.
+<tiny.pdf, id=52, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: tiny.pdf Graphic file (type pdf)
+<use tiny.pdf>
+Package pdftex.def Info: tiny.pdf  used on input line 76. on input line 76.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+76.
+<temple.pdf, id=53, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: temple.pdf Graphic file (type pdf)
+<use temple.pdf>
+Package pdftex.def Info: temple.pdf  used on input line 77. on input line 77.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+77.
+<precede.pdf, id=54, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: precede.pdf Graphic file (type pdf)
+<use precede.pdf>
+Package pdftex.def Info: precede.pdf  used on input line 78. on input line 78.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+78.
+<open.pdf, id=55, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: open.pdf Graphic file (type pdf)
+<use open.pdf>
+Package pdftex.def Info: open.pdf  used on input line 79. on input line 79.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+79.
+<bird.pdf, id=56, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: bird.pdf Graphic file (type pdf)
+<use bird.pdf>
+Package pdftex.def Info: bird.pdf  used on input line 80. on input line 80.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+80.
+<evening.pdf, id=57, pagebox=cropbox, 399.4925pt x 399.4925pt>
+File: evening.pdf Graphic file (type pdf)
+<use evening.pdf>
+Package pdftex.def Info: evening.pdf  used on input line 81. on input line 81.
+Package pdftex.def Info: Requested size: 85.35826pt x 85.35887pt on input line 
+81.
+
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./walk.
+pdf> <./child.pdf> <./like.pdf> <./old.pdf> <./fire.pdf> <./winter.pdf> <./wate
+r.pdf> <./ease.pdf> <./strength.pdf> <./summer.pdf> <./thousand.pdf> <./rest.pd
+f> <./hand.pdf> <./main.pdf> <./change.pdf> <./river.pdf> <./body.pdf> <./north
+.pdf> <./rice_field.pdf> <./man.pdf> <./house.pdf> <./east.pdf> <./think.pdf> <
+./ear.pdf> <./father.pdf> <./say.pdf> <./dry.pdf> <./gold.pdf> <./words.pdf> <.
+/gentleman.pdf> <./morning.pdf> <./blue.pdf> <./earth.pdf> <./hang.pdf> <./ten_
+thousand.pdf> <./rain.pdf> <./electric.pdf> <./sell.pdf> <./individual.pdf> <./
+enter.pdf> <./snow.pdf> <./gate.pdf> <./interval.pdf> <./exit.pdf> <./life.pdf>
+ <./cow.pdf> <./beautiful.pdf> <./island.pdf> <./tiny.pdf> <./temple.pdf> <./pr
+ecede.pdf> <./open.pdf> <./bird.pdf> <./evening.pdf>] (./matrix.aux) ) 
+Here is how much of TeX's memory you used:
+ 33888 strings out of 492990
+ 846193 string characters out of 6132622
+ 1005680 words of memory out of 5000000
+ 36922 multiletter control sequences out of 15000+600000
+ 532585 words of font info for 25 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,15n,128p,10383b,960s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/loc
+al/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on matrix.pdf (1 page, 257818 bytes).
+PDF statistics:
+ 400 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+

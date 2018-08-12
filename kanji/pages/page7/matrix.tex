@@ -1,0 +1,106 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=south east,
+				minimum height=3cm,minimum width=3cm
+			}
+	]
+	{
+		{\includegraphics[width=3cm]{ocean.pdf}} &
+		{\includegraphics[width=3cm]{bridge.pdf}} &
+		{\includegraphics[width=3cm]{present.pdf}} &
+		{\includegraphics[width=3cm]{ground.pdf}} &
+		{\includegraphics[width=3cm]{transmit.pdf}} &
+		{\includegraphics[width=3cm]{bind.pdf}} \\
+		{\includegraphics[width=3cm]{taste.pdf}} &
+		{\includegraphics[width=3cm]{measurement.pdf}} &
+		{\includegraphics[width=3cm]{flat.pdf}} &
+		{\includegraphics[width=3cm]{degree.pdf}} &
+		{\includegraphics[width=3cm]{edge.pdf}} &
+		{\includegraphics[width=3cm]{lend.pdf}} \\
+		{\includegraphics[width=3cm]{command.pdf}} &
+		{\includegraphics[width=3cm]{field.pdf}} &
+		{\includegraphics[width=3cm]{wide.pdf}} &
+		{\includegraphics[width=3cm]{stone.pdf}} &
+		{\includegraphics[width=3cm]{china.pdf}} &
+		{\includegraphics[width=3cm]{different.pdf}} \\
+		{\includegraphics[width=3cm]{garden.pdf}} &
+		{\includegraphics[width=3cm]{all.pdf}} &
+		{\includegraphics[width=3cm]{immediate.pdf}} &
+		{\includegraphics[width=3cm]{shop.pdf}} &
+		{\includegraphics[width=3cm]{institution.pdf}} &
+		{\includegraphics[width=3cm]{climb.pdf}} \\
+		{\includegraphics[width=3cm]{original.pdf}} &
+		{\includegraphics[width=3cm]{late.pdf}} &
+		{\includegraphics[width=3cm]{entwine.pdf}} &
+		{\includegraphics[width=3cm]{express.pdf}} &
+		{\includegraphics[width=3cm]{type.pdf}} &
+		{\includegraphics[width=3cm]{passage.pdf}} \\
+		{\includegraphics[width=3cm]{past.pdf}} &
+		{\includegraphics[width=3cm]{bundle.pdf}} &
+		{\includegraphics[width=3cm]{special.pdf}} &
+		{\includegraphics[width=3cm]{true.pdf}} &
+		{\includegraphics[width=3cm]{office.pdf}} &
+		{\includegraphics[width=3cm]{gather.pdf}} \\
+		{\includegraphics[width=3cm]{hard.pdf}} &
+		{\includegraphics[width=3cm]{cool.pdf}} & 
+		{\includegraphics[width=3cm]{long_ago.pdf}} &
+		{\includegraphics[width=3cm]{inquiry.pdf}} &
+		{\includegraphics[width=3cm]{medicine.pdf}} &
+		{\includegraphics[width=3cm]{line.pdf}} \\
+		{\includegraphics[width=3cm]{face.pdf}} &
+		{\includegraphics[width=3cm]{tribe.pdf}} &
+		{\includegraphics[width=3cm]{teach.pdf}} &
+		{\includegraphics[width=3cm]{third.pdf}} &
+		{\includegraphics[width=3cm]{lodging.pdf}} &
+		{\includegraphics[width=3cm]{try.pdf}} \\
+		{\includegraphics[width=3cm]{anew.pdf}} &
+		{\includegraphics[width=3cm]{system.pdf}} &
+		{\includegraphics[width=3cm]{depart.pdf}} &
+		{\includegraphics[width=3cm]{nose.pdf}} &
+		{\includegraphics[width=3cm]{asia.pdf}} &
+		{\includegraphics[width=3cm]{join.pdf}} \\
+		%{\includegraphics[width=3cm]{.pdf}}
+	};
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (page)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Page 7}
+	};
+\end{tikzpicture}
+\end{document}

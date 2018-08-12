@@ -1,0 +1,178 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{Aozora Mincho Regular}
+
+\newcommand{\lmr}{\fontfamily{lmr}\selectfont} % Latin Modern Roman
+
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\scriptsize,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=5cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{what.pdf}} &
+		{\includegraphics[width=4cm]{polish.pdf}} &
+		{\includegraphics[width=4cm]{busy.pdf}} &
+		{\includegraphics[width=4cm]{slow.pdf}} &
+		{\includegraphics[width=4cm]{fee.pdf}} \\
+		{\includegraphics[width=4cm]{business.pdf}} &
+		{\includegraphics[width=4cm]{swim.pdf}} &
+		{\includegraphics[width=4cm]{connection.pdf}} &
+		{\includegraphics[width=4cm]{drink.pdf}} &
+		{\includegraphics[width=4cm]{yellow.pdf}} \\
+		{\includegraphics[width=4cm]{answer.pdf}} &
+		{\includegraphics[width=4cm]{travel.pdf}} &
+		{\includegraphics[width=4cm]{dish.pdf}} &
+		{\includegraphics[width=4cm]{govern.pdf}} &
+		{\includegraphics[width=4cm]{confer.pdf}} \\
+		{\includegraphics[width=4cm]{daytime.pdf}} &
+		{\includegraphics[width=4cm]{produce.pdf}} &
+		{\includegraphics[width=4cm]{construct.pdf}} &
+		{\includegraphics[width=4cm]{younger_sister.pdf}} &
+		{\includegraphics[width=4cm]{pond.pdf}} \\
+		{\includegraphics[width=4cm]{regulation.pdf}} &
+		{\includegraphics[width=4cm]{transport.pdf}} &
+		{\includegraphics[width=4cm]{mechanism.pdf}} &
+		{\includegraphics[width=4cm]{strong.pdf}} &
+		{\includegraphics[width=4cm]{shine.pdf}} \\
+		{\includegraphics[width=4cm]{difficult.pdf}} &
+		{\includegraphics[width=4cm]{company.pdf}} &
+		{\includegraphics[width=4cm]{laugh.pdf}} &
+		{\includegraphics[width=4cm]{test.pdf}} &
+		{\includegraphics[width=4cm]{history.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas What};
+\node [tag] at (m-1-2.north west) {\Fontlukas Polish};
+\node [tag] at (m-1-3.north west) {\Fontlukas Busy};
+\node [tag] at (m-1-4.north west) {\Fontlukas Slow};
+\node [tag] at (m-1-5.north west) {\Fontlukas Fee};
+\node [tag] at (m-2-1.north west) {\Fontlukas Business};
+\node [tag] at (m-2-2.north west) {\Fontlukas Swim};
+\node [tag] at (m-2-3.north west) {\Fontlukas Connection};
+\node [tag] at (m-2-4.north west) {\Fontlukas Drink};
+\node [tag] at (m-2-5.north west) {\Fontlukas Yellow};
+\node [tag] at (m-3-1.north west) {\Fontlukas Answer};
+\node [tag] at (m-3-2.north west) {\Fontlukas Travel};
+\node [tag] at (m-3-3.north west) {\Fontlukas Dish};
+\node [tag] at (m-3-4.north west) {\Fontlukas Govern};
+\node [tag] at (m-3-5.north west) {\Fontlukas Confer};
+\node [tag] at (m-4-1.north west) {\Fontlukas Daytime};
+\node [tag] at (m-4-2.north west) {\Fontlukas Produce};
+\node [tag] at (m-4-3.north west) {\Fontlukas Construct};
+\node [tag] at (m-4-4.north west) {\Fontlukas Younger sister};
+\node [tag] at (m-4-5.north west) {\Fontlukas Pond};
+\node [tag] at (m-5-1.north west) {\Fontlukas Regulation};
+\node [tag] at (m-5-2.north west) {\Fontlukas Transport};
+\node [tag] at (m-5-3.north west) {\Fontlukas Mechanism};
+\node [tag] at (m-5-4.north west) {\Fontlukas Strong};
+\node [tag] at (m-5-5.north west) {\Fontlukas Shine};
+\node [tag] at (m-6-1.north west) {\Fontlukas Difficult};
+\node [tag] at (m-6-2.north west) {\Fontlukas Company};
+\node [tag] at (m-6-3.north west) {\Fontlukas Laugh};
+\node [tag] at (m-6-4.north west) {\Fontlukas Test};
+\node [tag] at (m-6-5.north west) {\Fontlukas History};
+
+\node [pron] at (m-1-1.south west) {\vier{--}{なん; なに}{カ}{--}};
+\node [pron] at (m-1-2.south west) {\vier{ケン}{--}{--}{と}};
+\node [pron] at (m-1-3.south west) {\vier{ボウ}{いそが}{--}{--}};
+\node [pron] at (m-1-4.south west) {\vier{--}{おく; おそ}{チ}{--}};
+\node [pron] at (m-1-5.south west) {\vier{リョウ}{--}{--}{--}};
+\node [pron] at (m-2-1.south west) {\vier{ギョウ}{--}{ゴウ}{わざ}};
+\node [pron] at (m-2-2.south west) {\vier{エイ}{およ}{--}{--}};
+\node [pron] at (m-2-3.south west) {\vier{ケイ}{かかり}{--}{--}};
+\node [pron] at (m-2-4.south west) {\vier{イン}{の}{--}{--}};
+\node [pron] at (m-2-5.south west) {\vier{オウ; コウ}{き}{--}{こ}};
+\node [pron] at (m-3-1.south west) {\vier{トウ}{こた}{--}{--}};
+\node [pron] at (m-3-2.south west) {\vier{リョ}{たび}{--}{--}};
+\node [pron] at (m-3-3.south west) {\vier{--}{さら}{--}{--}};
+\node [pron] at (m-3-4.south west) {\vier{チ; ジ}{おさ; なお}{--}{--}};
+\node [pron] at (m-3-5.south west) {\vier{ヨ}{あた}{--}{--}};
+\node [pron] at (m-4-1.south west) {\vier{チュウ}{ひる}{--}{--}};
+\node [pron] at (m-4-2.south west) {\vier{サン}{う}{--}{うぶ}};
+\node [pron] at (m-4-3.south west) {\vier{ケン}{た}{コン}{}};
+\node [pron] at (m-4-4.south west) {\vier{マイ}{いもうと}{--}{--}};
+\node [pron] at (m-4-5.south west) {\vier{チ}{いけ}{--}{--}};
+\node [pron] at (m-5-1.south west) {\vier{セイ}{--}{--}{--}};
+\node [pron] at (m-5-2.south west) {\vier{ウン}{はこ}{--}{--}};
+\node [pron] at (m-5-3.south west) {\vier{キ}{--}{--}{はた}};
+\node [pron] at (m-5-4.south west) {\vier{キョウ}{つよ}{ゴウ}{し}};
+\node [pron] at (m-5-5.south west) {\vier{コウ}{ひか; ひかり}{--}{--}};
+\node [pron] at (m-6-1.south west) {\vier{ナン}{むずか; かた}{--}{--}};
+\node [pron] at (m-6-2.south west) {\vier{シャ}{--}{--}{やしろ}};
+\node [pron] at (m-6-3.south west) {\vier{ショウ}{わら}{--}{え}};
+\node [pron] at (m-6-4.south west) {\vier{ケン}{--}{ゲン}{--}};
+\node [pron] at (m-6-5.south west) {\vier{シ}{--}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{\lmr Chapter 19}
+	};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,178 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{Aozora Mincho Regular}
+
+\newcommand{\lmr}{\fontfamily{lmr}\selectfont} % Latin Modern Roman
+
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\scriptsize,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=5cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{taste.pdf}} &
+		{\includegraphics[width=4cm]{measurement.pdf}} &
+		{\includegraphics[width=4cm]{flat.pdf}} &
+		{\includegraphics[width=4cm]{degree.pdf}} &
+		{\includegraphics[width=4cm]{edge.pdf}} \\
+		{\includegraphics[width=4cm]{lend.pdf}} &
+		{\includegraphics[width=4cm]{command.pdf}} &
+		{\includegraphics[width=4cm]{field.pdf}} &
+		{\includegraphics[width=4cm]{wide.pdf}} &
+		{\includegraphics[width=4cm]{stone.pdf}} \\
+		{\includegraphics[width=4cm]{china.pdf}} &
+		{\includegraphics[width=4cm]{different.pdf}} &
+		{\includegraphics[width=4cm]{garden.pdf}} &
+		{\includegraphics[width=4cm]{all.pdf}} &
+		{\includegraphics[width=4cm]{immediate.pdf}} \\
+		{\includegraphics[width=4cm]{shop.pdf}} &
+		{\includegraphics[width=4cm]{institution.pdf}} &
+		{\includegraphics[width=4cm]{climb.pdf}} &
+		{\includegraphics[width=4cm]{original.pdf}} &
+		{\includegraphics[width=4cm]{late.pdf}} \\
+		{\includegraphics[width=4cm]{entwine.pdf}} &
+		{\includegraphics[width=4cm]{express.pdf}} &
+		{\includegraphics[width=4cm]{type.pdf}} &
+		{\includegraphics[width=4cm]{passage.pdf}} &
+		{\includegraphics[width=4cm]{past.pdf}} \\
+		{\includegraphics[width=4cm]{bundle.pdf}} &
+		{\includegraphics[width=4cm]{special.pdf}} &
+		{\includegraphics[width=4cm]{true.pdf}} &
+		{\includegraphics[width=4cm]{office.pdf}} &
+		{\includegraphics[width=4cm]{gather.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Taste};
+\node [tag] at (m-1-2.north west) {\Fontlukas Measurement};
+\node [tag] at (m-1-3.north west) {\Fontlukas Flat};
+\node [tag] at (m-1-4.north west) {\Fontlukas Degree};
+\node [tag] at (m-1-5.north west) {\Fontlukas Edge};
+\node [tag] at (m-2-1.north west) {\Fontlukas Lend};
+\node [tag] at (m-2-2.north west) {\Fontlukas Command};
+\node [tag] at (m-2-3.north west) {\Fontlukas Field};
+\node [tag] at (m-2-4.north west) {\Fontlukas Wide};
+\node [tag] at (m-2-5.north west) {\Fontlukas Stone};
+\node [tag] at (m-3-1.north west) {\Fontlukas China};
+\node [tag] at (m-3-2.north west) {\Fontlukas Different};
+\node [tag] at (m-3-3.north west) {\Fontlukas Garden};
+\node [tag] at (m-3-4.north west) {\Fontlukas All};
+\node [tag] at (m-3-5.north west) {\Fontlukas Immediate};
+\node [tag] at (m-4-1.north west) {\Fontlukas Shop};
+\node [tag] at (m-4-2.north west) {\Fontlukas Institution};
+\node [tag] at (m-4-3.north west) {\Fontlukas Climb};
+\node [tag] at (m-4-4.north west) {\Fontlukas Original};
+\node [tag] at (m-4-5.north west) {\Fontlukas Late};
+\node [tag] at (m-5-1.north west) {\Fontlukas Entwine};
+\node [tag] at (m-5-2.north west) {\Fontlukas Express};
+\node [tag] at (m-5-3.north west) {\Fontlukas Type};
+\node [tag] at (m-5-4.north west) {\Fontlukas Passage};
+\node [tag] at (m-5-5.north west) {\Fontlukas Past};
+\node [tag] at (m-6-1.north west) {\Fontlukas Bundle};
+\node [tag] at (m-6-2.north west) {\Fontlukas Special};
+\node [tag] at (m-6-3.north west) {\Fontlukas True};
+\node [tag] at (m-6-4.north west) {\Fontlukas Office};
+\node [tag] at (m-6-5.north west) {\Fontlukas Gather};
+
+\node [pron] at (m-1-1.south west) {\vier{ミ}{あじ}{--}{--}};
+\node [pron] at (m-1-2.south west) {\vier{シャク}{--}{--}{--}};
+\node [pron] at (m-1-3.south west) {\vier{ヘイ}{ひら}{ビョウ}{たい}};
+\node [pron] at (m-1-4.south west) {\vier{ド}{たび}{タク; ト}{--}};
+\node [pron] at (m-1-5.south west) {\vier{サイ}{きわ}{--}{--}};
+\node [pron] at (m-2-1.south west) {\vier{--}{か}{タイ}{--}};
+\node [pron] at (m-2-2.south west) {\vier{レイ}{--}{--}{--}};
+\node [pron] at (m-2-3.south west) {\vier{ヤ}{の}{--}{--}};
+\node [pron] at (m-2-4.south west) {\vier{コウ}{ひろ}{--}{--}};
+\node [pron] at (m-2-5.south west) {\vier{セキ}{いし}{シャク; コク}{--}};
+\node [pron] at (m-3-1.south west) {\vier{カン}{--}{--}{--}};
+\node [pron] at (m-3-2.south west) {\vier{ベツ}{わか}{--}{わ}};
+\node [pron] at (m-3-3.south west) {\vier{エン}{--}{--}{その}};
+\node [pron] at (m-3-4.south west) {\vier{--}{みな}{カイ}{--}};
+\node [pron] at (m-3-5.south west) {\vier{ソク}{--}{--}{--}};
+\node [pron] at (m-4-1.south west) {\vier{テン}{みせ}{--}{--}};
+\node [pron] at (m-4-2.south west) {\vier{イン}{--}{--}{--}};
+\node [pron] at (m-4-3.south west) {\vier{トウ}{--}{ト}{のぼ}};
+\node [pron] at (m-4-4.south west) {\vier{ゲン}{はら}{--}{--}};
+\node [pron] at (m-4-5.south west) {\vier{バン}{--}{--}{--}};
+\node [pron] at (m-5-1.south west) {\vier{ラク}{から}{--}{--}};
+\node [pron] at (m-5-2.south west) {\vier{ヒョウ}{おもて; あらわ}{--}{--}};
+\node [pron] at (m-5-3.south west) {\vier{シキ}{--}{--}{--}};
+\node [pron] at (m-5-4.south west) {\vier{ツウ}{とお}{TSU}{かよ}};
+\node [pron] at (m-5-5.south west) {\vier{サク}{--}{--}{--}};
+\node [pron] at (m-6-1.south west) {\vier{ソク}{たば}{--}{つか}};
+\node [pron] at (m-6-2.south west) {\vier{トク}{--}{--}{--}};
+\node [pron] at (m-6-3.south west) {\vier{シン}{ま}{--}{--}};
+\node [pron] at (m-6-4.south west) {\vier{キョク}{--}{--}{--}};
+\node [pron] at (m-6-5.south west) {\vier{シュウ}{あつ}{--}{つど}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{\lmr Chapter 16}
+	};
+\end{tikzpicture}
+\end{document}

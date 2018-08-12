@@ -1,0 +1,142 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_capital.pdf}} &
+		{\includegraphics[width=4cm]{so_see.pdf}} &
+		{\includegraphics[width=4cm]{so_stop.pdf}} &
+		{\includegraphics[width=4cm]{so_seven.pdf}} \\
+		{\includegraphics[width=4cm]{so_few.pdf}} &
+		{\includegraphics[width=4cm]{so_south.pdf}} &
+		{\includegraphics[width=4cm]{so_craft.pdf}} &
+		{\includegraphics[width=4cm]{so_left.pdf}} \\
+		{\includegraphics[width=4cm]{so_tall.pdf}} &
+		{\includegraphics[width=4cm]{so_buy.pdf}} &
+		{\includegraphics[width=4cm]{so_hundred.pdf}} &
+		{\includegraphics[width=4cm]{so_circle.pdf}} \\
+		{\includegraphics[width=4cm]{so_basis.pdf}} &
+		{\includegraphics[width=4cm]{so_neck.pdf}} &
+		{\includegraphics[width=4cm]{so_walk.pdf}} &
+		{\includegraphics[width=4cm]{so_child.pdf}} \\
+		{\includegraphics[width=4cm]{so_like.pdf}} &
+		{\includegraphics[width=4cm]{so_old.pdf}} &
+		{\includegraphics[width=4cm]{so_fire.pdf}} &
+		{\includegraphics[width=4cm]{so_winter.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Capital};
+\node [tag] at (m-1-2.north west) {\Fontlukas See};
+\node [tag] at (m-1-3.north west) {\Fontlukas Stop};
+\node [tag] at (m-1-4.north west) {\Fontlukas Seven};
+\node [tag] at (m-2-1.north west) {\Fontlukas Few};
+\node [tag] at (m-2-2.north west) {\Fontlukas South};
+\node [tag] at (m-2-3.north west) {\Fontlukas Craft};
+\node [tag] at (m-2-4.north west) {\Fontlukas Left};
+\node [tag] at (m-3-1.north west) {\Fontlukas Tall};
+\node [tag] at (m-3-2.north west) {\Fontlukas Buy};
+\node [tag] at (m-3-3.north west) {\Fontlukas Hundred};
+\node [tag] at (m-3-4.north west) {\Fontlukas Circle};
+\node [tag] at (m-4-1.north west) {\Fontlukas Basis};
+\node [tag] at (m-4-2.north west) {\Fontlukas Neck};
+\node [tag] at (m-4-3.north west) {\Fontlukas Walk};
+\node [tag] at (m-4-4.north west) {\Fontlukas Child};
+\node [tag] at (m-5-1.north west) {\Fontlukas Like};
+\node [tag] at (m-5-2.north west) {\Fontlukas Old};
+\node [tag] at (m-5-3.north west) {\Fontlukas Fire};
+\node [tag] at (m-5-4.north west) {\Fontlukas Winter};
+
+%\node [pron] at (m-1-1.south west) {\vier{KYOU}{--}{KEI}{--}};
+%\node [pron] at (m-1-2.south west) {\vier{KEN}{mi}{--}{--}};
+%\node [pron] at (m-1-3.south west) {\vier{SHI}{to}{--}{--}};
+%\node [pron] at (m-1-4.south west) {\vier{SHICHI}{nana}{--}{nano}};
+%\node [pron] at (m-2-1.south west) {\vier{SHOU}{suku; suko}{--}{--}};
+%\node [pron] at (m-2-2.south west) {\vier{NAN}{minami}{--}{--}};
+%\node [pron] at (m-2-3.south west) {\vier{KOU}{--}{KU}{--}};
+%\node [pron] at (m-2-4.south west) {\vier{--}{hidari}{SA}{--}};
+%\node [pron] at (m-3-1.south west) {\vier{KOU}{taka}{--}{--}};
+%\node [pron] at (m-3-2.south west) {\vier{--}{ka}{BAI}{--}};
+%\node [pron] at (m-3-3.south west) {\vier{HYAKU}{--}{--}{--}};
+%\node [pron] at (m-3-4.south west) {\vier{EN}{maru}{--}{--}};
+%\node [pron] at (m-4-1.south west) {\vier{GEN; GAN}{moto}{--}{--}};
+%\node [pron] at (m-4-2.south west) {\vier{SHU}{kubi}{--}{--}};
+%\node [pron] at (m-4-3.south west) {\vier{HO}{aru}{--}{--}};
+%\node [pron] at (m-4-4.south west) {\vier{SHI}{ko}{SU}{--}};
+%\node [pron] at (m-5-1.south west) {\vier{KOU}{suki}{--}{kono}};
+%\node [pron] at (m-5-2.south west) {\vier{KO}{furu}{--}{--}};
+%\node [pron] at (m-5-3.south west) {\vier{KA}{hi}{--}{--}};
+%\node [pron] at (m-5-4.south west) {\vier{TOU}{fuyu}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 3---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

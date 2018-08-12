@@ -1,0 +1,148 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec}
+\setmainfont{Aozora Mincho Regular}
+
+\newcommand{\lmr}{\fontfamily{lmr}\selectfont} % Latin Modern Roman
+
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\scriptsize,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=5cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{dry.pdf}} &
+		{\includegraphics[width=4cm]{gold.pdf}} &
+		{\includegraphics[width=4cm]{words.pdf}} &
+		{\includegraphics[width=4cm]{gentleman.pdf}} \\
+		{\includegraphics[width=4cm]{morning.pdf}} &
+		{\includegraphics[width=4cm]{blue.pdf}} &
+		{\includegraphics[width=4cm]{earth.pdf}} &
+		{\includegraphics[width=4cm]{hang.pdf}} \\
+		{\includegraphics[width=4cm]{ten_thousand.pdf}} &
+		{\includegraphics[width=4cm]{rain.pdf}} &
+		{\includegraphics[width=4cm]{electric.pdf}} &
+		{\includegraphics[width=4cm]{sell.pdf}} \\
+		{\includegraphics[width=4cm]{individual.pdf}} &
+		{\includegraphics[width=4cm]{enter.pdf}} &
+		{\includegraphics[width=4cm]{snow.pdf}} &
+		{\includegraphics[width=4cm]{gate.pdf}} \\
+		{\includegraphics[width=4cm]{interval.pdf}} &
+		{\includegraphics[width=4cm]{exit.pdf}} &
+		{\includegraphics[width=4cm]{life.pdf}} &
+		{\includegraphics[width=4cm]{cow.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Dry};
+\node [tag] at (m-1-2.north west) {\Fontlukas Gold};
+\node [tag] at (m-1-3.north west) {\Fontlukas Words};
+\node [tag] at (m-1-4.north west) {\Fontlukas Gentleman};
+\node [tag] at (m-2-1.north west) {\Fontlukas Morning};
+\node [tag] at (m-2-2.north west) {\Fontlukas Blue};
+\node [tag] at (m-2-3.north west) {\Fontlukas Earth};
+\node [tag] at (m-2-4.north west) {\Fontlukas Hang};
+\node [tag] at (m-3-1.north west) {\Fontlukas Ten Thousand};
+\node [tag] at (m-3-2.north west) {\Fontlukas Rain};
+\node [tag] at (m-3-3.north west) {\Fontlukas Electric};
+\node [tag] at (m-3-4.north west) {\Fontlukas Sell};
+\node [tag] at (m-4-1.north west) {\Fontlukas Individual};
+\node [tag] at (m-4-2.north west) {\Fontlukas Enter};
+\node [tag] at (m-4-3.north west) {\Fontlukas Snow};
+\node [tag] at (m-4-4.north west) {\Fontlukas Gate};
+\node [tag] at (m-5-1.north west) {\Fontlukas Interval};
+\node [tag] at (m-5-2.north west) {\Fontlukas Exit};
+\node [tag] at (m-5-3.north west) {\Fontlukas Life};
+\node [tag] at (m-5-4.north west) {\Fontlukas Cow};
+
+\node [pron] at (m-1-1.south west) {\vier{--}{ひ; ほ}{カン}{--}};
+\node [pron] at (m-1-2.south west) {\vier{キン}{かね}{カン}{かな}};
+\node [pron] at (m-1-3.south west) {\vier{ゴ}{かた}{--}{かたり}};
+\node [pron] at (m-1-4.south west) {\vier{シ}{--}{--}{--}};
+\node [pron] at (m-2-1.south west) {\vier{チョウ}{あさ}{--}{--}};
+\node [pron] at (m-2-2.south west) {\vier{セイ}{あお}{ショウ}{--}};
+\node [pron] at (m-2-3.south west) {\vier{ド}{つち}{ト}{--}};
+\node [pron] at (m-2-4.south west) {\vier{--}{か}{--}{--}};
+\node [pron] at (m-3-1.south west) {\vier{マン}{--}{バン}{--}};
+\node [pron] at (m-3-2.south west) {\vier{--}{あめ; あま}{U}{--}};
+\node [pron] at (m-3-3.south west) {\vier{デン}{--}{--}{--}};
+\node [pron] at (m-3-4.south west) {\vier{バイ}{う}{--}{--}};
+\node [pron] at (m-4-1.south west) {\vier{シャ}{--}{--}{もの}};
+\node [pron] at (m-4-2.south west) {\vier{ニュウ}{はい; い}{--}{--}};
+\node [pron] at (m-4-3.south west) {\vier{--}{ゆき}{セツ}{--}};
+\node [pron] at (m-4-4.south west) {\vier{モン}{かど}{--}{--}};
+\node [pron] at (m-5-1.south west) {\vier{カン}{あいだ; ま}{ケン}{--}};
+\node [pron] at (m-5-2.south west) {\vier{シュツ}{で; だ}{スイ}{--}};
+\node [pron] at (m-5-3.south west) {\vier{セイ}{い; う; なま}{ショウ}{お; は; き}};
+\node [pron] at (m-5-4.south west) {\vier{ギュウ}{うし}{--}{--}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{\lmr Chapter 5}
+	};
+\end{tikzpicture}
+\end{document}

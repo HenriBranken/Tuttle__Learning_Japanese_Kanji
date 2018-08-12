@@ -1,0 +1,152 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usepackage{array}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+\tikzset
+	{
+		tag/.style=
+			{
+				font=\footnotesize,
+				anchor=north west,
+				outer sep=0,
+				rectangle
+			}	
+	}
+\tikzset
+	{
+		pron/.style=
+			{
+				font=\tiny,
+				anchor=south west,
+				outer sep=0,
+				draw,
+				rectangle,
+				ultra thin
+			}	
+	}
+\newcommand{\vier}[4]
+	{
+		\begin{tabular}{@{}r@{}c@{  }l@{}}
+			\textsc{\textbf{\color{red}{#1}}} & $\mathbf{\wr}$ & \textbf{\color{blue}{#2}} \\
+			\textsc{#3} & $\wr$ & #4
+		\end{tabular}
+	}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=center,
+				minimum height=4cm,minimum width=4cm
+			}
+	]
+	{
+		{\includegraphics[width=4cm]{so_achieve.pdf}} &
+		{\includegraphics[width=4cm]{so_continue.pdf}} &
+		{\includegraphics[width=4cm]{so_weak.pdf}} &
+		{\includegraphics[width=4cm]{so_short.pdf}} &
+		{\includegraphics[width=4cm]{so_resign.pdf}} \\
+		{\includegraphics[width=4cm]{so_exemption.pdf}} &
+		{\includegraphics[width=4cm]{so_song.pdf}} &
+		{\includegraphics[width=4cm]{so_send.pdf}} &
+		{\includegraphics[width=4cm]{so_pay.pdf}} &
+		{\includegraphics[width=4cm]{so_husband.pdf}} \\
+		{\includegraphics[width=4cm]{so_alter.pdf}} &
+		{\includegraphics[width=4cm]{so_eat.pdf}} &
+		{\includegraphics[width=4cm]{so_move.pdf}} &
+		{\includegraphics[width=4cm]{so_springs.pdf}} &
+		{\includegraphics[width=4cm]{so_un.pdf}} \\
+		{\includegraphics[width=4cm]{so_substitute.pdf}} &
+		{\includegraphics[width=4cm]{so_note.pdf}} &
+		{\includegraphics[width=4cm]{so_reflect.pdf}} &
+		{\includegraphics[width=4cm]{so_doctor.pdf}} &
+		{\includegraphics[width=4cm]{so_ocean.pdf}} \\
+		{\includegraphics[width=4cm]{so_bridge.pdf}} &
+		{\includegraphics[width=4cm]{so_present.pdf}} &
+		{\includegraphics[width=4cm]{so_ground.pdf}} &
+		{\includegraphics[width=4cm]{so_transmit.pdf}} &
+		{\includegraphics[width=4cm]{so_bind.pdf}} \\
+	};
+\node [tag] at (m-1-1.north west) {\Fontlukas Achieve};
+\node [tag] at (m-1-2.north west) {\Fontlukas Continue};
+\node [tag] at (m-1-3.north west) {\Fontlukas Weak};
+\node [tag] at (m-1-4.north west) {\Fontlukas Short};
+\node [tag] at (m-1-5.north west) {\Fontlukas Resign};
+\node [tag] at (m-2-1.north west) {\Fontlukas Exemption};
+\node [tag] at (m-2-2.north west) {\Fontlukas Song};
+\node [tag] at (m-2-3.north west) {\Fontlukas Send};
+\node [tag] at (m-2-4.north west) {\Fontlukas Pay};
+\node [tag] at (m-2-5.north west) {\Fontlukas Husband};
+\node [tag] at (m-3-1.north west) {\Fontlukas Alter};
+\node [tag] at (m-3-2.north west) {\Fontlukas Eat};
+\node [tag] at (m-3-3.north west) {\Fontlukas Move};
+\node [tag] at (m-3-4.north west) {\Fontlukas Springs};
+\node [tag] at (m-3-5.north west) {\Fontlukas Un-};
+\node [tag] at (m-4-1.north west) {\Fontlukas Substitute};
+\node [tag] at (m-4-2.north west) {\Fontlukas Note};
+\node [tag] at (m-4-3.north west) {\Fontlukas Reflect};
+\node [tag] at (m-4-4.north west) {\Fontlukas Doctor};
+\node [tag] at (m-4-5.north west) {\Fontlukas Ocean};
+\node [tag] at (m-5-1.north west) {\Fontlukas Bridge};
+\node [tag] at (m-5-2.north west) {\Fontlukas Present};
+\node [tag] at (m-5-3.north west) {\Fontlukas Ground};
+\node [tag] at (m-5-4.north west) {\Fontlukas Transmit};
+\node [tag] at (m-5-5.north west) {\Fontlukas Bind};
+
+%\node [pron] at (m-1-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-1-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-1-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-1-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-2-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-3-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-4-4.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-1.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-2.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-3.south west) {\vier{}{}{}{}};
+%\node [pron] at (m-5-4.south west) {\vier{}{}{}{}};
+
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz/home
+	};
+\node (chap)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Chapter 15---Stroke Order}
+	};
+\end{tikzpicture}
+\end{document}

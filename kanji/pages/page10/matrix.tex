@@ -1,0 +1,86 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\usepackage{aurical}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) 
+	[
+		matrix of nodes,
+		nodes=
+			{
+				draw,
+				rectangle,
+				ultra thick,
+				outer sep=0,
+				anchor=south east,
+				minimum height=3cm,minimum width=3cm
+			}
+	]
+	{
+		{\includegraphics[width=3cm]{train.pdf}} &
+		{\includegraphics[width=3cm]{raise.pdf}} &
+		{\includegraphics[width=3cm]{consider.pdf}} &
+		{\includegraphics[width=3cm]{member.pdf}} &
+		{\includegraphics[width=3cm]{copy.pdf}} &
+		{\includegraphics[width=3cm]{court.pdf}} \\
+		{\includegraphics[width=3cm]{sideways.pdf}} &
+		{\includegraphics[width=3cm]{certain.pdf}} &
+		{\includegraphics[width=3cm]{with.pdf}} &
+		{\includegraphics[width=3cm]{single.pdf}} &
+		{\includegraphics[width=3cm]{versus.pdf}} &
+		{\includegraphics[width=3cm]{meal.pdf}} \\
+		{\includegraphics[width=3cm]{title.pdf}} &
+		{\includegraphics[width=3cm]{graduate.pdf}} &
+		{\includegraphics[width=3cm]{sheet.pdf}} &
+		{\includegraphics[width=3cm]{hot.pdf}} &
+		{\includegraphics[width=3cm]{ride.pdf}} &
+		{\includegraphics[width=3cm]{lady.pdf}} \\
+		{\includegraphics[width=3cm]{nature.pdf}} &
+		{\includegraphics[width=3cm]{tone.pdf}} &
+		{\includegraphics[width=3cm]{keep.pdf}} &
+		{\includegraphics[width=3cm]{heat.pdf}} &
+		{\includegraphics[width=3cm]{use.pdf}} &
+		{\includegraphics[width=3cm]{remain.pdf}} \\
+		{\includegraphics[width=3cm]{quiet.pdf}} &
+		{\includegraphics[width=3cm]{gift.pdf}} &
+		{\includegraphics[width=3cm]{vegetable.pdf}} &
+		{\includegraphics[width=3cm]{miscellaneous.pdf}} &
+		{\includegraphics[width=3cm]{without.pdf}} &
+		{\includegraphics[width=3cm]{yard.pdf}} \\
+		{\includegraphics[width=3cm]{reciprocal.pdf}} &
+		{\includegraphics[width=3cm]{long.pdf}} &
+		{\includegraphics[width=3cm]{courtesy.pdf}} &
+		{\includegraphics[width=3cm]{finish.pdf}} \\
+		%{\includegraphics[width=3cm]{.pdf}}
+	};
+\node (webs)
+	[
+		anchor=south east,
+		color=lightgray,
+		outer sep=0
+	]
+		at (m.north east)
+	{
+		http:{/}{/}kanji.nihongo.cz{/}home
+	};
+\node (page)
+	[
+		anchor=south west,
+		color=black,
+		outer sep=0,
+		font=\huge
+	]
+		at (m.north west)
+	{
+		\textbf{Page 10}
+	};
+\end{tikzpicture}
+\end{document}
