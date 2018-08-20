@@ -12,6 +12,7 @@
 \usepackage{wasysym}
 \usepackage{multicol}
 \usepackage{microtype}
+\usetikzlibrary{patterns}
 
 \newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
 \newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
@@ -19,6 +20,8 @@
 \newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
 \newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 \newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\newcommand{\diff}{\textsuperscript{*}}
 
 \usepackage{graphicx}
 \graphicspath{
