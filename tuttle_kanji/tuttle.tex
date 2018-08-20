@@ -21,11 +21,10 @@
 \newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 \newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
 
-\newcommand{\diff}{\textsuperscript{*}}
 
 \usepackage{graphicx}
 \graphicspath{
-    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/} }
+    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/} }
 
 \pgfplotsset{compat=newest,compat/show suggested version=false}
 \usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
@@ -121,6 +120,7 @@
 }
 
 \newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
+\newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
 \newcommand{\ekwiv}{\ensuremath{\equiv}}
 
 \newcommand{\hooglig}[1]{\colorbox{lightgray!60!white}{#1}}
@@ -189,9 +189,13 @@
 %\begin{multicols}{2}
 %\chapter{Kanji 181--200}
 %\input{chap10}
-
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 201--225}
+%\input{chap11}
+%
 \begin{multicols}{2}
-\chapter{Kanji 201--225}
-\input{chap11}
+\chapter{Kanji 226--250}
+\input{chap12}
 
 \end{document}

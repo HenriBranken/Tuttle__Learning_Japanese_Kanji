@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.5.22)  20 AUG 2018 17:56
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.5.22)  20 AUG 2018 20:01
  restricted system commands enabled.
 **tuttle.tex
 (./tuttle.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.077 seconds
+luaotfload | main : initialization completed in 0.083 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjbook.cls
 Document Class: ltjbook 2018/02/04 v1.7h-ltj-15 Standard LuaLaTeX-ja class
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1765,24 +1765,24 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ]
 第 1 章
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 194.
+(Font)              scaled to size 19.95642pt on input line 198.
 luaotfload | aux : font no 55 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 55
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 194.
+(Font)              scaled to size 19.95642pt on input line 198.
 LaTeX Font Info:    Font shape `JT3/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 194.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 198.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 194.
+(Font)              scaled to size 19.95642pt on input line 198.
 luaotfload | aux : font no 58 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 58
 LaTeX Font Info:    Font shape `JY3/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 194.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 198.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 194.
-(./chap11.tex(load luc: /home/henri/.texlive2018/texmf-var/luatex-cache/generic/
+(Font)              scaled to size 19.95642pt on input line 198.
+(./chap12.tex(load luc: /home/henri/.texlive2018/texmf-var/luatex-cache/generic/
 fonts/otl/lmroman10-bold.luc)
 luaotfload | aux : font no 61 (nil) does not define feature vrt2 for script dflt
  with language dflt
@@ -1798,504 +1798,357 @@ ar/luatex-cache/generic/fonts/otl/lmroman9-bold.luc)
 luaotfload | aux : font no 70 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 70
-File: /home/henri/stuff/japanese/kanji/chap11/trust.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/trust.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/trust.pdf  used
- on input line 8.
+File: /home/henri/stuff/japanese/kanji/chap12/attach.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap12/attach.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/attach.pdf  use
+d on input line 6.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_trust.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap12/so_attach.pdf Graphic file (type p
+df)
+<use /home/henri/stuff/japanese/kanji/chap12/so_attach.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_attach.pdf  
+used on input line 6.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/light.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/light.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/light.pdf  used
+ on input line 39.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_light.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap11/so_trust.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_trust.pdf  u
-sed on input line 8.
+<use /home/henri/stuff/japanese/kanji/chap12/so_light.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_light.pdf  u
+sed on input line 39.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:person' on page 3 undefined on input line 13.
-
-
-LaTeX Warning: Reference `glyph:say' on page 3 undefined on input line 13.
-
-(load luc: /home/henri/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmr
-oman10-italic.luc)
-luaotfload | aux : font no 16 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 16(load luc: /home/henri/.texlive2018/texmf-v
-ar/luatex-cache/generic/fonts/otl/lmroman7-regular.luc)
-luaotfload | aux : font no 87 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 87(load luc: /home/henri/.texlive2018/texmf-v
-ar/luatex-cache/generic/fonts/otl/lmroman9-italic.luc)
-luaotfload | aux : font no 67 (nil) does not define feature vrt2 for script dflt
- with language dflt
-luaotfload | aux : no font with id 67
-File: /home/henri/stuff/japanese/kanji/chap11/literature.pdf Graphic file (type 
-pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/literature.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/literature.pdf 
- used on input line 46.
+ [3</home/henri/stuff/japanese/kanji/chap12/attach.pdf></home/henri/stuff/japane
+se/kanji/chap12/so_attach.pdf></home/henri/stuff/japanese/kanji/chap12/light.pdf
+></home/henri/stuff/japanese/kanji/chap12/so_light.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/mourn.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/mourn.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/mourn.pdf  used
+ on input line 75.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_literature.pdf Graphic file (ty
-pe pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_literature.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_literature.p
-df  used on input line 46.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
- [3</home/henri/stuff/japanese/kanji/chap11/trust.pdf></home/henri/stuff/japanes
-e/kanji/chap11/so_trust.pdf></home/henri/stuff/japanese/kanji/chap11/literature.
-pdf></home/henri/stuff/japanese/kanji/chap11/so_literature.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/advance.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/advance.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/advance.pdf  us
-ed on input line 94.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_advance.pdf Graphic file (type 
-pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_advance.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_advance.pdf 
- used on input line 94.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-File: /home/henri/stuff/japanese/kanji/chap11/sake.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/sake.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/sake.pdf  used 
-on input line 134.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_sake.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/so_sake.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_sake.pdf  us
-ed on input line 134.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:water' on page 4 undefined on input line 139.
-
-[4</home/henri/stuff/japanese/kanji/chap11/advance.pdf></home/henri/stuff/japane
-se/kanji/chap11/so_advance.pdf></home/henri/stuff/japanese/kanji/chap11/sake.pdf
-></home/henri/stuff/japanese/kanji/chap11/so_sake.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/door.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/door.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/door.pdf  used 
-on input line 177.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_door.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/so_door.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_door.pdf  us
-ed on input line 177.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:one' on page 5 undefined on input line 182.
-
-File: /home/henri/stuff/japanese/kanji/chap11/matter.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap11/matter.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/matter.pdf  use
-d on input line 217.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_matter.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap11/so_matter.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_matter.pdf  
-used on input line 217.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:one' on page 5 undefined on input line 223.
-
-
-LaTeX Warning: Reference `glyph:mouth' on page 5 undefined on input line 223.
-
-[5</home/henri/stuff/japanese/kanji/chap11/door.pdf></home/henri/stuff/japanese/
-kanji/chap11/so_door.pdf></home/henri/stuff/japanese/kanji/chap11/matter.pdf></h
-ome/henri/stuff/japanese/kanji/chap11/so_matter.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/wait.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/wait.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/wait.pdf  used 
-on input line 263.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_wait.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/so_wait.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_wait.pdf  us
-ed on input line 263.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:temple' on page 6 undefined on input line 268.
-
-File: /home/henri/stuff/japanese/kanji/chap11/elder_brother.pdf Graphic file (ty
-pe pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/elder_brother.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/elder_brother.p
-df  used on input line 302.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_elder_brother.pdf Graphic file 
-(type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_elder_brother.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_elder_brothe
-r.pdf  used on input line 302.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:mouth' on page 6 undefined on input line 308.
-
-
-LaTeX Warning: Reference `glyph:person' on page 6 undefined on input line 308.
-
-[6</home/henri/stuff/japanese/kanji/chap11/wait.pdf></home/henri/stuff/japanese/
-kanji/chap11/so_wait.pdf></home/henri/stuff/japanese/kanji/chap11/elder_brother.
-pdf></home/henri/stuff/japanese/kanji/chap11/so_elder_brother.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/prefecture.pdf Graphic file (type 
-pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/prefecture.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/prefecture.pdf 
- used on input line 346.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_prefecture.pdf Graphic file (ty
-pe pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_prefecture.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_prefecture.p
-df  used on input line 346.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:eye' on page 7 undefined on input line 351.
-
-
-LaTeX Warning: Reference `glyph:small' on page 7 undefined on input line 351.
-
-File: /home/henri/stuff/japanese/kanji/chap11/back.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/back.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/back.pdf  used 
-on input line 388.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_back.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/so_back.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_back.pdf  us
-ed on input line 388.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:north' on page 7 undefined on input line 393.
-
-
-LaTeX Warning: Reference `glyph:moon' on page 7 undefined on input line 393.
-
-[7</home/henri/stuff/japanese/kanji/chap11/prefecture.pdf></home/henri/stuff/jap
-anese/kanji/chap11/so_prefecture.pdf></home/henri/stuff/japanese/kanji/chap11/ba
-ck.pdf></home/henri/stuff/japanese/kanji/chap11/so_back.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/clear.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/clear.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/clear.pdf  used
- on input line 435.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_clear.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap12/so_mourn.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap11/so_clear.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_clear.pdf  u
-sed on input line 435.
+<use /home/henri/stuff/japanese/kanji/chap12/so_mourn.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_mourn.pdf  u
+sed on input line 75.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:sun' on page 8 undefined on input line 440.
-
-
-LaTeX Warning: Reference `glyph:blue' on page 8 undefined on input line 440.
-
-File: /home/henri/stuff/japanese/kanji/chap11/run.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/run.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/run.pdf  used o
-n input line 473.
+File: /home/henri/stuff/japanese/kanji/chap12/cry.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/cry.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/cry.pdf  used o
+n input line 108.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_run.pdf Graphic file (type pdf)
+File: /home/henri/stuff/japanese/kanji/chap12/so_cry.pdf Graphic file (type pdf)
 
-<use /home/henri/stuff/japanese/kanji/chap11/so_run.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_run.pdf  use
-d on input line 473.
+<use /home/henri/stuff/japanese/kanji/chap12/so_cry.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_cry.pdf  use
+d on input line 108.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-[8</home/henri/stuff/japanese/kanji/chap11/clear.pdf></home/henri/stuff/japanese
-/kanji/chap11/so_clear.pdf></home/henri/stuff/japanese/kanji/chap11/run.pdf></ho
-me/henri/stuff/japanese/kanji/chap11/so_run.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/wash.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/wash.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/wash.pdf  used 
-on input line 516.
+ [4</home/henri/stuff/japanese/kanji/chap12/mourn.pdf></home/henri/stuff/japanes
+e/kanji/chap12/so_mourn.pdf></home/henri/stuff/japanese/kanji/chap12/cry.pdf></h
+ome/henri/stuff/japanese/kanji/chap12/so_cry.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/silver.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap12/silver.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/silver.pdf  use
+d on input line 144.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_wash.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/so_wash.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_wash.pdf  us
-ed on input line 516.
+File: /home/henri/stuff/japanese/kanji/chap12/so_silver.pdf Graphic file (type p
+df)
+<use /home/henri/stuff/japanese/kanji/chap12/so_silver.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_silver.pdf  
+used on input line 144.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:water' on page 9 undefined on input line 522.
-
-
-LaTeX Warning: Reference `glyph:precede' on page 9 undefined on input line 522.
-
-File: /home/henri/stuff/japanese/kanji/chap11/oneself.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/oneself.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/oneself.pdf  us
-ed on input line 560.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_oneself.pdf Graphic file (type 
-pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_oneself.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_oneself.pdf 
- used on input line 560.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-[9</home/henri/stuff/japanese/kanji/chap11/wash.pdf></home/henri/stuff/japanese/
-kanji/chap11/so_wash.pdf></home/henri/stuff/japanese/kanji/chap11/oneself.pdf></
-home/henri/stuff/japanese/kanji/chap11/so_oneself.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/roll.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/roll.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/roll.pdf  used 
-on input line 601.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_roll.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap11/so_roll.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_roll.pdf  us
-ed on input line 601.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:car' on page 10 undefined on input line 606.
-
-
-LaTeX Warning: Reference `glyph:two' on page 10 undefined on input line 606.
-
-File: /home/henri/stuff/japanese/kanji/chap11/music.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/music.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/music.pdf  used
- on input line 640.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_music.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap12/question.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap11/so_music.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_music.pdf  u
-sed on input line 640.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:white' on page 10 undefined on input line 645.
-
-
-LaTeX Warning: Reference `glyph:tree' on page 10 undefined on input line 645.
-
-[10</home/henri/stuff/japanese/kanji/chap11/roll.pdf></home/henri/stuff/japanese
-/kanji/chap11/so_roll.pdf></home/henri/stuff/japanese/kanji/chap11/music.pdf></h
-ome/henri/stuff/japanese/kanji/chap11/so_music.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/reason.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap11/reason.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/reason.pdf  use
-d on input line 683.
+<use /home/henri/stuff/japanese/kanji/chap12/question.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/question.pdf  u
+sed on input line 177.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_reason.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap11/so_reason.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_reason.pdf  
-used on input line 683.
+File: /home/henri/stuff/japanese/kanji/chap12/so_question.pdf Graphic file (type
+ pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/so_question.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_question.pdf
+  used on input line 177.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:king' on page 11 undefined on input line 688.
-
-
-LaTeX Warning: Reference `glyph:hamlet' on page 11 undefined on input line 688.
-
-File: /home/henri/stuff/japanese/kanji/chap11/order.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/order.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/order.pdf  used
- on input line 725.
+ [5</home/henri/stuff/japanese/kanji/chap12/silver.pdf></home/henri/stuff/japane
+se/kanji/chap12/so_silver.pdf></home/henri/stuff/japanese/kanji/chap12/question.
+pdf></home/henri/stuff/japanese/kanji/chap12/so_question.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/dark.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/dark.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/dark.pdf  used 
+on input line 213.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_order.pdf Graphic file (type pd
-f)
-<use /home/henri/stuff/japanese/kanji/chap11/so_order.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_order.pdf  u
-sed on input line 725.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:rice_field' on page 11 undefined on input line 7
-31.
-
-[11</home/henri/stuff/japanese/kanji/chap11/reason.pdf></home/henri/stuff/japane
-se/kanji/chap11/so_reason.pdf></home/henri/stuff/japanese/kanji/chap11/order.pdf
-></home/henri/stuff/japanese/kanji/chap11/so_order.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/both.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/both.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/both.pdf  used 
-on input line 769.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_both.pdf Graphic file (type pdf
+File: /home/henri/stuff/japanese/kanji/chap12/so_dark.pdf Graphic file (type pdf
 )
-<use /home/henri/stuff/japanese/kanji/chap11/so_both.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_both.pdf  us
-ed on input line 769.
+<use /home/henri/stuff/japanese/kanji/chap12/so_dark.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_dark.pdf  us
+ed on input line 213.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:one' on page 12 undefined on input line 775.
-
-
-LaTeX Warning: Reference `glyph:mountain' on page 12 undefined on input line 775
-.
-
-File: /home/henri/stuff/japanese/kanji/chap11/people.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap11/people.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/people.pdf  use
-d on input line 805.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_people.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap11/so_people.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_people.pdf  
-used on input line 805.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:mouth' on page 12 undefined on input line 810.
-
-[12</home/henri/stuff/japanese/kanji/chap11/both.pdf></home/henri/stuff/japanese
-/kanji/chap11/so_both.pdf></home/henri/stuff/japanese/kanji/chap11/people.pdf></
-home/henri/stuff/japanese/kanji/chap11/so_people.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/quality.pdf Graphic file (type pdf
+File: /home/henri/stuff/japanese/kanji/chap12/picture.pdf Graphic file (type pdf
 )
-<use /home/henri/stuff/japanese/kanji/chap11/quality.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/quality.pdf  us
-ed on input line 848.
+<use /home/henri/stuff/japanese/kanji/chap12/picture.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/picture.pdf  us
+ed on input line 246.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_quality.pdf Graphic file (type 
+File: /home/henri/stuff/japanese/kanji/chap12/so_picture.pdf Graphic file (type 
 pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_quality.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_quality.pdf 
- used on input line 848.
+<use /home/henri/stuff/japanese/kanji/chap12/so_picture.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_picture.pdf 
+ used on input line 246.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:axe' on page 13 undefined on input line 854.
-
-
-LaTeX Warning: Reference `glyph:axe' on page 13 undefined on input line 854.
-
-
-LaTeX Warning: Reference `glyph:shellfish' on page 13 undefined on input line 85
-4.
-
-File: /home/henri/stuff/japanese/kanji/chap11/proper.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap11/proper.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/proper.pdf  use
-d on input line 894.
+ [6</home/henri/stuff/japanese/kanji/chap12/dark.pdf></home/henri/stuff/japanese
+/kanji/chap12/so_dark.pdf></home/henri/stuff/japanese/kanji/chap12/picture.pdf><
+/home/henri/stuff/japanese/kanji/chap12/so_picture.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/surname.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/surname.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/surname.pdf  us
+ed on input line 282.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_proper.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap11/so_proper.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_proper.pdf  
-used on input line 894.
+File: /home/henri/stuff/japanese/kanji/chap12/so_surname.pdf Graphic file (type 
+pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/so_surname.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_surname.pdf 
+ used on input line 282.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-LaTeX Warning: Reference `glyph:one' on page 13 undefined on input line 899.
-
-
-LaTeX Warning: Reference `glyph:stop' on page 13 undefined on input line 899.
-
-[13</home/henri/stuff/japanese/kanji/chap11/quality.pdf></home/henri/stuff/japan
-ese/kanji/chap11/so_quality.pdf></home/henri/stuff/japanese/kanji/chap11/proper.
-pdf></home/henri/stuff/japanese/kanji/chap11/so_proper.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/direction.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap11/direction.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/direction.pdf  
-used on input line 941.
+File: /home/henri/stuff/japanese/kanji/chap12/young.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/young.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/young.pdf  used
+ on input line 315.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_direction.pdf Graphic file (typ
+File: /home/henri/stuff/japanese/kanji/chap12/so_young.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap12/so_young.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_young.pdf  u
+sed on input line 315.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+ [7</home/henri/stuff/japanese/kanji/chap12/surname.pdf></home/henri/stuff/japan
+ese/kanji/chap12/so_surname.pdf></home/henri/stuff/japanese/kanji/chap12/young.p
+df></home/henri/stuff/japanese/kanji/chap12/so_young.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/cause.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/cause.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/cause.pdf  used
+ on input line 351.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_cause.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap12/so_cause.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_cause.pdf  u
+sed on input line 351.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/declare.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/declare.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/declare.pdf  us
+ed on input line 384.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_declare.pdf Graphic file (type 
+pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/so_declare.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_declare.pdf 
+ used on input line 384.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+ [8</home/henri/stuff/japanese/kanji/chap12/cause.pdf></home/henri/stuff/japanes
+e/kanji/chap12/so_cause.pdf></home/henri/stuff/japanese/kanji/chap12/declare.pdf
+></home/henri/stuff/japanese/kanji/chap12/so_declare.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/essential.pdf Graphic file (type p
+df)
+<use /home/henri/stuff/japanese/kanji/chap12/essential.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/essential.pdf  
+used on input line 420.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_essential.pdf Graphic file (typ
 e pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/so_direction.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_direction.pd
-f  used on input line 941.
+<use /home/henri/stuff/japanese/kanji/chap12/so_essential.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_essential.pd
+f  used on input line 420.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-File: /home/henri/stuff/japanese/kanji/chap11/voice.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap11/voice.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/voice.pdf  used
- on input line 991.
+File: /home/henri/stuff/japanese/kanji/chap12/reach.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/reach.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/reach.pdf  used
+ on input line 453.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_voice.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap12/so_reach.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap11/so_voice.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_voice.pdf  u
-sed on input line 991.
+<use /home/henri/stuff/japanese/kanji/chap12/so_reach.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_reach.pdf  u
+sed on input line 453.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:gentleman' on page 14 undefined on input line 99
-6.
-
-[14</home/henri/stuff/japanese/kanji/chap11/direction.pdf></home/henri/stuff/jap
-anese/kanji/chap11/so_direction.pdf></home/henri/stuff/japanese/kanji/chap11/voi
-ce.pdf></home/henri/stuff/japanese/kanji/chap11/so_voice.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap11/reside.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap11/reside.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/reside.pdf  use
-d on input line 1036.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap11/so_reside.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap11/so_reside.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap11/so_reside.pdf  
-used on input line 1036.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-
-LaTeX Warning: Reference `glyph:person' on page 15 undefined on input line 1042.
-
-
-
-LaTeX Warning: Reference `glyph:primary' on page 15 undefined on input line 1042
-.
-
-) [15</home/henri/stuff/japanese/kanji/chap11/reside.pdf></home/henri/stuff/japa
-nese/kanji/chap11/so_reside.pdf>] (./tuttle.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
+ [9</home/henri/stuff/japanese/kanji/chap12/essential.pdf></home/henri/stuff/jap
+anese/kanji/chap12/so_essential.pdf></home/henri/stuff/japanese/kanji/chap12/rea
+ch.pdf></home/henri/stuff/japanese/kanji/chap12/so_reach.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/compare.pdf Graphic file (type pdf
 )
+<use /home/henri/stuff/japanese/kanji/chap12/compare.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/compare.pdf  us
+ed on input line 489.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_compare.pdf Graphic file (type 
+pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/so_compare.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_compare.pdf 
+ used on input line 489.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/measure.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/measure.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/measure.pdf  us
+ed on input line 522.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_measure.pdf Graphic file (type 
+pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/so_measure.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_measure.pdf 
+ used on input line 522.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+ [10</home/henri/stuff/japanese/kanji/chap12/compare.pdf></home/henri/stuff/japa
+nese/kanji/chap12/so_compare.pdf></home/henri/stuff/japanese/kanji/chap12/measur
+e.pdf></home/henri/stuff/japanese/kanji/chap12/so_measure.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/location.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap12/location.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/location.pdf  u
+sed on input line 558.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_location.pdf Graphic file (type
+ pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/so_location.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_location.pdf
+  used on input line 558.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/number.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap12/number.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/number.pdf  use
+d on input line 591.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_number.pdf Graphic file (type p
+df)
+<use /home/henri/stuff/japanese/kanji/chap12/so_number.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_number.pdf  
+used on input line 591.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+[11</home/henri/stuff/japanese/kanji/chap12/location.pdf></home/henri/stuff/japa
+nese/kanji/chap12/so_location.pdf></home/henri/stuff/japanese/kanji/chap12/numbe
+r.pdf></home/henri/stuff/japanese/kanji/chap12/so_number.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/gist.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/gist.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/gist.pdf  used 
+on input line 627.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_gist.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/so_gist.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_gist.pdf  us
+ed on input line 627.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/wear.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/wear.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/wear.pdf  used 
+on input line 660.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_wear.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/so_wear.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_wear.pdf  us
+ed on input line 660.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+ [12</home/henri/stuff/japanese/kanji/chap12/gist.pdf></home/henri/stuff/japanes
+e/kanji/chap12/so_gist.pdf></home/henri/stuff/japanese/kanji/chap12/wear.pdf></h
+ome/henri/stuff/japanese/kanji/chap12/so_wear.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/lack.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/lack.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/lack.pdf  used 
+on input line 696.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_lack.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/so_lack.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_lack.pdf  us
+ed on input line 696.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/show.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/show.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/show.pdf  used 
+on input line 729.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_show.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap12/so_show.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_show.pdf  us
+ed on input line 729.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+ [13</home/henri/stuff/japanese/kanji/chap12/lack.pdf></home/henri/stuff/japanes
+e/kanji/chap12/so_lack.pdf></home/henri/stuff/japanese/kanji/chap12/show.pdf></h
+ome/henri/stuff/japanese/kanji/chap12/so_show.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/serve.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/serve.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/serve.pdf  used
+ on input line 765.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_serve.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap12/so_serve.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_serve.pdf  u
+sed on input line 765.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+File: /home/henri/stuff/japanese/kanji/chap12/heavy.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/heavy.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/heavy.pdf  used
+ on input line 798.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_heavy.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap12/so_heavy.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_heavy.pdf  u
+sed on input line 798.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+ [14</home/henri/stuff/japanese/kanji/chap12/serve.pdf></home/henri/stuff/japane
+se/kanji/chap12/so_serve.pdf></home/henri/stuff/japanese/kanji/chap12/heavy.pdf>
+</home/henri/stuff/japanese/kanji/chap12/so_heavy.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap12/match.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap12/match.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/match.pdf  used
+ on input line 834.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap12/so_match.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap12/so_match.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap12/so_match.pdf  u
+sed on input line 834.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+) [15</home/henri/stuff/japanese/kanji/chap12/match.pdf></home/henri/stuff/japan
+ese/kanji/chap12/so_match.pdf>] (./tuttle.aux))
 
 Here is how much of LuaTeX's memory you used:
- 48197 strings out of 494413
- 476910,1373583 words of node,token memory allocated
- 124524 words of node memory still in use:
-   11 hlist, 3 vlist, 7 rule, 3 glue, 776 kern, 48978 attribute, 3464 glue_spec,
- 2466 attribute_list, 1 write, 41 user_defined nodes
-   avail lists: 1:19,2:118655,3:427,4:1185,5:417,6:144,7:7562,8:1281,9:1333,10:2
-0,11:364
- 43318 multiletter control sequences out of 65536+600000
- 88 fonts using 56879319 bytes
+ 48741 strings out of 494413
+ 244150,1373583 words of node,token memory allocated
+ 78351 words of node memory still in use:
+   11 hlist, 3 vlist, 7 rule, 3 glue, 655 kern, 30598 attribute, 2070 glue_spec,
+ 1547 attribute_list, 1 write, 41 user_defined nodes
+   avail lists: 1:19,2:42242,3:310,4:753,5:156,6:80,7:2240,8:721,9:832,10:4,11:1
+00
+ 43274 multiletter control sequences out of 65536+600000
+ 84 fonts using 54476887 bytes
  79i,17n,136p,1112b,537s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
-f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.o
-tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.o
-tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-regular
-.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.
-otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><
-/usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf></usr/
-local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></u
-sr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/lo
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf
+></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf></us
+r/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf></usr/loc
+al/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/
+local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/wasy2-ps/wasyb10.pfb>
-Output written on tuttle.pdf (15 pages, 1015222 bytes).
+Output written on tuttle.pdf (15 pages, 911059 bytes).
 
-PDF statistics: 638 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
+PDF statistics: 619 PDF objects out of 1000 (max. 8388607)
+ 399 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
