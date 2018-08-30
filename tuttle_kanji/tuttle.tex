@@ -12,6 +12,7 @@
 \usepackage{wasysym}
 \usepackage{multicol}
 \usepackage{microtype}
+\usepackage{color}
 \usetikzlibrary{patterns}
 
 \newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
@@ -24,7 +25,7 @@
 
 \usepackage{graphicx}
 \graphicspath{
-    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/} }
+    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/}{/home/henri/stuff/japanese/kanji/chap13/} }
 
 \pgfplotsset{compat=newest,compat/show suggested version=false}
 \usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
@@ -121,9 +122,11 @@
 
 \newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
 \newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
+\newcommand{\notcov}{\hspace{-0.7pt}\textsuperscript{\ensuremath{\star}}\hspace{-0.7pt}}
 \newcommand{\ekwiv}{\ensuremath{\equiv}}
 
 \newcommand{\hooglig}[1]{\colorbox{lightgray!60!white}{#1}}
+\newcommand{\notyet}[1]{\small{\color{gray}{#1}}\color{black}}
 
 \newcommand{\comon}[1]{\uppercase{\textbf{$\prec$#1$\succ$}}}
 \newcommand{\comkun}[1]{\textbf{$\prec$#1$\succ$}}
@@ -170,9 +173,9 @@
 %\chapter{Kanji 81--100}
 %\input{chap5}
 %
-%\begin{multicols}{2}
-%\chapter{Kanji 101--120}
-%\input{chap6}
+\begin{multicols}{2}
+\chapter{Kanji 101--120}
+\input{chap6}
 %
 %\begin{multicols}{2}
 %\chapter{Kanji 121--140}
@@ -194,8 +197,12 @@
 %\chapter{Kanji 201--225}
 %\input{chap11}
 %
-\begin{multicols}{2}
-\chapter{Kanji 226--250}
-\input{chap12}
+%\begin{multicols}{2}
+%\chapter{Kanji 226--250}
+%\input{chap12}
+%
+%\begin{multicols}{2}
+%\chapter{Kanji 251--280}
+%\input{chap13}
 
 \end{document}
