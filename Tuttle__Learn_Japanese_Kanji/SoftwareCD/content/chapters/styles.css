@@ -1,0 +1,140 @@
+/*********main styles********/
+body {	font-family: tahoma, verdana, arial, helvetica;font-size: 12px;color: #404040;}
+/*******css rollovers********/
+#one a {width:88px;height:17px;display:block;background: url(images/chpt_02.jpg) top left no-repeat;background-position:0 0px;}
+#one a:hover {background-position:0 -17px;}
+#onep a {width:88px;height:17px;display:block;background: url(images/chpt_02.jpg) top left no-repeat;background-position:0 -17px;}
+#onep a:hover {background-position:0 -17px;}
+#two a {width:88px;height:17px;display:block;background: url(images/chpt_06.jpg) top left no-repeat;background-position:0 0px;}
+#two a:hover {background-position:0 -17px;}
+#twop a {width:88px;height:17px;display:block;background: url(images/chpt_06.jpg) top left no-repeat;background-position:0 -17px;}
+#twop a:hover {background-position:0 -17px;}
+#three a {width:88px;height:17px;display:block;background: url(images/chpt_08.jpg) top left no-repeat;background-position:0 0px;}
+#three a:hover {background-position:0 -17px;}
+#threep a {width:88px;height:17px;display:block;background: url(images/chpt_08.jpg) top left no-repeat;background-position:0 -17px;}
+#threep a:hover {background-position:0 -17px;}
+#four a {width:88px;height:17px;display:block;background: url(images/chpt_10.jpg) top left no-repeat;background-position:0 0px;}
+#four a:hover {background-position:0 -17px;}
+#fourp a {width:88px;height:17px;display:block;background: url(images/chpt_10.jpg) top left no-repeat;background-position:0 -17px;}
+#fourp a:hover {background-position:0 -17px;}
+#five a {width:88px;height:17px;display:block;background: url(images/chpt_12.jpg) top left no-repeat;background-position:0 0px;}
+#five a:hover {background-position:0 -17px;}
+#fivep a {width:88px;height:17px;display:block;background: url(images/chpt_12.jpg) top left no-repeat;background-position:0 -17px;}
+#fivep a:hover {background-position:0 -17px;}
+#six a {width:88px;height:17px;display:block;background: url(images/chpt_14.jpg) top left no-repeat;background-position:0 0px;}
+#six a:hover {background-position:0 -17px;}
+#sixp a {width:88px;height:17px;display:block;background: url(images/chpt_14.jpg) top left no-repeat;background-position:0 -17px;}
+#sixp a:hover {background-position:0 -17px;}
+#seven a {width:88px;height:17px;display:block;background: url(images/chpt_16.jpg) top left no-repeat;background-position:0 0px;}
+#seven a:hover {background-position:0 -17px;}
+#sevenp a {width:88px;height:17px;display:block;background: url(images/chpt_16.jpg) top left no-repeat;background-position:0 -17px;}
+#sevenp a:hover {background-position:0 -17px;}
+#eight a {width:88px;height:17px;display:block;background: url(images/chpt_18.jpg) top left no-repeat;background-position:0 0px;}
+#eight a:hover {background-position:0 -17px;}
+#eightp a {width:88px;height:17px;display:block;background: url(images/chpt_18.jpg) top left no-repeat;background-position:0 -17px;}
+#eightp a:hover {background-position:0 -17px;}
+#nine a {width:88px;height:17px;display:block;background: url(images/chpt_20.jpg) top left no-repeat;background-position:0 0px;}
+#nine a:hover {background-position:0 -17px;}
+#ninep a {width:88px;height:17px;display:block;background: url(images/chpt_20.jpg) top left no-repeat;background-position:0 -17px;}
+#ninep a:hover {background-position:0 -17px;}
+#ten a {width:88px;height:17px;display:block;background: url(images/chpt_22.jpg) top left no-repeat;background-position:0 0px;}
+#ten a:hover {background-position:0 -17px;}
+#tenp a {width:88px;height:17px;display:block;background: url(images/chpt_22.jpg) top left no-repeat;background-position:0 -17px;}
+#elevenp a:hover {background-position:0 -17px;}
+#eleven a {width:88px;height:17px;display:block;background: url(images/chpt_23.jpg) top left no-repeat;background-position:0 0px;}
+#eleven a:hover {background-position:0 -17px;}
+#elevenp a {width:88px;height:17px;display:block;background: url(images/chpt_23.jpg) top left no-repeat;background-position:0 -17px;}
+#elevenp a:hover {background-position:0 -17px;}
+#twelve a {width:88px;height:17px;display:block;background: url(images/chpt_24.jpg) top left no-repeat;background-position:0 0px;}
+#twelve a:hover {background-position:0 -17px;}
+#twelvep a {width:88px;height:17px;display:block;background: url(images/chpt_24.jpg) top left no-repeat;background-position:0 -17px;}
+#twelvep a:hover {background-position:0 -17px;}
+#e13 a {width:88px;height:17px;display:block;background: url(images/chpt__013.jpg) top left no-repeat;background-position:0 0px;}
+#e13 a:hover {background-position:0 -17px;}
+#e13p a {width:88px;height:17px;display:block;background: url(images/chpt__013.jpg) top left no-repeat;background-position:0 -17px;}
+#e13p a:hover {background-position:0 -17px;}
+#e14 a {width:88px;height:17px;display:block;background: url(images/chpt__014.jpg) top left no-repeat;background-position:0 0px;}
+#e14 a:hover {background-position:0 -17px;}
+#e14p a {width:88px;height:17px;display:block;background: url(images/chpt__014.jpg) top left no-repeat;background-position:0 -17px;}
+#e14p a:hover {background-position:0 -17px;}
+#e15 a {width:88px;height:17px;display:block;background: url(images/chpt__015.jpg) top left no-repeat;background-position:0 0px;}
+#e15 a:hover {background-position:0 -17px;}
+#e15p a {width:88px;height:17px;display:block;background: url(images/chpt__015.jpg) top left no-repeat;background-position:0 -17px;}
+#e15p a:hover {background-position:0 -17px;}
+#e16 a {width:88px;height:17px;display:block;background: url(images/chpt__016.jpg) top left no-repeat;background-position:0 0px;}
+#e16 a:hover {background-position:0 -17px;}
+#e16p a {width:88px;height:17px;display:block;background: url(images/chpt__016.jpg) top left no-repeat;background-position:0 -17px;}
+#e16p a:hover {background-position:0 -17px;}
+#e17 a {width:88px;height:17px;display:block;background: url(images/chpt__017.jpg) top left no-repeat;background-position:0 0px;}
+#e17 a:hover {background-position:0 -17px;}
+#e17p a {width:88px;height:17px;display:block;background: url(images/chpt__017.jpg) top left no-repeat;background-position:0 -17px;}
+#e17p a:hover {background-position:0 -17px;}
+#e18 a {width:88px;height:17px;display:block;background: url(images/chpt__018.jpg) top left no-repeat;background-position:0 0px;}
+#e18 a:hover {background-position:0 -17px;}
+#e18p a {width:88px;height:17px;display:block;background: url(images/chpt__018.jpg) top left no-repeat;background-position:0 -17px;}
+#e18p a:hover {background-position:0 -17px;}
+#e19 a {width:88px;height:17px;display:block;background: url(images/chpt__019.jpg) top left no-repeat;background-position:0 0px;}
+#e19 a:hover {background-position:0 -17px;}
+#e19p a {width:88px;height:17px;display:block;background: url(images/chpt__019.jpg) top left no-repeat;background-position:0 -17px;}
+#e19p a:hover {background-position:0 -17px;}
+#e20 a {width:88px;height:17px;display:block;background: url(images/chpt__020.jpg) top left no-repeat;background-position:0 0px;}
+#e20 a:hover {background-position:0 -17px;}
+#e20p a {width:88px;height:17px;display:block;background: url(images/chpt__020.jpg) top left no-repeat;background-position:0 -17px;}
+#e20p a:hover {background-position:0 -17px;}
+#e21 a {width:88px;height:17px;display:block;background: url(images/chpt__021.jpg) top left no-repeat;background-position:0 0px;}
+#e21 a:hover {background-position:0 -17px;}
+#e21p a {width:88px;height:17px;display:block;background: url(images/chpt__021.jpg) top left no-repeat;background-position:0 -17px;}
+#e21p a:hover {background-position:0 -17px;}
+#e22 a {width:88px;height:17px;display:block;background: url(images/chpt__022.jpg) top left no-repeat;background-position:0 0px;}
+#e22 a:hover {background-position:0 -17px;}
+#e22p a {width:88px;height:17px;display:block;background: url(images/chpt__022.jpg) top left no-repeat;background-position:0 -17px;}
+
+
+/********general styles**********/
+#main {border:#CCCCCC thin solid; width:764px; margin:0 auto;}
+#mcontent {padding:0 25px 0 25px;}
+a span {display:none;}
+a img {border:none;}
+/*search form layout*/
+hr
+{
+	color: #D4D4D4;
+	background-color: #D4D4D4;
+	height: 1px;
+	border: none;
+}
+p
+{
+	margin-top: 13px;
+}
+a:link
+{
+	color: #404040;
+}
+a:active
+{
+	color: #404040;
+}
+a:visited
+{
+	color: #404040;
+}
+a:hover
+{
+	color: #82AC83;
+}
+.field
+{
+	font-family: tahoma, verdana, arial, helvetica;
+	font-size: 12px;
+	color: #404040;
+	width: 90px;
+}
+.button
+{
+	font-family: tahoma, verdana, arial, helvetica;
+	font-size: 11px;
+	padding: 2px 0 2px 0;
+	width: 50px;
+}
+.form_table {margin-top:25px;}
