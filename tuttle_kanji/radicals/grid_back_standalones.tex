@@ -1,0 +1,43 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[left=1cm,right=1cm,bottom=1cm,top=1cm]{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/AozoraMincho_jpgs/} }
+\newsavebox{\tempbox}
+
+\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\savebox{\tempbox}{\begin{tikzpicture}
+\matrix (m) 
+	[	matrix of nodes,
+		ampersand replacement=\&,
+		nodes=
+			{	draw=white,
+				rectangle,
+				line width=1.5mm,
+				outer sep=0,
+				inner sep=0,
+				anchor=center,
+				minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{4}\\ \\Nine}} \& {\speciall[c]{\textbf{3}\\ \\From\\Possessive particle\\Whereupon\\Accordingly}} \& {\speciall[c]{\textbf{2}\\ \\YU katakana}} \& {\speciall[c]{\textbf{1}\\ \\MA katakana}} \\
+		{\speciall[c]{\textbf{8}\\ \\Barracks\\Police Station\\Camp\\Ton}} \& {\speciall[c]{\textbf{7}\\ \\To be classical\\Also\\Too}} \& {\speciall[c]{\textbf{6}\\ \\Long time\\Old story}} \& {\speciall[c]{\textbf{5}\\ \\Exert\\Exercise\\Reach out\\Cause}} \\
+		{\speciall[c]{\textbf{12}\\ \\Not\\Must not\\Do not\\Be not}} \& {\speciall[c]{\textbf{11}\\ \\Five}} \& {\speciall[c]{\textbf{10}\\ \\Comma-design\\Whirling/Swirling\\Eddying shape}} \& {\speciall[c]{\textbf{9}\\ \\Beginning\\Former time\\Origin}} \\
+		{\speciall[c]{\textbf{16}\\ \\World\\Society\\Generation}} \& {\speciall[c]{\textbf{15}\\ \\Tome\\Counter for books\\Volume}} \& {\speciall[c]{\textbf{14}\\ \\Gigantic\\Big\\Large\\Great}} \& {\speciall[c]{\textbf{13}\\ \\Well (crib)\\Town\\Community}} \\
+		{\speciall[c]{\textbf{20}\\ \\Goods\\Items}} \& {\speciall[c]{\textbf{19}\\ \\Cover\\Suffocate\\Obstruct}} \& {\speciall[c]{\textbf{18}\\ \\Mill\\Mount\\Knoll}} \& {\speciall[c]{\textbf{17}\\ \\Exemption\\Excuse\\Dismissal}} \\
+		{\speciall[c]{\textbf{24}\\ \\Ten\\Cross}} \& {\speciall[c]{\textbf{23}\\ \\Hiding Enclosure\\Round box}} \& {\speciall[c]{\textbf{22}\\ \\Nothingness\\None\\Nothing\\Nil; Not, Ain't}} \& {\speciall[c]{\textbf{21}\\ \\The base\\The stem\\The stalk\\The foot}} \\ };
+\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+	\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+
+\end{document}

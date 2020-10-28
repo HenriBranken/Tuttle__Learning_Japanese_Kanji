@@ -1,0 +1,1804 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.12)  12 JAN 2019 17:12
+ restricted system commands enabled.
+**grid_back_boobytraps.tex
+(./grid_back_boobytraps.tex
+LaTeX2e <2017-04-15>
+[\directlua]:1: module 'luaotfload-main' not found:
+	no field package.preload['luaotfload-main']
+	[kpse lua searcher] file not found: 'luaotfload-main'
+	[kpse C searcher] file not found: 'luaotfload-main'
+Error in luaotfload: reverting to OT1
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 54.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen111
+\pgfutil@tempdimb=\dimen112
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count90
+\c@pgf@countb=\count91
+\c@pgf@countc=\count92
+\c@pgf@countd=\count93
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count94
+\pgfsyssoftpath@bigbuffer@items=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count96
+\pgfmath@box=\box27
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count97
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count98
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen146
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen147
+\pgf@sys@shading@range@num=\count99
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen148
+\pgf@nodesepend=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen150
+\pgffor@skip=\dimen151
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count100
+\pgfplotmarksize=\dimen152
+)
+\tikz@lastx=\dimen153
+\tikz@lasty=\dimen154
+\tikz@lastxsaved=\dimen155
+\tikz@lastysaved=\dimen156
+\tikzleveldistance=\dimen157
+\tikzsiblingdistance=\dimen158
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count101
+\tikznumberofchildren=\count102
+\tikznumberofcurrentchild=\count103
+\tikz@fig@count=\count104
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count105
+\pgfmatrixcurrentcolumn=\count106
+\pgf@matrix@numberofcolumns=\count107
+)
+\tikz@expandcount=\count108
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.2
+\pgfplots@luabackend@table=\catcodetable5
+\t@pgfplots@toka=\toks28
+\t@pgfplots@tokb=\toks29
+\t@pgfplots@tokc=\toks30
+\pgfplots@tmpa=\dimen159
+\c@pgfplots@coordindex=\count109
+\c@pgfplots@scanlineindex=\count110
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count111
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/luamath/pgflibraryluam
+ath.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryluamath.code.tex)
+Package pgfplots info on input line 274: luamath library shipped with pgf 3.0.1a
+ is outdated; using a substitute shipped with pgfplots
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comma
+nds instead of write18 (shell-escape)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count112
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count113
+\t@pgfplotstable@a=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count114
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-luatex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen160
+\pgfdecoratedremainingdistance=\dimen161
+\pgfdecoratedinputsegmentcompleteddistance=\dimen162
+\pgfdecoratedinputsegmentremainingdistance=\dimen163
+\pgf@decorate@distancetomove=\dimen164
+\pgf@decorate@repeatstate=\count115
+\pgfdecorationsegmentamplitude=\dimen165
+\pgfdecorationsegmentlength=\dimen166
+)
+\tikz@lib@dec@box=\box37
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count116
+\pgfplots@xmin@reg=\dimen167
+\pgfplots@xmax@reg=\dimen168
+\pgfplots@ymin@reg=\dimen169
+\pgfplots@ymax@reg=\dimen170
+\pgfplots@zmin@reg=\dimen171
+\pgfplots@zmax@reg=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.gr
+oupplots.code.tex
+\pgfplots@group@current@plot=\count117
+\pgfplots@group@current@row=\count118
+\pgfplots@group@current@column=\count119
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box38
+\pgfnodeparttwobox=\box39
+\pgfnodepartthreebox=\box40
+\pgfnodepartfourbox=\box41
+\pgfnodeparttwentybox=\box42
+\pgfnodepartnineteenbox=\box43
+\pgfnodeparteighteenbox=\box44
+\pgfnodepartseventeenbox=\box45
+\pgfnodepartsixteenbox=\box46
+\pgfnodepartfifteenbox=\box47
+\pgfnodepartfourteenbox=\box48
+\pgfnodepartthirteenbox=\box49
+\pgfnodeparttwelvebox=\box50
+\pgfnodepartelevenbox=\box51
+\pgfnodeparttenbox=\box52
+\pgfnodepartninebox=\box53
+\pgfnodeparteightbox=\box54
+\pgfnodepartsevenbox=\box55
+\pgfnodepartsixbox=\box56
+\pgfnodepartfivebox=\box57
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2008/07/14 v3.0.1a (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen173
+\extrarowheight=\dimen174
+\NC@list=\toks32
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen175
+\TX@old@table=\dimen176
+\TX@old@col=\dimen177
+\TX@target=\dimen178
+\TX@delta=\dimen179
+\TX@cols=\count120
+\TX@ftn=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\ucharcat@table=\catcodetable6
+\c_max_int=\count121
+\l_tmpa_int=\count122
+\l_tmpb_int=\count123
+\g_tmpa_int=\count124
+\g_tmpb_int=\count125
+\g__intarray_font_int=\count126
+\g__prg_map_int=\count127
+\c_log_iow=\count128
+\l_iow_line_count_int=\count129
+\l__iow_line_target_int=\count130
+\l__iow_one_indent_int=\count131
+\l__iow_indent_int=\count132
+\c_zero_dim=\dimen180
+\c_max_dim=\dimen181
+\l_tmpa_dim=\dimen182
+\l_tmpb_dim=\dimen183
+\g_tmpa_dim=\dimen184
+\g_tmpb_dim=\dimen185
+\c_zero_skip=\skip45
+\c_max_skip=\skip46
+\l_tmpa_skip=\skip47
+\l_tmpb_skip=\skip48
+\g_tmpa_skip=\skip49
+\g_tmpb_skip=\skip50
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count133
+\c__fp_leading_shift_int=\count134
+\c__fp_middle_shift_int=\count135
+\c__fp_trailing_shift_int=\count136
+\c__fp_big_leading_shift_int=\count137
+\c__fp_big_middle_shift_int=\count138
+\c__fp_big_trailing_shift_int=\count139
+\c__fp_Bigg_leading_shift_int=\count140
+\c__fp_Bigg_middle_shift_int=\count141
+\c__fp_Bigg_trailing_shift_int=\count142
+\c__fp_rand_size_int=\count143
+\c__fp_rand_four_int=\count144
+\c__fp_rand_eight_int=\count145
+\l__sort_length_int=\count146
+\l__sort_min_int=\count147
+\l__sort_top_int=\count148
+\l__sort_max_int=\count149
+\l__sort_true_max_int=\count150
+\l__sort_block_int=\count151
+\l__sort_begin_int=\count152
+\l__sort_end_int=\count153
+\l__sort_A_int=\count154
+\l__sort_B_int=\count155
+\l__sort_C_int=\count156
+\l__tl_build_start_index_int=\count157
+\l__tl_build_index_int=\count158
+\l__tl_analysis_normal_int=\count159
+\l__tl_analysis_index_int=\count160
+\l__tl_analysis_nesting_int=\count161
+\l__tl_analysis_type_int=\count162
+\l__regex_internal_a_int=\count163
+\l__regex_internal_b_int=\count164
+\l__regex_internal_c_int=\count165
+\l__regex_balance_int=\count166
+\l__regex_group_level_int=\count167
+\l__regex_mode_int=\count168
+\c__regex_cs_in_class_mode_int=\count169
+\c__regex_cs_mode_int=\count170
+\l__regex_catcodes_int=\count171
+\l__regex_default_catcodes_int=\count172
+\c__regex_catcode_L_int=\count173
+\c__regex_catcode_O_int=\count174
+\c__regex_catcode_A_int=\count175
+\c__regex_all_catcodes_int=\count176
+\l__regex_show_lines_int=\count177
+\l__regex_min_state_int=\count178
+\l__regex_max_state_int=\count179
+\l__regex_left_state_int=\count180
+\l__regex_right_state_int=\count181
+\l__regex_capturing_group_int=\count182
+\l__regex_min_pos_int=\count183
+\l__regex_max_pos_int=\count184
+\l__regex_curr_pos_int=\count185
+\l__regex_start_pos_int=\count186
+\l__regex_success_pos_int=\count187
+\l__regex_curr_char_int=\count188
+\l__regex_curr_catcode_int=\count189
+\l__regex_last_char_int=\count190
+\l__regex_case_changed_char_int=\count191
+\l__regex_curr_state_int=\count192
+\l__regex_step_int=\count193
+\l__regex_min_active_int=\count194
+\l__regex_max_active_int=\count195
+\l__regex_replacement_csnames_int=\count196
+\l__regex_match_count_int=\count197
+\l__regex_min_submatch_int=\count198
+\l__regex_submatch_int=\count199
+\l__regex_zeroth_submatch_int=\count266
+\g__regex_trace_regex_int=\count267
+\c_empty_box=\box58
+\l_tmpa_box=\box59
+\l_tmpb_box=\box60
+\g_tmpa_box=\box61
+\g_tmpb_box=\box62
+\l__box_top_dim=\dimen186
+\l__box_bottom_dim=\dimen187
+\l__box_left_dim=\dimen188
+\l__box_right_dim=\dimen189
+\l__box_top_new_dim=\dimen190
+\l__box_bottom_new_dim=\dimen191
+\l__box_left_new_dim=\dimen192
+\l__box_right_new_dim=\dimen193
+\l__box_internal_box=\box63
+\l__coffin_internal_box=\box64
+\l__coffin_internal_dim=\dimen194
+\l__coffin_offset_x_dim=\dimen195
+\l__coffin_offset_y_dim=\dimen196
+\l__coffin_x_dim=\dimen197
+\l__coffin_y_dim=\dimen198
+\l__coffin_x_prime_dim=\dimen199
+\l__coffin_y_prime_dim=\dimen256
+\c_empty_coffin=\box65
+\l__coffin_aligned_coffin=\box66
+\l__coffin_aligned_internal_coffin=\box67
+\l_tmpa_coffin=\box68
+\l_tmpb_coffin=\box69
+\l__coffin_display_coffin=\box70
+\l__coffin_display_coord_coffin=\box71
+\l__coffin_display_pole_coffin=\box72
+\l__coffin_display_offset_dim=\dimen257
+\l__coffin_display_x_dim=\dimen258
+\l__coffin_display_y_dim=\dimen259
+\l__coffin_bounding_shift_dim=\dimen260
+\l__coffin_left_corner_dim=\dimen261
+\l__coffin_right_corner_dim=\dimen262
+\l__coffin_bottom_corner_dim=\dimen263
+\l__coffin_top_corner_dim=\dimen264
+\l__coffin_scaled_total_height_dim=\dimen265
+\l__coffin_scaled_width_dim=\dimen266
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count268
+\l__driver_tmp_box=\box73
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks34
+\ex@=\dimen267
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count269
+\g__xparse_grabber_int=\count270
+\l__xparse_m_args_int=\count271
+\l__xparse_mandatory_args_int=\count272
+\l__xparse_v_nesting_int=\count273
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2018/02/21 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen268
+\l__xtemplate_tmp_int=\count274
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip51
+)
+Package: xfrac 2018/02/21 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box74
+\l__xfrac_tmp_box=\box75
+\l__xfrac_denominator_bot_sep_dim=\dimen269
+\l__xfrac_numerator_bot_sep_dim=\dimen270
+\l__xfrac_numerator_top_sep_dim=\dimen271
+\l__xfrac_slash_left_sep_dim=\dimen272
+\l__xfrac_slash_right_sep_dim=\dimen273
+\l__xfrac_slash_left_muskip=\muskip17
+\l__xfrac_slash_right_muskip=\muskip18
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xfrac' taking 3 argument(s) on line 80.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sfrac with sig. 'omom' on line 420.
+.................................................
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen274
+\c@nlinenum=\count275
+\TeXr@lab=\toks35
+)
+\tempbox=\box76
+
+(./grid_back_boobytraps.aux)
+\openout1 = grid_back_boobytraps.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=788.14136pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen275
+\scratchbox=\box77
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen276
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks37
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks38
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 74.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 74.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/018a.jpg, id=4, 331
+.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/018a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/018a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/018a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/012a.jpg, id=5, 331
+.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/012a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/012a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/012a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009a.jpg, id=6, 331
+.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/009a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009b.jpg, id=7, 302
+.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/009b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.38382pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009c.jpg, id=8, 331
+.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009c.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009c.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/009c.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005a.jpg, id=9, 331
+.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/005a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005b.jpg, id=10, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/005b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/042a.jpg, id=11, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/042a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/042a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/042a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/042b.jpg, id=12, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/042b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/042b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/042b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/026a.jpg, id=13, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/026a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/026a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/026a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/023a.jpg, id=14, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/023a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/023a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/023a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/020a.jpg, id=15, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/020a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/020a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/020a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058a.jpg, id=16, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/058a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058b.jpg, id=17, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/058b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/049a.jpg, id=18, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/049a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/049a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/049a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/049b.jpg, id=19, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/049b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/049b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/049b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/047a.jpg, id=20, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/047a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/047a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/047a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/047b.jpg, id=21, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/047b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/047b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/047b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/043a.jpg, id=22, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/043a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/043a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/043a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/043b.jpg, id=23, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/043b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/043b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/043b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/066a.jpg, id=24, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/066a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/066a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/066a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/064a.jpg, id=25, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/064a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/064a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/064a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/063a.jpg, id=26, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/063a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/063a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/063a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/063b.jpg, id=27, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/063b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/063b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/063b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/061a.jpg, id=28, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/061a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/061a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/061a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/061b.jpg, id=29, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/061b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/061b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/061b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/085a.jpg, id=30, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/085a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/085a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/085a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/085b.jpg, id=31, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/085b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/085b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/085b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/080a.jpg, id=32, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/080a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/080a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/080a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/078a.jpg, id=33, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/078a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/078a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/078a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/071a.jpg, id=34, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/071a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/071a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/071a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/093a.jpg, id=35, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/093a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/093a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/093a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/093b.jpg, id=36, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/093b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/093b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/093b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/090a.jpg, id=37, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/090a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/090a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/090a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/087a.jpg, id=38, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/087a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/087a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/087a.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/087b.jpg, id=39, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/087b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/087b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/087b.jpg  used on input line 74.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/086a.jpg, id=40, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/086a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/086a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/086a.jpg  used on input line 74.
+(luatex.def)             Requested size: 99.58464pt x 99.91377pt.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}</home/henri/stuff/japanese/t
+uttle_kanji/radicals/variations/018a.jpg></home/henri/stuff/japanese/tuttle_kanj
+i/radicals/variations/012a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals
+/variations/009a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variation
+s/009b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/009c.jpg
+></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/005a.jpg></home/he
+nri/stuff/japanese/tuttle_kanji/radicals/variations/005b.jpg></home/henri/stuff/
+japanese/tuttle_kanji/radicals/variations/042a.jpg></home/henri/stuff/japanese/t
+uttle_kanji/radicals/variations/042b.jpg></home/henri/stuff/japanese/tuttle_kanj
+i/radicals/variations/026a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals
+/variations/023a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variation
+s/020a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058a.jpg
+></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/058b.jpg></home/he
+nri/stuff/japanese/tuttle_kanji/radicals/variations/049a.jpg></home/henri/stuff/
+japanese/tuttle_kanji/radicals/variations/049b.jpg></home/henri/stuff/japanese/t
+uttle_kanji/radicals/variations/047a.jpg></home/henri/stuff/japanese/tuttle_kanj
+i/radicals/variations/047b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals
+/variations/043a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variation
+s/043b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/066a.jpg
+></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/064a.jpg></home/he
+nri/stuff/japanese/tuttle_kanji/radicals/variations/063a.jpg></home/henri/stuff/
+japanese/tuttle_kanji/radicals/variations/063b.jpg></home/henri/stuff/japanese/t
+uttle_kanji/radicals/variations/061a.jpg></home/henri/stuff/japanese/tuttle_kanj
+i/radicals/variations/061b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals
+/variations/085a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variation
+s/085b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/080a.jpg
+></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/078a.jpg></home/he
+nri/stuff/japanese/tuttle_kanji/radicals/variations/071a.jpg></home/henri/stuff/
+japanese/tuttle_kanji/radicals/variations/093a.jpg></home/henri/stuff/japanese/t
+uttle_kanji/radicals/variations/093b.jpg></home/henri/stuff/japanese/tuttle_kanj
+i/radicals/variations/090a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals
+/variations/087a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variation
+s/087b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/086a.jpg
+>]
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/103a.jpg, id=47, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/103a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/103a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/103a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/101a.jpg, id=48, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/101a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/101a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/101a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096a.jpg, id=49, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/096a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096b.jpg, id=50, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/096b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096c.jpg, id=51, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096c.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/096c.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/096c.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.38382pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/094a.jpg, id=52, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/094a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/094a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/094a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122a.jpg, id=53, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/122a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122b.jpg, id=54, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/122b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.38382pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/120a.jpg, id=55, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/120a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/120a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/120a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/118a.jpg, id=56, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/118a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/118a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/118a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/113a.jpg, id=57, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/113a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/113a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/113a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/130a.jpg, id=58, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/130a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/130a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/130a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/130b.jpg, id=59, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/130b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/130b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/130b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/129a.jpg, id=60, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/129a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/129a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/129a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/125a.jpg, id=61, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/125a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/125a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/125a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123a.jpg, id=62, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/123a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123b.jpg, id=63, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/123b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/146a.jpg, id=64, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/146a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/146a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/146a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/146b.jpg, id=65, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/146b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/146b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/146b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/145a.jpg, id=66, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/145a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/145a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/145a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140a.jpg, id=67, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/140a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140b.jpg, id=68, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/140b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.38382pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140c.jpg, id=69, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140c.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/140c.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/140c.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/138a.jpg, id=70, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/138a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/138a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/138a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162a.jpg, id=71, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/162a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162b.jpg, id=72, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/162b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/157a.jpg, id=73, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/157a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/157a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/157a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/156a.jpg, id=74, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/156a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/156a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/156a.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/156b.jpg, id=75, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/156b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/156b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/156b.jpg  used on input line 122.
+(luatex.def)             Requested size: 51.21504pt x 51.38382pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/149a.jpg, id=76, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/149a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/149a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/149a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/170a.jpg, id=77, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/170a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/170a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/170a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/168a.jpg, id=78, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/168a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/168a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/168a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/167a.jpg, id=79, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/167a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/167a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/167a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/163a.jpg, id=80, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/163a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/163a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/163a.jpg  used on input line 122.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+ [2</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/103a.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/101a.jpg></home/henri/stuf
+f/japanese/tuttle_kanji/radicals/variations/096a.jpg></home/henri/stuff/japanese
+/tuttle_kanji/radicals/variations/096b.jpg></home/henri/stuff/japanese/tuttle_ka
+nji/radicals/variations/096c.jpg></home/henri/stuff/japanese/tuttle_kanji/radica
+ls/variations/094a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variati
+ons/122a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/122b.j
+pg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/120a.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/118a.jpg></home/henri/stuf
+f/japanese/tuttle_kanji/radicals/variations/113a.jpg></home/henri/stuff/japanese
+/tuttle_kanji/radicals/variations/130a.jpg></home/henri/stuff/japanese/tuttle_ka
+nji/radicals/variations/130b.jpg></home/henri/stuff/japanese/tuttle_kanji/radica
+ls/variations/129a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variati
+ons/125a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123a.j
+pg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/123b.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/146a.jpg></home/henri/stuf
+f/japanese/tuttle_kanji/radicals/variations/146b.jpg></home/henri/stuff/japanese
+/tuttle_kanji/radicals/variations/145a.jpg></home/henri/stuff/japanese/tuttle_ka
+nji/radicals/variations/140a.jpg></home/henri/stuff/japanese/tuttle_kanji/radica
+ls/variations/140b.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variati
+ons/140c.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/138a.j
+pg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/162a.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/162b.jpg></home/henri/stuf
+f/japanese/tuttle_kanji/radicals/variations/157a.jpg></home/henri/stuff/japanese
+/tuttle_kanji/radicals/variations/156a.jpg></home/henri/stuff/japanese/tuttle_ka
+nji/radicals/variations/156b.jpg></home/henri/stuff/japanese/tuttle_kanji/radica
+ls/variations/149a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variati
+ons/170a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/168a.j
+pg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/167a.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/163a.jpg>]
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/182a.jpg, id=84, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/182a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/182a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/182a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.91377pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/176a.jpg, id=85, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/176a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/176a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/176a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/174a.jpg, id=86, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/174a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/174a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/174a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/173a.jpg, id=87, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/173a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/173a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/173a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/201a.jpg, id=88, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/201a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/201a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/201a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/199a.jpg, id=89, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/199a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/199a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/199a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/189a.jpg, id=90, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/189a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/189a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/189a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.91377pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184a.jpg, id=91, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/184a.jpg  used on input line 157.
+(luatex.def)             Requested size: 51.21504pt x 51.21492pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184b.jpg, id=92, 30
+2.12875pt x 303.1325pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184b.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184b.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/184b.jpg  used on input line 157.
+(luatex.def)             Requested size: 51.21504pt x 51.38382pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/212a.jpg, id=93, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/212a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/212a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/212a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/211a.jpg, id=94, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/211a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/211a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/211a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/210a.jpg, id=95, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/210a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/210a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/210a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/203a.jpg, id=96, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/203a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/203a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/203a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/213a.jpg, id=97, 33
+1.2375pt x 331.2375pt>
+File: /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/213a.jpg Graph
+ic file (type jpg)
+<use /home/henri/stuff/japanese/tuttle_kanji/radicals/variations/213a.jpg>
+Package luatex.def Info: /home/henri/stuff/japanese/tuttle_kanji/radicals/variat
+ions/213a.jpg  used on input line 157.
+(luatex.def)             Requested size: 99.58464pt x 99.58429pt.
+ [3</home/henri/stuff/japanese/tuttle_kanji/radicals/variations/182a.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/176a.jpg></home/henri/stuf
+f/japanese/tuttle_kanji/radicals/variations/174a.jpg></home/henri/stuff/japanese
+/tuttle_kanji/radicals/variations/173a.jpg></home/henri/stuff/japanese/tuttle_ka
+nji/radicals/variations/201a.jpg></home/henri/stuff/japanese/tuttle_kanji/radica
+ls/variations/199a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variati
+ons/189a.jpg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184a.j
+pg></home/henri/stuff/japanese/tuttle_kanji/radicals/variations/184b.jpg></home/
+henri/stuff/japanese/tuttle_kanji/radicals/variations/212a.jpg></home/henri/stuf
+f/japanese/tuttle_kanji/radicals/variations/211a.jpg></home/henri/stuff/japanese
+/tuttle_kanji/radicals/variations/210a.jpg></home/henri/stuff/japanese/tuttle_ka
+nji/radicals/variations/203a.jpg></home/henri/stuff/japanese/tuttle_kanji/radica
+ls/variations/213a.jpg>] (./grid_back_boobytraps.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 34972 strings out of 494480
+ 100000,1144653 words of node,token memory allocated
+ 9411 words of node memory still in use:
+   364 hlist, 15 vlist, 29 rule, 3 disc, 26 math, 468 glue, 23 kern, 68 glyph, 4
+9 glue_spec, 1 write, 436 pdf_literal, 2 pdf_colorstack, 14 pdf_setmatrix, 14 pd
+f_save, 14 pdf_restore nodes
+   avail lists: 1:1,2:46,3:1139,4:7,5:101,6:205,7:1290,8:119,9:1082,11:7
+ 37426 multiletter control sequences out of 65536+600000
+ 35 fonts using 5652975 bytes
+ 75i,21n,128p,778b,1024s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/pub
+lic/lm/lmr8.pfb>
+Output written on grid_back_boobytraps.pdf (3 pages, 714722 bytes).
+
+PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+

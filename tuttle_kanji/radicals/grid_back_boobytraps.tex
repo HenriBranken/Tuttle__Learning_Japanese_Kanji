@@ -1,0 +1,162 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[left=1cm,right=1cm,bottom=1cm,top=1cm]{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/variations/} }
+\newsavebox{\tempbox}
+
+\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\tikzset
+{
+	tag/.style=
+	{
+		font=\footnotesize,
+		rotate=90,
+		anchor=south east,
+		outer sep=2mm,
+		rectangle
+	}	
+}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\savebox{\tempbox}{\begin{tikzpicture}
+\matrix (m) 
+	[	matrix of nodes,
+		ampersand replacement=\&,
+		nodes=
+			{	draw=white,
+				rectangle,
+				line width=1.5mm,
+				outer sep=0,
+				inner sep=0,
+				anchor=center,
+				minimum height=4cm, minimum width=4cm}]
+	{	{\specialc[c]{\includegraphics[width=3.5cm]{018a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{012a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{009a.jpg}\\\includegraphics[width=1.8cm]{009b.jpg}\includegraphics[width=1.8cm]{009c.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{005a.jpg}\\\includegraphics[width=1.8cm]{005b.jpg}}} \\
+		{\speciall[c]{\includegraphics[width=1.8cm]{042a.jpg}\\\includegraphics[width=1.8cm]{042b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{026a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{023a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{020a.jpg}}} \\
+		{\speciall[c]{\includegraphics[width=1.8cm]{058a.jpg}\\\includegraphics[width=1.8cm]{058b.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{049a.jpg}\\\includegraphics[width=1.8cm]{049b.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{047a.jpg}\\\includegraphics[width=1.8cm]{047b.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{043a.jpg}\\\includegraphics[width=1.8cm]{043b.jpg}}} \\
+		{\speciall[c]{\includegraphics[width=3.5cm]{066a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{064a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{063a.jpg}\\\includegraphics[width=1.8cm]{063b.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{061a.jpg}\\\includegraphics[width=1.8cm]{061b.jpg}}} \\
+		{\speciall[c]{\includegraphics[width=1.8cm]{085a.jpg}\\\includegraphics[width=1.8cm]{085b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{080a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{078a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{071a.jpg}}} \\
+		{\speciall[c]{\includegraphics[width=1.8cm]{093a.jpg}\\\includegraphics[width=1.8cm]{093b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{090a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{087a.jpg}\\\includegraphics[width=1.8cm]{087b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{086a.jpg}}} \\ };
+\node [tag] at (m-1-1.north east) {Sword};
+\node [tag] at (m-1-2.north east) {Eight};
+\node [tag] at (m-1-3.north east) {Person};
+\node [tag] at (m-1-4.north east) {Second};
+\node [tag] at (m-2-1.north east) {Small};
+\node [tag] at (m-2-2.north east) {Seal};
+\node [tag] at (m-2-3.north east) {Round box};
+\node [tag] at (m-2-4.north east) {Embrace};
+\node [tag] at (m-3-1.north east) {Pig head};
+\node [tag] at (m-3-2.north east) {Oneself};
+\node [tag] at (m-3-3.north east) {River};
+\node [tag] at (m-3-4.north east) {Lame};
+\node [tag] at (m-4-1.north east) {Whip};
+\node [tag] at (m-4-2.north east) {Hand};
+\node [tag] at (m-4-3.north east) {Door};
+\node [tag] at (m-4-4.north east) {Heart};
+\node [tag] at (m-5-1.north east) {Water};
+\node [tag] at (m-5-2.north east) {Mother};
+\node [tag] at (m-5-3.north east) {Death/Evil};
+\node [tag] at (m-5-4.north east) {Not};
+\node [tag] at (m-6-1.north east) {Cow};
+\node [tag] at (m-6-2.north east) {Split wood};
+\node [tag] at (m-6-3.north east) {Claw};
+\node [tag] at (m-6-4.north east) {Fire};
+\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+	\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\specialc[c]{\includegraphics[width=3.5cm]{103a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{101a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{096a.jpg}\\\includegraphics[width=1.8cm]{096b.jpg}\includegraphics[width=1.8cm]{096c.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{094a.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=1.8cm]{122a.jpg}\\\includegraphics[width=1.8cm]{122b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{120a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{118a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{113a.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=1.8cm]{130a.jpg}\\\includegraphics[width=1.8cm]{130b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{129a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{125a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{123a.jpg}\\\includegraphics[width=1.8cm]{123b.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=1.8cm]{146a.jpg}\\\includegraphics[width=1.8cm]{146b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{145a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{140a.jpg}\\\includegraphics[width=1.8cm]{140b.jpg}\includegraphics[width=1.8cm]{140c.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{138a.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=1.8cm]{162a.jpg}\\\includegraphics[width=1.8cm]{162b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{157a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{156a.jpg}\\\includegraphics[width=1.8cm]{156b.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{149a.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=3.5cm]{170a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{168a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{167a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{163a.jpg}}} \\ };
+\node [tag] at (m-1-1.north east) {Bolt ...};
+\node [tag] at (m-1-2.north east) {Use};
+\node [tag] at (m-1-3.north east) {Jade};
+\node [tag] at (m-1-4.north east) {Dog};
+\node [tag] at (m-2-1.north east) {Net};
+\node [tag] at (m-2-2.north east) {Thread};
+\node [tag] at (m-2-3.north east) {Bamboo};
+\node [tag] at (m-2-4.north east) {Ancestor};
+\node [tag] at (m-3-1.north east) {Meat};
+\node [tag] at (m-3-2.north east) {Brush};
+\node [tag] at (m-3-3.north east) {Old};
+\node [tag] at (m-3-4.north east) {Sheep};
+\node [tag] at (m-4-1.north east) {West};
+\node [tag] at (m-4-2.north east) {Clothes};
+\node [tag] at (m-4-3.north east) {Grass};
+\node [tag] at (m-4-4.north east) {Simple};
+\node [tag] at (m-5-1.north east) {Walk};
+\node [tag] at (m-5-2.north east) {Leg/foot};
+\node [tag] at (m-5-3.north east) {Run};
+\node [tag] at (m-5-4.north east) {Speak/Speech};
+\node [tag] at (m-6-1.north east) {Left beta};
+\node [tag] at (m-6-2.north east) {Long};
+\node [tag] at (m-6-3.north east) {Metal};
+\node [tag] at (m-6-4.north east) {Right beta};
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{{\specialc[c]{\includegraphics[width=3.5cm]{182a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{176a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{174a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{173a.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=3.5cm]{201a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{199a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{189a.jpg}}} \& {\speciall[c]{\includegraphics[width=1.8cm]{184a.jpg}\\\includegraphics[width=1.8cm]{184b.jpg}}} \\
+	{\speciall[c]{\includegraphics[width=3.5cm]{212a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{211a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{210a.jpg}}} \& {\speciall[c]{\includegraphics[width=3.5cm]{203a.jpg}}} \\
+	{} \& {} \& {} \& {\speciall[c]{\includegraphics[width=3.5cm]{213a.jpg}}} \\ };
+\node [tag] at (m-1-1.north east) {Wind};
+\node [tag] at (m-1-2.north east) {Face};
+\node [tag] at (m-1-3.north east) {Blue-green};
+\node [tag] at (m-1-4.north east) {Rain};
+\node [tag] at (m-2-1.north east) {Yellow};
+\node [tag] at (m-2-2.north east) {Wheat};
+\node [tag] at (m-2-3.north east) {Tall};
+\node [tag] at (m-2-4.north east) {Eat};
+\node [tag] at (m-3-1.north east) {Dragon};
+\node [tag] at (m-3-2.north east) {Tooth};
+\node [tag] at (m-3-3.north east) {Even};
+\node [tag] at (m-3-4.north east) {Black};
+\node [tag] at (m-4-4.north east) {Turtle};
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+
+\end{document}

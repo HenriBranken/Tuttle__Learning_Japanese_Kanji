@@ -1,0 +1,236 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[left=1cm,right=1cm,bottom=1cm,top=1cm]{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/AozoraMincho_jpgs/} }
+\newsavebox{\tempbox}
+
+\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\savebox{\tempbox}{\begin{tikzpicture}
+\matrix (m) 
+	[	matrix of nodes,
+		ampersand replacement=\&,
+		nodes=
+			{	draw=white,
+				rectangle,
+				line width=1.5mm,
+				outer sep=0,
+				inner sep=0,
+				anchor=center,
+				minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{4}\\ \\Stroke curved to left\\Slash}} \& {\speciall[c]{\textbf{3}\\ \\A dot}} \& {\speciall[c]{\textbf{2}\\ \\A vertical stroke\\Pole\\Line}} \& {\speciall[c]{\textbf{1}\\ \\One\\Horizontal stroke}} \\
+		{\speciall[c]{\textbf{8}\\ \\Lid\\Head\\Above}} \& {\speciall[c]{\textbf{7}\\ \\Two}} \& {\speciall[c]{\textbf{6}\\ \\A hook}} \& {\speciall[c]{\textbf{5}\\ \\Bend stroke\\Second}} \\
+		{\speciall[c]{\textbf{12}\\ \\Eight\\To part\\To divide}} \& {\speciall[c]{\textbf{11}\\ \\Entering\\Starting}} \& {\speciall[c]{\textbf{10}\\ \\Man\\Person\\Son\\Legs}} \& {\speciall[c]{\textbf{9}\\ \\Man\\A person}} \\
+		{\speciall[c]{\textbf{16}\\ \\(Small) table}} \& {\speciall[c]{\textbf{15}\\ \\Two dots\\Ice\\Cold}} \& {\speciall[c]{\textbf{14}\\ \\(Cloth) Cover}} \& {\speciall[c]{\textbf{13}\\ \\Wilderness\\Down box\\Wide}} \\
+		{\speciall[c]{\textbf{20}\\ \\Embracing\\Wrap}} \& {\speciall[c]{\textbf{19}\\ \\Strength\\Force\\Power}} \& {\speciall[c]{\textbf{18}\\ \\Knife\\Sword\\Cutting\\Separating}} \& {\speciall[c]{\textbf{17}\\ \\Wide open mouth\\Open box\\Receptacle}} \\
+		{\speciall[c]{\textbf{24}\\ \\Ten\\Cross}} \& {\speciall[c]{\textbf{23}\\ \\Hiding Enclosure\\Round box}} \& {\speciall[c]{\textbf{22}\\ \\Square box\\Right open box}} \& {\speciall[c]{\textbf{21}\\ \\Spoon\\Ladle}} \\ };
+\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+	\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{28}\\ \\Self\\Private}} \& {\speciall[c]{\textbf{27}\\ \\Cliff}} \& {\speciall[c]{\textbf{26}\\ \\Seal\\Stamp\\(Device)}} \&  {\speciall[c]{\textbf{25}\\ \\Divining\\Divination}} \\
+		{\speciall[c]{\textbf{32}\\ \\Earth\\Soil}} \& {\speciall[c]{\textbf{31}\\ \\Enclosure\\Prison}} \& {\speciall[c]{\textbf{30}\\ \\Mouth\\Opening\\Sounding}} \& {\speciall[c]{\textbf{29}\\ \\Again\\Grasping\\Further}} \\
+		{\speciall[c]{\textbf{36}\\ \\Evening}} \& {\speciall[c]{\textbf{35}\\ \\Go slowly}} \& {\speciall[c]{\textbf{34}\\ \\Go}} \& {\speciall[c]{\textbf{33}\\ \\Gentleman\\Official\\Scholar}} \\
+		{\speciall[c]{\textbf{40}\\ \\Roof\\(Cover)}} \& {\speciall[c]{\textbf{39}\\ \\Child\\Son}} \& {\speciall[c]{\textbf{38}\\ \\Woman}} \& {\speciall[c]{\textbf{37}\\ \\Big\\Large}} \\
+		{\speciall[c]{\textbf{44}\\ \\Corpse\\Body}} \& {\speciall[c]{\textbf{43}\\ \\Broken/Curved leg\\Lame}} \& {\speciall[c]{\textbf{42}\\ \\Small}} \& {\speciall[c]{\textbf{41}\\ \\Inch}} \\
+		{\speciall[c]{\textbf{48}\\ \\Craft\\Work}} \& {\speciall[c]{\textbf{47}\\ \\River\\Stream}} \& {\speciall[c]{\textbf{46}\\ \\Mountain}} \& {\speciall[c]{\textbf{45}\\ \\Sprout}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{52}\\ \\Short thread}} \& {\speciall[c]{\textbf{51}\\ \\Dry\\Shield}} \& {\speciall[c]{\textbf{50}\\ \\Napkin\\Towel\\Cloth\\Turban}} \&  {\speciall[c]{\textbf{49}\\ \\Oneself\\Self\\Own}} \\
+		{\speciall[c]{\textbf{56}\\ \\Shooting\\Shoot}} \& {\speciall[c]{\textbf{55}\\ \\Two hands\\Arch}} \& {\speciall[c]{\textbf{54}\\ \\Long stride\\Walking long distance}} \& {\speciall[c]{\textbf{53}\\ \\House built at slope\\(Dotted Cliff)}} \\
+		{\speciall[c]{\textbf{60}\\ \\Step}} \& {\speciall[c]{\textbf{59}\\ \\Hair\\Feather\\Bristle}} \& {\speciall[c]{\textbf{58}\\ \\Pig head\\Pig snout}} \& {\speciall[c]{\textbf{57}\\ \\Bow\\Crossbow}} \\
+		{\speciall[c]{\textbf{64}\\ \\Hand\\Actions}} \& {\speciall[c]{\textbf{63}\\ \\Door\\Flag\\(House?)}} \& {\speciall[c]{\textbf{62}\\ \\Axe\\Halberd}} \& {\speciall[c]{\textbf{61}\\ \\Heart\\(Feeling?)}} \\
+		{\speciall[c]{\textbf{68}\\ \\Dipper\\Volume measure}} \& {\speciall[c]{\textbf{67}\\ \\Word\\Literature\\Script}} \& {\speciall[c]{\textbf{66}\\ \\Whip\\(Rap, Tap)}} \& {\speciall[c]{\textbf{65}\\ \\Branch}} \\
+		{\speciall[c]{\textbf{72}\\ \\Sun\\Clear}} \& {\speciall[c]{\textbf{71}\\ \\Not}} \& {\speciall[c]{\textbf{70}\\ \\Square\\Locality\\Direction}} \& {\speciall[c]{\textbf{69}\\ \\Weight measure\\Axe}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{76}\\ \\Missing\\Gap\\Lack}} \& {\speciall[c]{\textbf{75}\\ \\Tree\\Wood}} \& {\speciall[c]{\textbf{74}\\ \\Moon\\Month}} \&  {\speciall[c]{\textbf{73}\\ \\Speaking\\Say}} \\
+		{\speciall[c]{\textbf{80}\\ \\Mother\\Do not}} \& {\speciall[c]{\textbf{79}\\ \\Weapon\\(Halberd)}} \& {\speciall[c]{\textbf{78}\\ \\Death\\(Evil)}} \&  {\speciall[c]{\textbf{77}\\ \\Stopping\\Stop}} \\
+		{\speciall[c]{\textbf{84}\\ \\Air\\Breath\\Steam}} \& {\speciall[c]{\textbf{83}\\ \\Clan}} \& {\speciall[c]{\textbf{82}\\ \\Fur\\(Hair)\\(Feather)}} \&  {\speciall[c]{\textbf{81}\\ \\Side by side\\Comparing}} \\
+		{\speciall[c]{\textbf{88}\\ \\Father}} \& {\speciall[c]{\textbf{87}\\ \\Claw\\Hand}} \& {\speciall[c]{\textbf{86}\\ \\Fire}} \&  {\speciall[c]{\textbf{85}\\ \\Water}} \\
+		{\speciall[c]{\textbf{92}\\ \\Fang\\Teeth}} \& {\speciall[c]{\textbf{91}\\ \\Slice\\Piece}} \& {\speciall[c]{\textbf{90}\\ \\Half of tree trunk\\Split wood\\(Bed?)}} \&  {\speciall[c]{\textbf{89}\\ \\Crossing 2 times\\Double X\\Trigrams}} \\
+		{\speciall[c]{\textbf{96}\\ \\Jade\\Precious stone\\Jewel}} \& {\speciall[c]{\textbf{95}\\ \\(Black?)\\(Dark?)\\(Profound?)}} \& {\speciall[c]{\textbf{94}\\ \\Dog\\Dog-like animals}} \&  {\speciall[c]{\textbf{93}\\ \\Cow\\Ox}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+		{	{\speciall[c]{\textbf{100}\\ \\Giving Birth\\Life}} \& {\speciall[c]{\textbf{99}\\ \\Sweet}} \& {\speciall[c]{\textbf{98}\\ \\Tile\\Earthenware}} \&  {\speciall[c]{\textbf{97}\\ \\Pumpkin\\Melon}} \\
+		{\speciall[c]{\textbf{104}\\ \\Illness\\Sickness\\Sick}} \& {\speciall[c]{\textbf{103}\\ \\Roll\\Bolt\\Bolt of cloth}} \& {\speciall[c]{\textbf{102}\\ \\Field}} \&  {\speciall[c]{\textbf{101}\\ \\Use\\Using}} \\
+		{\speciall[c]{\textbf{108}\\ \\Dish\\Plate}} \& {\speciall[c]{\textbf{107}\\ \\Leather\\Skin}} \& {\speciall[c]{\textbf{106}\\ \\White}} \&  {\speciall[c]{\textbf{105}\\ \\Footsteps\\(2 hands above?)\\(Dotted tent?)}} \\
+		{\speciall[c]{\textbf{112}\\ \\Stone\\Rock}} \& {\speciall[c]{\textbf{111}\\ \\Arrow}} \& {\speciall[c]{\textbf{110}\\ \\Spear}} \&  {\speciall[c]{\textbf{109}\\ \\Eye}} \\
+		{\speciall[c]{\textbf{116}\\ \\Hollow\\Hidden\\Hole\\Cave}} \& {\speciall[c]{\textbf{115}\\ \\Grain\\Grain ear}} \& {\speciall[c]{\textbf{114}\\ \\Track\\Animal stamping ...}} \&  {\speciall[c]{\textbf{113}\\ \\Spirit\\Spiritual\\Ancestor}} \\
+		{\speciall[c]{\textbf{120}\\ \\Thread\\Fabric\\Silk}} \& {\speciall[c]{\textbf{119}\\ \\Rice}} \& {\speciall[c]{\textbf{118}\\ \\Bamboo}} \&  {\speciall[c]{\textbf{117}\\ \\Stand\\Erect}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+		{	{\speciall[c]{\textbf{124}\\ \\Feather\\(Wings?)}} \& {\speciall[c]{\textbf{123}\\ \\Sheep\\Goat}} \& {\speciall[c]{\textbf{122}\\ \\Net}} \&  {\speciall[c]{\textbf{121}\\ \\Crock\\Vessel\\Jar}} \\
+		{\speciall[c]{\textbf{128}\\ \\Ear}} \& {\speciall[c]{\textbf{127}\\ \\Plough\\Handle of a plough}} \& {\speciall[c]{\textbf{126}\\ \\Moustache\\And\\But}} \&  {\speciall[c]{\textbf{125}\\ \\Old}} \\
+		{\speciall[c]{\textbf{132}\\ \\Self\\(Nose)}} \& {\speciall[c]{\textbf{131}\\ \\Servant\\Subject\\Minister}} \& {\speciall[c]{\textbf{130}\\ \\Meat\\Organs of a body}} \&  {\speciall[c]{\textbf{129}\\ \\Brush}} \\
+		{\speciall[c]{\textbf{136}\\ \\Oppose\\Lying side by side}} \& {\speciall[c]{\textbf{135}\\ \\Tongue}} \& {\speciall[c]{\textbf{134}\\ \\Mortar}} \&  {\speciall[c]{\textbf{133}\\ \\Arrive}} \\
+		{\speciall[c]{\textbf{140}\\ \\Grass\\Herb\\Plant}} \& {\speciall[c]{\textbf{139}\\ \\Colour\\Outlook}} \& {\speciall[c]{\textbf{138}\\ \\Simple\\Honest\\Straight\\(Stopping?)}} \&  {\speciall[c]{\textbf{137}\\ \\Boat\\Ship}} \\
+		{\speciall[c]{\textbf{144}\\ \\Walk enclosure}} \& {\speciall[c]{\textbf{143}\\ \\Blood}} \& {\speciall[c]{\textbf{142}\\ \\Insect\\Creeping animal}} \&  {\speciall[c]{\textbf{141}\\ \\Tiger}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{148}\\ \\Horn\\Volume meausure}} \& {\speciall[c]{\textbf{147}\\ \\See\\Seeing}} \& {\speciall[c]{\textbf{146}\\ \\West\\(Cover?)}} \&  {\speciall[c]{\textbf{145}\\ \\Clothes\\(Clothing?)}} \\
+	{\speciall[c]{\textbf{152}\\ \\Pig}} \& {\speciall[c]{\textbf{151}\\ \\Bean\\Kind of vessel}} \& {\speciall[c]{\textbf{150}\\ \\Valley}} \&  {\speciall[c]{\textbf{149}\\ \\Speaking\\Speech}} \\
+	{\speciall[c]{\textbf{156}\\ \\Run}} \& {\speciall[c]{\textbf{155}\\ \\Red}} \& {\speciall[c]{\textbf{154}\\ \\Cowrie snail\\shell}} \&  {\speciall[c]{\textbf{153}\\ \\Badger\\Small hairy animals}} \\
+	{\speciall[c]{\textbf{160}\\ \\Bitter\\The eighth ...}} \& {\speciall[c]{\textbf{159}\\ \\Cart\\Car\\Vehicle}} \& {\speciall[c]{\textbf{158}\\ \\Body}} \&  {\speciall[c]{\textbf{157}\\ \\Foot\\Leg}} \\
+	{\speciall[c]{\textbf{164}\\ \\Wine\\Jar}} \& {\speciall[c]{\textbf{163}\\ \\City}} \& {\speciall[c]{\textbf{162}\\ \\Stamping on earth\\Walk}} \&  {\speciall[c]{\textbf{161}\\ \\Morning}} \\
+	{\speciall[c]{\textbf{168}\\ \\Long\\Hair}} \& {\speciall[c]{\textbf{167}\\ \\Metal\\Gold\\(Money)}} \& {\speciall[c]{\textbf{166}\\ \\Mile\\(Hamlet?)\\(Village?)}} \&  {\speciall[c]{\textbf{165}\\ \\Distinguishing\\Separating}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{172}\\ \\Small bird\\Short-tailed bird}} \& {\speciall[c]{\textbf{171}\\ \\Reaching\\Catch\\Slave}} \& {\speciall[c]{\textbf{170}\\ \\Hill\\Dam\\Mound}} \&  {\speciall[c]{\textbf{169}\\ \\Gate\\Door}} \\
+	{\speciall[c]{\textbf{176}\\ \\Face\\Mask}} \& {\speciall[c]{\textbf{175}\\ \\Wrong\\Not\\(Wings?)}} \& {\speciall[c]{\textbf{174}\\ \\Blue-green}} \&  {\speciall[c]{\textbf{173}\\ \\Rain}} \\
+	{\speciall[c]{\textbf{180}\\ \\Sound}} \& {\speciall[c]{\textbf{179}\\ \\Chives\\Scallion\\Leeks}} \& {\speciall[c]{\textbf{178}\\ \\Tanned leather}} \&  {\speciall[c]{\textbf{177}\\ \\Skin\\Leather\\Changing}} \\
+	{\speciall[c]{\textbf{184}\\ \\Eat\\Eating}} \& {\speciall[c]{\textbf{183}\\ \\Flying\\Fly}} \& {\speciall[c]{\textbf{182}\\ \\Wind}} \&  {\speciall[c]{\textbf{181}\\ \\Page\\Face\\Leaf}} \\
+	{\speciall[c]{\textbf{188}\\ \\Bone}} \& {\speciall[c]{\textbf{187}\\ \\Horse}} \& {\speciall[c]{\textbf{186}\\ \\Fragrant\\Odour\\Perfume}} \&  {\speciall[c]{\textbf{185}\\ \\Head}} \\
+	{\speciall[c]{\textbf{192}\\ \\Sacrificial wine\\Offering spirits}} \& {\speciall[c]{\textbf{191}\\ \\Fight\\Battle}} \& {\speciall[c]{\textbf{190}\\ \\Hair}} \&  {\speciall[c]{\textbf{189}\\ \\Tall\\High\\Aloft}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw=white,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\speciall[c]{\textbf{196}\\ \\Bird}} \& {\speciall[c]{\textbf{195}\\ \\Fish}} \& {\speciall[c]{\textbf{194}\\ \\Ghost\\Spirit}} \&  {\speciall[c]{\textbf{193}\\ \\Cauldron\\Kind of vessel}} \\
+	{\speciall[c]{\textbf{200}\\ \\Hemp}} \& {\speciall[c]{\textbf{199}\\ \\Wheat\\Grain}} \& {\speciall[c]{\textbf{198}\\ \\Deer}} \&  {\speciall[c]{\textbf{197}\\ \\Salt}} \\
+	{\speciall[c]{\textbf{204}\\ \\Embroidery\\Needlework}} \& {\speciall[c]{\textbf{203}\\ \\Black}} \& {\speciall[c]{\textbf{202}\\ \\Millet}} \&  {\speciall[c]{\textbf{201}\\ \\Yellow}} \\
+	{\speciall[c]{\textbf{208}\\ \\Mouse\\Rat}} \& {\speciall[c]{\textbf{207}\\ \\Drum}} \& {\speciall[c]{\textbf{206}\\ \\Tripod}} \&  {\speciall[c]{\textbf{205}\\ \\Frog\\Amphibian}} \\
+	{\speciall[c]{\textbf{212}\\ \\Dragon}} \& {\speciall[c]{\textbf{211}\\ \\Tooth\\Teeth}} \& {\speciall[c]{\textbf{210}\\ \\Even\\Equal\\(All?)}} \&  {\speciall[c]{\textbf{209}\\ \\Nose\\(Self?)}} \\
+	{\speciall[c]{\textbf{214}\\ \\Flute}} \& {\speciall[c]{\textbf{214}\\ \\Flute}} \& {\speciall[c]{\textbf{214}\\ \\Flute}} \&  {\speciall[c]{\textbf{213}\\ \\Turtle}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\end{document}

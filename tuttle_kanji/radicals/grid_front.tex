@@ -1,0 +1,239 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[left=1cm,right=1cm,bottom=1cm,top=1cm]{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+<<<<<<< HEAD
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/AozoraMincho_jpgs/} }
+=======
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/StrokeOrders_jpgs/} }
+>>>>>>> c4c459b7cafb184d256c2623f52c9826bc92a068
+\newsavebox{\tempbox}
+\usepackage[export]{adjustbox}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+\savebox{\tempbox}{\begin{tikzpicture}
+\matrix (m) 
+	[	matrix of nodes,
+		ampersand replacement=\&,
+		nodes=
+			{	draw,
+				rectangle,
+				line width=1.5mm,
+				outer sep=0,
+				inner sep=0,
+				anchor=center,
+				minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{001.jpg}} \& {\includegraphics[height=4cm]{002.jpg}} \& {\includegraphics[height=4cm]{003.jpg}} \&  {\includegraphics[height=4cm]{004.jpg}} \\
+		{\includegraphics[height=4cm]{005.jpg}} \& {\includegraphics[height=4cm]{006.jpg}} \& {\includegraphics[height=4cm]{007.jpg}} \& {\includegraphics[height=4cm]{008.jpg}} \\
+		{\includegraphics[height=4cm]{009.jpg}} \& {\includegraphics[height=4cm]{010.jpg}} \& {\includegraphics[height=4cm]{011.jpg}} \& {\includegraphics[height=4cm]{012.jpg}} \\
+		{\includegraphics[height=4cm]{013.jpg}} \& {\includegraphics[height=4cm]{014.jpg}} \& {\includegraphics[height=4cm]{015.jpg}} \& {\includegraphics[height=4cm]{016.jpg}} \\
+		{\includegraphics[height=4cm]{017.jpg}} \& {\includegraphics[height=4cm]{018.jpg}} \& {\includegraphics[height=4cm]{019.jpg}} \& {\includegraphics[height=4cm]{020.jpg}} \\
+		{\includegraphics[height=4cm]{021.jpg}} \& {\includegraphics[height=4cm]{022.jpg}} \& {\includegraphics[height=4cm]{023.jpg}} \& {\includegraphics[height=4cm]{024.jpg}} \\ };
+\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+	\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm},
+		text height=4cm, text width=4cm]
+	{	{\includegraphics[height=4cm]{025.jpg}} \& {\includegraphics[height=4cm]{026.jpg}} \& {\includegraphics[height=4cm]{027.jpg}} \&  {\includegraphics[height=4cm]{028.jpg}} \\
+		{\includegraphics[height=4cm]{029.jpg}} \& {\includegraphics[height=4cm]{030.jpg}} \& {\includegraphics[height=4cm]{031.jpg}} \& {\includegraphics[height=4cm]{032.jpg}} \\
+		{\includegraphics[height=4cm]{033.jpg}} \& {\includegraphics[height=4cm]{034.jpg}} \& {\includegraphics[height=4cm]{035.jpg}} \& {\includegraphics[height=4cm]{036.jpg}} \\
+		{\includegraphics[height=4cm]{037.jpg}} \& {\includegraphics[height=4cm]{038.jpg}} \& {\includegraphics[height=4cm]{039.jpg}} \& {\includegraphics[height=4cm]{040.jpg}} \\
+		{\includegraphics[height=4cm]{041.jpg}} \& {\includegraphics[height=4cm]{042.jpg}} \& {\includegraphics[height=4cm]{043.jpg}} \& {\includegraphics[height=4cm]{044.jpg}} \\
+		{\includegraphics[height=4cm]{045.jpg}} \& {\includegraphics[height=4cm]{046.jpg}} \& {\includegraphics[height=4cm]{047.jpg}} \& {\includegraphics[height=4cm]{048.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{049.jpg}} \& {\includegraphics[height=4cm]{050.jpg}} \& {\includegraphics[height=4cm]{051.jpg}} \&  {\includegraphics[height=4cm]{052.jpg}} \\
+		{\includegraphics[height=4cm]{053.jpg}} \& {\includegraphics[height=4cm]{054.jpg}} \& {\includegraphics[height=4cm]{055.jpg}} \& {\includegraphics[height=4cm]{056.jpg}} \\
+		{\includegraphics[height=4cm]{057.jpg}} \& {\includegraphics[height=4cm]{058.jpg}} \& {\includegraphics[height=4cm]{059.jpg}} \& {\includegraphics[height=4cm]{060.jpg}} \\
+		{\includegraphics[height=4cm]{061.jpg}} \& {\includegraphics[height=4cm]{062.jpg}} \& {\includegraphics[height=4cm]{063.jpg}} \& {\includegraphics[height=4cm]{064.jpg}} \\
+		{\includegraphics[height=4cm]{065.jpg}} \& {\includegraphics[height=4cm]{066.jpg}} \& {\includegraphics[height=4cm]{067.jpg}} \& {\includegraphics[height=4cm]{068.jpg}} \\
+		{\includegraphics[height=4cm]{069.jpg}} \& {\includegraphics[height=4cm]{070.jpg}} \& {\includegraphics[height=4cm]{071.jpg}} \& {\includegraphics[height=4cm]{072.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{073.jpg}} \& {\includegraphics[height=4cm]{074.jpg}} \& {\includegraphics[height=4cm]{075.jpg}} \&  {\includegraphics[height=4cm]{076.jpg}} \\
+		{\includegraphics[height=4cm]{077.jpg}} \& {\includegraphics[height=4cm]{078.jpg}} \& {\includegraphics[height=4cm]{079.jpg}} \& {\includegraphics[height=4cm]{080.jpg}} \\
+		{\includegraphics[height=4cm]{081.jpg}} \& {\includegraphics[height=4cm]{082.jpg}} \& {\includegraphics[height=4cm]{083.jpg}} \& {\includegraphics[height=4cm]{084.jpg}} \\
+		{\includegraphics[height=4cm]{085.jpg}} \& {\includegraphics[height=4cm]{086.jpg}} \& {\includegraphics[height=4cm]{087.jpg}} \& {\includegraphics[height=4cm]{088.jpg}} \\
+		{\includegraphics[height=4cm]{089.jpg}} \& {\includegraphics[height=4cm]{090.jpg}} \& {\includegraphics[height=4cm]{091.jpg}} \& {\includegraphics[height=4cm]{092.jpg}} \\
+		{\includegraphics[height=4cm]{093.jpg}} \& {\includegraphics[height=4cm]{094.jpg}} \& {\includegraphics[height=4cm]{095.jpg}} \& {\includegraphics[height=4cm]{096.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		inner sep=0,
+		outer sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{097.jpg}} \& {\includegraphics[height=4cm]{098.jpg}} \& {\includegraphics[height=4cm]{099.jpg}} \&  {\includegraphics[height=4cm]{100.jpg}} \\
+		{\includegraphics[height=4cm]{101.jpg}} \& {\includegraphics[height=4cm]{102.jpg}} \& {\includegraphics[height=4cm]{103.jpg}} \& {\includegraphics[height=4cm]{104.jpg}} \\
+		{\includegraphics[height=4cm]{105.jpg}} \& {\includegraphics[height=4cm]{106.jpg}} \& {\includegraphics[height=4cm]{107.jpg}} \& {\includegraphics[height=4cm]{108.jpg}} \\
+		{\includegraphics[height=4cm]{109.jpg}} \& {\includegraphics[height=4cm]{110.jpg}} \& {\includegraphics[height=4cm]{111.jpg}} \& {\includegraphics[height=4cm]{112.jpg}} \\
+		{\includegraphics[height=4cm]{113.jpg}} \& {\includegraphics[height=4cm]{114.jpg}} \& {\includegraphics[height=4cm]{115.jpg}} \& {\includegraphics[height=4cm]{116.jpg}} \\
+		{\includegraphics[height=4cm]{117.jpg}} \& {\includegraphics[height=4cm]{118.jpg}} \& {\includegraphics[height=4cm]{119.jpg}} \& {\includegraphics[height=4cm]{120.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		inner sep=0,
+		outer sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{121.jpg}} \& {\includegraphics[height=4cm]{122.jpg}} \& {\includegraphics[height=4cm]{123.jpg}} \&  {\includegraphics[height=4cm]{124.jpg}} \\
+		{\includegraphics[height=4cm]{125.jpg}} \& {\includegraphics[height=4cm]{126.jpg}} \& {\includegraphics[height=4cm]{127.jpg}} \& {\includegraphics[height=4cm]{128.jpg}} \\
+		{\includegraphics[height=4cm]{129.jpg}} \& {\includegraphics[height=4cm]{130.jpg}} \& {\includegraphics[height=4cm]{131.jpg}} \& {\includegraphics[height=4cm]{132.jpg}} \\
+		{\includegraphics[height=4cm]{133.jpg}} \& {\includegraphics[height=4cm]{134.jpg}} \& {\includegraphics[height=4cm]{135.jpg}} \& {\includegraphics[height=4cm]{136.jpg}} \\
+		{\includegraphics[height=4cm]{137.jpg}} \& {\includegraphics[height=4cm]{138.jpg}} \& {\includegraphics[height=4cm]{139.jpg}} \& {\includegraphics[height=4cm]{140.jpg}} \\
+		{\includegraphics[height=4cm]{141.jpg}} \& {\includegraphics[height=4cm]{142.jpg}} \& {\includegraphics[height=4cm]{143.jpg}} \& {\includegraphics[height=4cm]{144.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		inner sep=0,
+		outer sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{145.jpg}} \& {\includegraphics[height=4cm]{146.jpg}} \& {\includegraphics[height=4cm]{147.jpg}} \&  {\includegraphics[height=4cm]{148.jpg}} \\
+		{\includegraphics[height=4cm]{149.jpg}} \& {\includegraphics[height=4cm]{150.jpg}} \& {\includegraphics[height=4cm]{151.jpg}} \& {\includegraphics[height=4cm]{152.jpg}} \\
+		{\includegraphics[height=4cm]{153.jpg}} \& {\includegraphics[height=4cm]{154.jpg}} \& {\includegraphics[height=4cm]{155.jpg}} \& {\includegraphics[height=4cm]{156.jpg}} \\
+		{\includegraphics[height=4cm]{157.jpg}} \& {\includegraphics[height=4cm]{158.jpg}} \& {\includegraphics[height=4cm]{159.jpg}} \& {\includegraphics[height=4cm]{160.jpg}} \\
+		{\includegraphics[height=4cm]{161.jpg}} \& {\includegraphics[height=4cm]{162.jpg}} \& {\includegraphics[height=4cm]{163.jpg}} \& {\includegraphics[height=4cm]{164.jpg}} \\
+		{\includegraphics[height=4cm]{165.jpg}} \& {\includegraphics[height=4cm]{166.jpg}} \& {\includegraphics[height=4cm]{167.jpg}} \& {\includegraphics[height=4cm]{168.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		inner sep=0,
+		outer sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{169.jpg}} \& {\includegraphics[height=4cm]{170.jpg}} \& {\includegraphics[height=4cm]{171.jpg}} \&  {\includegraphics[height=4cm]{172.jpg}} \\
+		{\includegraphics[height=4cm]{173.jpg}} \& {\includegraphics[height=4cm]{174.jpg}} \& {\includegraphics[height=4cm]{175.jpg}} \& {\includegraphics[height=4cm]{176.jpg}} \\
+		{\includegraphics[height=4cm]{177.jpg}} \& {\includegraphics[height=4cm]{178.jpg}} \& {\includegraphics[height=4cm]{179.jpg}} \& {\includegraphics[height=4cm]{180.jpg}} \\
+		{\includegraphics[height=4cm]{181.jpg}} \& {\includegraphics[height=4cm]{182.jpg}} \& {\includegraphics[height=4cm]{183.jpg}} \& {\includegraphics[height=4cm]{184.jpg}} \\
+		{\includegraphics[height=4cm]{185.jpg}} \& {\includegraphics[height=4cm]{186.jpg}} \& {\includegraphics[height=4cm]{187.jpg}} \& {\includegraphics[height=4cm]{188.jpg}} \\
+		{\includegraphics[height=4cm]{189.jpg}} \& {\includegraphics[height=4cm]{190.jpg}} \& {\includegraphics[height=4cm]{191.jpg}} \& {\includegraphics[height=4cm]{192.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		inner sep=0,
+		outer sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{193.jpg}} \& {\includegraphics[height=4cm]{194.jpg}} \& {\includegraphics[height=4cm]{195.jpg}} \&  {\includegraphics[height=4cm]{196.jpg}} \\
+		{\includegraphics[height=4cm]{197.jpg}} \& {\includegraphics[height=4cm]{198.jpg}} \& {\includegraphics[height=4cm]{199.jpg}} \& {\includegraphics[height=4cm]{200.jpg}} \\
+		{\includegraphics[height=4cm]{201.jpg}} \& {\includegraphics[height=4cm]{202.jpg}} \& {\includegraphics[height=4cm]{203.jpg}} \& {\includegraphics[height=4cm]{204.jpg}} \\
+		{\includegraphics[height=4cm]{205.jpg}} \& {\includegraphics[height=4cm]{206.jpg}} \& {\includegraphics[height=4cm]{207.jpg}} \& {\includegraphics[height=4cm]{208.jpg}} \\
+		{\includegraphics[height=4cm]{209.jpg}} \& {\includegraphics[height=4cm]{210.jpg}} \& {\includegraphics[height=4cm]{211.jpg}} \& {\includegraphics[height=4cm]{212.jpg}} \\
+		{\includegraphics[height=4cm]{213.jpg}} \& {\includegraphics[height=4cm]{214.jpg}} \& {\includegraphics[height=4cm]{214.jpg}} \& {\includegraphics[height=4cm]{214.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\end{document}

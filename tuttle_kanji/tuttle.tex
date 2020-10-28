@@ -14,6 +14,25 @@
 \usepackage{microtype}
 \usepackage{color}
 \usetikzlibrary{patterns}
+\usepackage[none]{hyphenat}
+\setlength{\columnseprule}{0.4pt}
+
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE, RO]{\leftmark}
+\fancyhead[RE, LO]{ページ{\;}\thepage}
+\fancyhead[CE, CO]{\href{https://github.com/HenriBranken/Tuttle__Learning_Japanese_Kanji}{Branken-kun/ブランケン君\textsuperscript{\textcopyright}}}
 
 \newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
 \newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
@@ -25,7 +44,7 @@
 
 \usepackage{graphicx}
 \graphicspath{
-    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/}{/home/henri/stuff/japanese/kanji/chap13/} }
+    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/}{/home/henri/stuff/japanese/kanji/chap13/}{/home/henri/stuff/japanese/kanji/chap14/}{/home/henri/stuff/japanese/kanji/chap15/}{/home/henri/stuff/japanese/kanji/chap16/}{/home/henri/stuff/japanese/kanji/chap17/}{/home/henri/stuff/japanese/kanji/chap18/}{/home/henri/stuff/japanese/kanji/chap19/}{/home/henri/stuff/japanese/kanji/chap20/}{/home/henri/stuff/japanese/kanji/chap21/}{/home/henri/stuff/japanese/kanji/chap22/} }
 
 \pgfplotsset{compat=newest,compat/show suggested version=false}
 \usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
@@ -43,7 +62,7 @@
 {	\refstepcounter{glyph}%
 	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
 	\begin{tabularx}{\columnwidth}{@{}|@{}c@{}|@{}c@{}|B@{}|@{}}
-	\multicolumn{3}{@{}|l|@{}}{\cellcolor{black}{\color{white}\textbf{\large{\theglyph{:}\,{#1}}}}}\\\hline
+	\multicolumn{3}{@{}|l|@{}}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}}\\\hline
 	\raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{#2.pdf}} & \raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{so_#2.pdf}} & \textbf{\underline{Notes:}} \\\hline
 	\multicolumn{3}{@{}|l|@{}}{\begin{tabularx}{0.95\columnwidth}{@{}B@{}}
 	\BODY
@@ -67,7 +86,7 @@
 \begin{tabularx}{\columnwidth}{@{}|c|B|A|@{}}%
 \hline%
 \multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{+ Words and Compounds}}\\\hline%
-\multicolumn{1}{|l|}{\cellcolor{lightgray}Kanji} & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronounciation\\\hline
+\multicolumn{1}{|l|}{\cellcolor{lightgray}Kanji} & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronunciation\\\hline
 \BODY
 \end{tabularx}%
 }
@@ -76,8 +95,8 @@
 {%
 %\keepXColumns
 \begin{tabularx}{\columnwidth}{@{}|l|B|B|@{}}%
-\hhline{~|--|}\multicolumn{1}{c}{} & \multicolumn{2}{|c|}{\cellcolor{lightgray}\bfseries{{\textmusicalnote} Pronounciations}}\\
-\hhline{~|-|-|}\multicolumn{1}{c}{} & \multicolumn{1}{|l|}{\cellcolor{lightgray}ONYOMI} & \multicolumn{1}{l|}{\cellcolor{lightgray}kunyomi}\\\hline
+\hhline{~|--|}\multicolumn{1}{c}{} & \multicolumn{2}{|c|}{\cellcolor{lightgray}\bfseries{{\textmusicalnote} Pronunciations}}\\
+\hhline{~|-|-|}\multicolumn{1}{c}{} & \multicolumn{1}{|l|}{\cellcolor{lightgray}音読み} & \multicolumn{1}{l|}{\cellcolor{lightgray}訓読み}\\\hline
 \BODY
 \end{tabularx}%
 }
@@ -95,7 +114,7 @@
 {
 %\keepXColumns
 \begin{tabularx}{\columnwidth}{@{}|B|@{}}
-\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{{\bell\textmusicalnote} Meaning $\leftrightarrow$ Pronounciations}}\\
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{{\bell\textmusicalnote} Meaning $\leftrightarrow$ Pronunciations}}\\
 \hhline{|-|}\BODY
 \end{tabularx}%
 }
@@ -104,39 +123,40 @@
 {%
 \begin{tabularx}{\columnwidth}{@{}|c|B|A|@{}}%
 \hline%
-\multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{++ Irregular Reading(s)}}\\\hline%
-\cellcolor{lightgray}Kanji & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronounciation\\\hline
+\multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{** Irregular Reading(s)}}\\\hline%
+\cellcolor{lightgray}Kanji & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronunciation\\\hline
 \BODY
 \end{tabularx}%
 }
 
 \NewEnviron{sentence}
-{
+{%
 %\keepXColumns
-\begin{tabularx}{\columnwidth}{|B|}
-\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\
-\hhline{|-|}\rule{0pt}{\baselineskip}
-\BODY
-\end{tabularx}
+\begin{tabularx}{\columnwidth}{|B|}%
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\%
+\hhline{|-|}\rule{0pt}{\baselineskip}%
+\BODY%
+\end{tabularx}%
 }
 
 \newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
 \newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
-\newcommand{\notcov}{\hspace{-0.7pt}\textsuperscript{\ensuremath{\star}}\hspace{-0.7pt}}
+\newcommand{\notcov}{\hspace{-0.7pt}\textsuperscript{\ensuremath{\star}}}
+\newcommand{\warn}{\textsuperscript{\ensuremath{\ddagger}}\hspace{-0.7pt}}
 \newcommand{\ekwiv}{\ensuremath{\equiv}}
 
 \newcommand{\hooglig}[1]{\colorbox{lightgray!60!white}{#1}}
 \newcommand{\notyet}[1]{\small{\color{gray}{#1}}\color{black}}
 
-\newcommand{\comon}[1]{\uppercase{\textbf{$\prec$#1$\succ$}}}
+\newcommand{\comon}[1]{\uppercase{\textbf{$\langle$#1$\rangle$}}}
 \newcommand{\comkun}[1]{\textbf{$\prec$#1$\succ$}}
-\newcommand{\ucomon}[1]{\uppercase{$\prec$#1$\succ$}}
+\newcommand{\ucomon}[1]{\uppercase{$\langle$#1$\rangle$}}
 \newcommand{\ucomkun}[1]{$\prec$#1$\succ$}
 
-\newcommand{\remcom}[1]{$\prec$#1$\succ$}
+\newcommand{\remcom}[1]{$\lceil$#1$\rfloor$}
 
 \newcommand{\comprtwocone}{\cellcolor{lightgray}Glyphs}
-\newcommand{\comprthreecone}{\cellcolor{lightgray}English (\#)}
+\newcommand{\comprthreecone}{\cellcolor{lightgray}English}
 \newcommand{\pronsrtwocone}{\cellcolor{lightgray}\textbf{Cm.}}
 \newcommand{\pronsrthreecone}{\cellcolor{lightgray}L.C.}
 
@@ -149,60 +169,103 @@
 %-------------------------------------------------------
 %-------------------------------------------------------
 \begin{document}
-\listofglyph
+
+\begin{multicols}{2}
+	\listofglyph
+\end{multicols}
+
+\setlength{\columnseprule}{0.0pt}
+
 \clearpage
 \phantomsection
 
-%\begin{multicols}{2}
-%\chapter{Kanji 1--20}
-%\input{chap1}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 21--40}
-%\input{chap2}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 41--60}
-%\input{chap3}
-%
+\chapter{漢字 1--20}
 \begin{multicols}{2}
-\chapter{Kanji 61--80}
+\input{chap1}
+
+\chapter{漢字 21--40}
+\begin{multicols}{2}
+\input{chap2}
+
+\chapter{漢字 41--60}
+\begin{multicols}{2}
+\input{chap3}
+
+\chapter{漢字 61--80}
+\begin{multicols}{2}
 \input{chap4}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 81--100}
-%\input{chap5}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 101--120}
-%\input{chap6}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 121--140}
-%\input{chap7}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 141--160}
-%\input{chap8}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 161--180}
-%\input{chap9}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 181--200}
-%\input{chap10}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 201--225}
-%\input{chap11}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 226--250}
-%\input{chap12}
-%
-%\begin{multicols}{2}
-%\chapter{Kanji 251--280}
-%\input{chap13}
+
+\chapter{漢字 81--100}
+\begin{multicols}{2}
+\input{chap5}
+
+\chapter{漢字 101--120}
+\begin{multicols}{2}
+\input{chap6}
+
+\chapter{漢字 121--140}
+\begin{multicols}{2}
+\input{chap7}
+
+\chapter{漢字 141--160}
+\begin{multicols}{2}
+\input{chap8}
+
+\chapter{漢字 161--180}
+\begin{multicols}{2}
+\input{chap9}
+
+\chapter{漢字 181--200}
+\begin{multicols}{2}
+\input{chap10}
+
+\chapter{漢字 201--225}
+\begin{multicols}{2}
+\input{chap11}
+
+\chapter{漢字 226--250}
+\begin{multicols}{2}
+\input{chap12}
+
+\chapter{漢字 251--280}
+\begin{multicols}{2}
+\input{chap13}
+
+\chapter{漢字 281--305}
+\begin{multicols}{2}
+\input{chap14}
+
+\chapter{漢字 306--330}
+\begin{multicols}{2}
+\input{chap15}
+
+\chapter{漢字 331--360}
+\begin{multicols}{2}
+\input{chap16}
+
+\chapter{漢字 361--385}
+\begin{multicols}{2}
+\input{chap17}
+
+\chapter{漢字 386--410}
+\begin{multicols}{2}
+\input{chap18}
+
+\chapter{漢字 411--440}
+\begin{multicols}{2}
+\input{chap19}
+
+\chapter{漢字 441--465}
+\begin{multicols}{2}
+\input{chap20}
+
+\chapter{漢字 466--490}
+\begin{multicols}{2}
+\input{chap21}
+
+
+\chapter{漢字 491--520}
+\begin{multicols}{2}
+\input{chap22}
 
 \end{document}

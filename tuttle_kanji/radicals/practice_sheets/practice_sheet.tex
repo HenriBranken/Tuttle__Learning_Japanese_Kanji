@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{hmargin=3mm,vmargin=5mm}
+\usepackage{tikz}
+\pagenumbering{gobble}
+
+\begin{document}
+
+\vspace*{\fill}
+\centering
+\begin{tikzpicture}[x=1cm, y=1cm]
+\draw[step=1cm,line width=0.5mm, gray, semitransparent] (0cm,24cm) grid (18cm,12cm);
+\draw[step=2cm,line width=1mm, black] (0cm,24cm) grid (18cm,12cm);
+\draw[step=2cm,line width=1mm, black] (0cm,12cm) grid (18cm,0cm);
+\end{tikzpicture}
+\vspace*{\fill}
+
+\end{document}

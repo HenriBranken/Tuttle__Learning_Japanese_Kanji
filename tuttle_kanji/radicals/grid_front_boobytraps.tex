@@ -1,0 +1,91 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[left=1cm,right=1cm,bottom=1cm,top=1cm]{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/StrokeOrders_jpgs/} }
+\newsavebox{\tempbox}
+\usepackage[export]{adjustbox}
+
+\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\savebox{\tempbox}{\begin{tikzpicture}
+\matrix (m) 
+	[	matrix of nodes,
+		ampersand replacement=\&,
+		nodes=
+			{	draw,
+				rectangle,
+				line width=1.5mm,
+				outer sep=0,
+				inner sep=0,
+				anchor=center,
+				minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{005.jpg}} \& {\includegraphics[height=4cm]{009.jpg}} \& {\includegraphics[height=4cm]{012.jpg}} \& {\includegraphics[height=4cm]{018.jpg}} \\
+		{\includegraphics[height=4cm]{020.jpg}} \& {\includegraphics[height=4cm]{023.jpg}} \& {\includegraphics[height=4cm]{026.jpg}} \& {\includegraphics[height=4cm]{042.jpg}} \\
+		{\includegraphics[height=4cm]{043.jpg}} \& {\includegraphics[height=4cm]{047.jpg}} \& {\includegraphics[height=4cm]{049.jpg}} \& {\includegraphics[height=4cm]{058.jpg}} \\
+		{\includegraphics[height=4cm]{061.jpg}} \& {\includegraphics[height=4cm]{063.jpg}} \& {\includegraphics[height=4cm]{064.jpg}} \& {\includegraphics[height=4cm]{066.jpg}} \\
+		{\includegraphics[height=4cm]{071.jpg}} \& {\includegraphics[height=4cm]{078.jpg}} \& {\includegraphics[height=4cm]{080.jpg}} \& {\includegraphics[height=4cm]{085.jpg}} \\
+		{\includegraphics[height=4cm]{086.jpg}} \& {\includegraphics[height=4cm]{087.jpg}} \& {\includegraphics[height=4cm]{090.jpg}} \& {\includegraphics[height=4cm]{093.jpg}} \\ };
+\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+	\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm},
+		text height=4cm, text width=4cm]
+	{	{\includegraphics[height=4cm]{094.jpg}} \& {\includegraphics[height=4cm]{096.jpg}} \& {\includegraphics[height=4cm]{101.jpg}} \& {\includegraphics[height=4cm]{103.jpg}} \\
+		{\includegraphics[height=4cm]{113.jpg}} \& {\includegraphics[height=4cm]{118.jpg}} \& {\includegraphics[height=4cm]{120.jpg}} \& {\includegraphics[height=4cm]{122.jpg}} \\
+		{\includegraphics[height=4cm]{123.jpg}} \& {\includegraphics[height=4cm]{125.jpg}} \& {\includegraphics[height=4cm]{129.jpg}} \& {\includegraphics[height=4cm]{130.jpg}} \\
+		{\includegraphics[height=4cm]{138.jpg}} \& {\includegraphics[height=4cm]{140.jpg}} \& {\includegraphics[height=4cm]{145.jpg}} \& {\includegraphics[height=4cm]{146.jpg}} \\
+		{\includegraphics[height=4cm]{149.jpg}} \& {\includegraphics[height=4cm]{156.jpg}} \& {\includegraphics[height=4cm]{157.jpg}} \& {\includegraphics[height=4cm]{162.jpg}} \\
+		{\includegraphics[height=4cm]{163.jpg}} \& {\includegraphics[height=4cm]{167.jpg}} \& {\includegraphics[height=4cm]{168.jpg}} \& {\includegraphics[height=4cm]{170.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+\newpage
+
+\savebox{\tempbox}{\begin{tikzpicture}
+	\matrix (m) 
+	[	matrix of nodes,
+	ampersand replacement=\&,
+	nodes=
+	{	draw,
+		rectangle,
+		line width=1.5mm,
+		outer sep=0,
+		inner sep=0,
+		anchor=center,
+		minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{173.jpg}} \& {\includegraphics[height=4cm]{174.jpg}} \& {\includegraphics[height=4cm]{176.jpg}} \& {\includegraphics[height=4cm]{182.jpg}} \\
+		{\includegraphics[height=4cm]{184.jpg}} \& {\includegraphics[height=4cm]{189.jpg}} \& {\includegraphics[height=4cm]{199.jpg}} \& {\includegraphics[height=4cm]{201.jpg}} \\
+		{\includegraphics[height=4cm]{203.jpg}} \& {\includegraphics[height=4cm]{210.jpg}} \& {\includegraphics[height=4cm]{211.jpg}} \& {\includegraphics[height=4cm]{212.jpg}} \\
+		{\includegraphics[height=4cm]{213.jpg}} \\ };
+	\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+
+\end{document}

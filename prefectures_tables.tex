@@ -1,0 +1,165 @@
+\documentclass[11pt]{report}
+\usepackage{lipsum}
+\usepackage{emptypage}
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[parfill]{parskip}
+\usepackage{xfrac}
+\usepackage{mathtools}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{amsmath,mathrsfs}
+\usepackage{luatexja}
+\usepackage{longtable}
+
+\usepackage[a4paper,top=20mm,bottom=20mm,left=25mm,right=20mm,heightrounded]{geometry}
+\usepackage{layout}
+
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\usepackage{lscape}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{amssymb,amsmath}
+
+\newcommand{\squareenclose}[1]{\ensuremath{\left[ #1 \right]}}
+\newcommand{\roundenclose}[1]{\ensuremath{\left( #1 \right)}}
+\newcommand{\curlyenclose}[1]{\ensuremath{\left\{ #1 \right\}}}
+
+\usepackage{multirow}
+\usepackage{multicol}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\newcommand{\tryout}[2][cc]{\begin{tabular}{#1}#2\end{tabular}}
+
+\newcommand{\tnl}{\tabularnewline}
+
+\begin{document}
+
+\small
+\begin{longtable}{r|cl}
+	\toprule\toprule
+	\multicolumn{3}{c}{\textbf{47 Prefectures}}\tnl\toprule
+	
+	\multicolumn{3}{c}{Hokkaid\={o}, 北海道, North-Sea-Road}\tnl\midrule
+	
+	\multirow{3}{*}{A1:北海道} & \multirow{3}{*}{\tryout[ccc]{Northern&Sea&Road\\ホッ&カイ&ドウ\\北&海&道}} & \multirow{3}{*}{Fresh} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{T\={o}hoku, 東北, East-North}\tnl\midrule
+	
+	\multirow{3}{*}{B2:青森} & \multirow{3}{*}{\tryout{Blue&Forest\\あお&もり\\青&森}} & \multirow{3}{*}{Buddhist Hell} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{B3:岩手} & \multirow{3}{*}{\tryout{Boulder&Hand\\いわ&て\\岩&手}} & \multirow{3}{*}{2nd Largest} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{B4:宮城} & \multirow{3}{*}{\tryout{Shinto shrine&Castle\\みや&ぎ\\宮&城}} & \multirow{3}{*}{Tanabata} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{B5:秋田} & \multirow{3}{*}{\tryout{Autumn&Rice field\\あき&た\\秋&田}} & \multirow{3}{*}{Samurai houses} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{B6:山形} & \multirow{3}{*}{\tryout{Mountain&Style\\やま&がた\\山&形}} & \multirow{3}{*}{Yamadera} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{B7:福島} & \multirow{3}{*}{\tryout{Blessing&Island\\フク&しま\\福&島}} & \multirow{3}{*}{Disaster} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{Kant\={o}, 関東, Connection-East}\tnl\midrule
+	
+	\multirow{3}{*}{C8:茨城} & \multirow{3}{*}{\tryout{Briar&Thorn\\いばら&き\\茨&城}} & \multirow{3}{*}{Kairaku-en garden} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{C9:栃木} & \multirow{3}{*}{\tryout{Horse chestnut&Tree\\とち&ぎ\\栃&木}} & \multirow{3}{*}{Emperor's Villa} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{C10:群馬} & \multirow{3}{*}{\tryout{Group&Horse\\グン&ま\\群&馬}} & \multirow{3}{*}{Nature's Activities} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{C11:埼玉} & \multirow{3}{*}{\tryout{Cape&Jewel\\さい&たま\\埼&玉}} & \multirow{3}{*}{Sport fans}\tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{C12:千葉} & \multirow{3}{*}{\tryout{Thousand&Leaf\\ち&ば\\千&葉}} & \multirow{3}{*}{Disneyland} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{C13:東京} & \multirow{3}{*}{\tryout{East&Capital\\トウ&キョウ\\東&京}} & \multirow{3}{*}{13M} \tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{C14:神奈川} & \multirow{3}{*}{\tryout[ccc]{Gods&What?&River\\か&ナ&がわ\\神&奈&川}} & \multirow{3}{*}{Attractive} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{Ch\={u}bu, 中部, Center-Section}\tnl\midrule
+	
+	\multirow{3}{*}{D15:新潟} & \multirow{3}{*}{\tryout{New&Lagoon\\にい&がた\\新&潟}} & \multirow{3}{*}{Rice fields} \tnl\tnl\tnl\midrule
+	
+	\pagebreak \midrule
+	
+	\multirow{3}{*}{D16:富山} & \multirow{3}{*}{\tryout{Wealth&Mountain\\と&やま\\富&山}} & \multirow{3}{*}{Snow corridor} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D17:石川} & \multirow{3}{*}{\tryout{Stone&River\\いし&かわ\\石&川}} & \multirow{3}{*}{Train station} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D18:福井} & \multirow{3}{*}{\tryout{Blessing&Well\\フク&い\\福&井}} & \multirow{3}{*}{Dinosaur museum} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D19:山梨} & \multirow{3}{*}{\tryout{Mountain&Pear tree\\やま&なし\\山&梨}} & \multirow{3}{*}{Fuji 5 lakes} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D20:長野} & \multirow{3}{*}{\tryout{Long&Plains\\なが&の\\長&野}} & \multirow{3}{*}{Matsumoto castle} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D21:岐阜} & \multirow{3}{*}{\tryout{Branch off&Hill\\ギ&フ\\岐&阜}} & \multirow{3}{*}{Japanese alps} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D22:静岡} & \multirow{3}{*}{\tryout{Quiet&Mount\\しず&おか\\静&岡}} & \multirow{3}{*}{Izu peninsula} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{D23:愛知} & \multirow{3}{*}{\tryout{Love&Know\\アイ&チ\\愛&知}} & \multirow{3}{*}{Automotive} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{Kansai, 関西, Connection-West}\tnl\midrule
+	
+	\multirow{3}{*}{E24:三重} & \multirow{3}{*}{\tryout{Three&Heavy\\み&え\\三&重}} & \multirow{3}{*}{Ninja} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{E25:滋賀} & \multirow{3}{*}{\tryout{Nourishing&Joy\\シ&ガ\\滋&賀}} & \multirow{3}{*}{Kite festival} \tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{E26:京都} & \multirow{3}{*}{\tryout{Capital&Metropolis\\キョウ&ト\\京&都}} & \multirow{3}{*}{Aesthetics} \tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{E27:大阪} & \multirow{3}{*}{\tryout{Large&Heights\\おお&さか\\大&阪}} & \multirow{3}{*}{9M} \tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{E28:兵庫} & \multirow{3}{*}{\tryout{Soldier&Warehouse\\ヒョウ&ゴ\\兵&庫}} & \multirow{3}{*}{Himeji castle} \tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{E29:奈良} & \multirow{3}{*}{\tryout{What?&Good\\ナ&ラ\\奈&良}} & \multirow{3}{*}{Dear} \tnl\tnl\tnl\midrule
+
+	\multirow{3}{*}{E30:和歌山} & \multirow{3}{*}{\tryout[ccc]{Harmony&Song&Mountain\\わ&か&やま\\和&歌&山}} & \multirow{3}{*}{120 temples} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{Ch\={u}goku, 中国, Center-Country}\tnl\midrule
+
+	\multirow{3}{*}{F31:鳥取} & \multirow{3}{*}{\tryout{Bird&Take\\とっ&とり\\鳥&取}} & \multirow{3}{*}{Camels} \tnl\tnl\tnl\midrule
+	
+	\pagebreak \midrule
+
+	\multirow{3}{*}{F32:島根} & \multirow{3}{*}{\tryout{Island&Root\\しま&ね\\島&根}} & \multirow{3}{*}{Oldest shrine} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{F33:岡山} & \multirow{3}{*}{\tryout{Mount&Mountain\\おか&やま\\岡&山}} & \multirow{3}{*}{Bicycle} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{F34:広島} & \multirow{3}{*}{\tryout{Wide&Island\\ひろ&しま\\広&島}} & \multirow{3}{*}{Atom bomb} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{F35:山口} & \multirow{3}{*}{\tryout{Mountain&Mouth\\やま&ぐち\\山&口}} & \multirow{3}{*}{Kintaikyo bridge} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{Shikoku, 四国, Four-Country}\tnl\midrule
+	
+	\multirow{3}{*}{G36:徳島} & \multirow{3}{*}{\tryout{Benevolence&Island\\トク&しま\\徳&島}} & \multirow{3}{*}{Awa Odori festival} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{G37:香川} & \multirow{3}{*}{\tryout{Incense&River\\か&がわ\\香&川}} & \multirow{3}{*}{Sugar} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{G38:愛媛} & \multirow{3}{*}{\tryout{Love&Princess\\え&ひめ\\愛&媛}} & \multirow{3}{*}{Oldest onsen} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{G39:高知} & \multirow{3}{*}{\tryout{Tall&Know\\コウ&チ\\高&知}} & \multirow{3}{*}{Chikurinji temple} \tnl\tnl\tnl\midrule
+	
+	\multicolumn{3}{c}{Ky\={u}sh\={u}, 九州, Nine-State}\tnl\midrule
+	
+	\multirow{3}{*}{H40:福岡} & \multirow{3}{*}{\tryout{Blessing&Mount\\フク&おか\\福&岡}} & \multirow{3}{*}{Outdoor nightlife} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{H41:佐賀} & \multirow{3}{*}{\tryout{Assistant&Congratulations\\サ&ガ\\佐&賀}} & \multirow{3}{*}{2000 tombs} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{H42:長崎} & \multirow{3}{*}{\tryout{Long&Cape\\なが&さき\\長&崎}} & \multirow{3}{*}{Atom bomb} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{H43:熊本} & \multirow{3}{*}{\tryout{Bear&Main\\くま&もと\\熊&本}} & \multirow{3}{*}{Largest active volcano} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{H44:大分} & \multirow{3}{*}{\tryout{Large&Part\\おお&いた\\大&分}} & \multirow{3}{*}{Hells of Beppu} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{H45:宮崎} & \multirow{3}{*}{\tryout{Shinto shrine&Cape\\みや&ざき\\宮&崎}} & \multirow{3}{*}{Amaterasu hides} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{H46:鹿児島} & \multirow{3}{*}{\tryout[ccc]{Deer&Child&Island\\か&ご&しま\\鹿&児&島}} & \multirow{3}{*}{Active volcano} \tnl\tnl\tnl\midrule
+	
+	\multirow{3}{*}{I47:沖縄} & \multirow{3}{*}{\tryout{Open sea&Straw rope\\おき&なわ\\沖&縄}} & \multirow{3}{*}{Extreme weather} \tnl\tnl\tnl
+	
+	\bottomrule
+\end{longtable}
+
+\end{document}

@@ -1,0 +1,41 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[left=1cm,right=1cm,bottom=1cm,top=1cm]{geometry}
+\usepackage{tikz}
+\usepackage{pgfplots,graphicx}
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix}
+\usetikzlibrary{positioning,fit,calc,shapes,patterns,automata}
+\usepackage{tabularx,xfrac,color,makecell}
+\usetikzlibrary{plotmarks}
+\graphicspath{ {/home/henri/stuff/japanese/tuttle_kanji/radicals/standalone/} }
+\newsavebox{\tempbox}
+\usepackage[export]{adjustbox}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+\savebox{\tempbox}{\begin{tikzpicture}
+\matrix (m) 
+	[	matrix of nodes,
+		ampersand replacement=\&,
+		nodes=
+			{	draw,
+				rectangle,
+				line width=1.5mm,
+				outer sep=0,
+				inner sep=0,
+				anchor=center,
+				minimum height=4cm, minimum width=4cm}]
+	{	{\includegraphics[height=4cm]{01s.jpg}} \& {\includegraphics[height=4cm]{02s.jpg}} \& {\includegraphics[height=4cm]{03s.jpg}} \&  {\includegraphics[height=4cm]{04s.jpg}} \\
+		{\includegraphics[height=4cm]{05s.jpg}} \& {\includegraphics[height=4cm]{06s.jpg}} \& {\includegraphics[height=4cm]{07s.jpg}} \& {\includegraphics[height=4cm]{08s.jpg}} \\
+		{\includegraphics[height=4cm]{09s.jpg}} \& {\includegraphics[height=4cm]{10s.jpg}} \& {\includegraphics[height=4cm]{11s.jpg}} \& {\includegraphics[height=4cm]{12s.jpg}} \\
+		{\includegraphics[height=4cm]{13s.jpg}} \& {\includegraphics[height=4cm]{14s.jpg}} \& {\includegraphics[height=4cm]{15s.jpg}} \& {\includegraphics[height=4cm]{16s.jpg}} \\
+		{\includegraphics[height=4cm]{17s.jpg}} \& {\includegraphics[height=4cm]{18s.jpg}} \& {\includegraphics[height=4cm]{19s.jpg}} \& {\includegraphics[height=4cm]{20s.jpg}} \\
+		{\includegraphics[height=4cm]{21s.jpg}} \& {\includegraphics[height=4cm]{22s.jpg}} \\ };
+\end{tikzpicture}}  % create the box
+\begin{tikzpicture}[remember picture,overlay]
+	\node[inner sep=0pt] at (current page.center) {\usebox{\tempbox}};
+\end{tikzpicture}
+
+\end{document}
