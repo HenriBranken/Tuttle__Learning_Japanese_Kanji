@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.11)  13 DEC 2020 21:28
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.11)  14 DEC 2020 20:55
  restricted system commands enabled.
 **tuttle.tex
 (./tuttle.tex
@@ -2496,20 +2496,16 @@ LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
 ese/kanji/chap1//so_small.pdf>] (./tuttle.aux)
 Package rerunfilecheck Info: File `tuttle.out' has not changed.
 (rerunfilecheck)             Checksum: 08D804EC1F7568C014185AF80EB46BBD;90.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
  41093 strings out of 478903
- 746588,1648299 words of node,token memory allocated
+ 746568,1648299 words of node,token memory allocated
  300103 words of node memory still in use:
    11 hlist, 3 vlist, 7 rule, 3 glue, 1133 kern, 1 glyph, 106385 attribute, 8169
  glue_spec, 7553 attribute_list, 2 write, 6357 user_defined nodes
-   avail lists: 1:40,2:92827,3:932,4:2000,5:495,6:286,7:11482,8:67,9:5449,10:14,
-11:411
+   avail lists: 1:41,2:92827,3:932,4:2000,5:495,6:286,7:11482,8:66,9:5449,10:14,
+11:408
  57756 multiletter control sequences out of 65536+600000
  79 fonts using 59157999 bytes
  121i,23n,118p,1211b,663s stack positions out of 5000i,500n,10000p,200000b,200000s
@@ -2529,7 +2525,7 @@ public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
 c/wasy-type1/wasy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/w
 asy-type1/wasyb10.pfb>
-Output written on tuttle.pdf (13 pages, 575659 bytes).
+Output written on tuttle.pdf (13 pages, 575740 bytes).
 
 PDF statistics: 568 PDF objects out of 1000 (max. 8388607)
  374 compressed objects within 4 object streams
