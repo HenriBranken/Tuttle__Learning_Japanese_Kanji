@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.16)  18 DEC 2020 18:36
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.16)  18 DEC 2020 19:27
  restricted system commands enabled.
 **tuttle.tex
 (./tuttle.tex
@@ -1738,30 +1738,30 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ]
 第 1 章
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 182.
+(Font)              scaled to size 19.95642pt on input line 186.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 182.
+(Font)              scaled to size 19.95642pt on input line 186.
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <20.74> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 182.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 182.
+(Font)              scaled to size 19.95642pt on input line 186.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <20.74> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 182.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 182.
-(./chap1.tex(load cache: extra_lmroman10-bold.luc)(load cache: extra_lmroman9-re
+(Font)              scaled to size 19.95642pt on input line 186.
+(./chap2.tex(load cache: extra_lmroman10-bold.luc)(load cache: extra_lmroman9-re
 gular.luc)(load cache: extra_lmroman9-bold.luc)
-File: /home/henri/stuff/japanese/kanji/chap1//mountain.pdf Graphic file (type pd
-f)
-<use /home/henri/stuff/japanese/kanji/chap1//mountain.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//mountain.pdf  u
-sed on input line 4.
+File: /home/henri/stuff/japanese/kanji/chap2//shellfish.pdf Graphic file (type p
+df)
+<use /home/henri/stuff/japanese/kanji/chap2//shellfish.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//shellfish.pdf  
+used on input line 4.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_mountain.pdf Graphic file (type
- pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//so_mountain.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_mountain.pdf
-  used on input line 4.
+File: /home/henri/stuff/japanese/kanji/chap2//so_shellfish.pdf Graphic file (typ
+e pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//so_shellfish.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_shellfish.pd
+f  used on input line 4.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
 Overfull \hbox (0.81456pt too wide) in alignment at lines 4--4
@@ -1770,741 +1770,705 @@ Overfull \hbox (0.81456pt too wide) in alignment at lines 4--4
 
 (load cache: extra_lmroman10-italic.luc)(load cache: extra_lmroman9-italic.luc)
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 30.
+(Font)              No change on input line 28.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 30.
+(Font)              No change on input line 28.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 30.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 30.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 30.
+(Font)              No change on input line 28.
 (load cache: extra_lmroman5-regular.luc)
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 37.
-File: /home/henri/stuff/japanese/kanji/chap1//person.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//person.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//person.pdf  use
-d on input line 46.
+(Font)              No change on input line 35.
+File: /home/henri/stuff/japanese/kanji/chap2//six.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//six.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//six.pdf  used o
+n input line 43.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_person.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap1//so_person.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_person.pdf  
-used on input line 46.
+File: /home/henri/stuff/japanese/kanji/chap2//so_six.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap2//so_six.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_six.pdf  use
+d on input line 43.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 46--46
-[][][]
- []
-
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 64--64
+Overfull \hbox (0.81456pt too wide) in alignment at lines 43--43
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 79.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 86.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 86.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 86.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 86--86
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[3</home/henri/stuff/japanese/kanji/chap1//mountain.pdf></home/henri/stuff/japan
-ese/kanji/chap1//so_mountain.pdf></home/henri/stuff/japanese/kanji/chap1//person
-.pdf></home/henri/stuff/japanese/kanji/chap1//so_person.pdf>]
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 93.
-File: /home/henri/stuff/japanese/kanji/chap1//one.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//one.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//one.pdf  used o
-n input line 101.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_one.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//so_one.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_one.pdf  use
-d on input line 101.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 101--101
-[][][]
- []
-
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 117--117
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 131.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 136.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 136--136
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 143.
+(Font)              No change on input line 52.
 (load cache: extra_lmroman7-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 149.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 71.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 78.
+[3</home/henri/stuff/japanese/kanji/chap2//shellfish.pdf></home/henri/stuff/japa
+nese/kanji/chap2//so_shellfish.pdf></home/henri/stuff/japanese/kanji/chap2//six.
+pdf></home/henri/stuff/japanese/kanji/chap2//so_six.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//king.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//king.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//king.pdf  used 
+on input line 89.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_king.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//so_king.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_king.pdf  us
+ed on input line 89.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 89--89
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 115.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 115.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 115.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 115.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 115.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 122.
+File: /home/henri/stuff/japanese/kanji/chap2//jewel.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//jewel.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//jewel.pdf  used
+ on input line 131.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_jewel.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap2//so_jewel.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_jewel.pdf  u
+sed on input line 131.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 131--131
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 158.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 158.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 158.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 158.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 158.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 158.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 165.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 15.0pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[4</home/henri/stuff/japanese/kanji/chap1//one.pdf></home/henri/stuff/japanese/k
-anji/chap1//so_one.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//two.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//two.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//two.pdf  used o
-n input line 152.
+[4</home/henri/stuff/japanese/kanji/chap2//king.pdf></home/henri/stuff/japanese/
+kanji/chap2//so_king.pdf></home/henri/stuff/japanese/kanji/chap2//jewel.pdf></ho
+me/henri/stuff/japanese/kanji/chap2//so_jewel.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//heart.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//heart.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//heart.pdf  used
+ on input line 177.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_two.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//so_two.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_two.pdf  use
-d on input line 152.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 152--152
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 180.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 186.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 186.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 186.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 193.
-File: /home/henri/stuff/japanese/kanji/chap1//three.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//three.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//three.pdf  used
- on input line 201.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_three.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap2//so_heart.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_three.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_three.pdf  u
-sed on input line 201.
+<use /home/henri/stuff/japanese/kanji/chap2//so_heart.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_heart.pdf  u
+sed on input line 177.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 201--201
+Overfull \hbox (0.81456pt too wide) in alignment at lines 177--177
+[][][]
+ []
+
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 192--192
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
+(Font)              No change on input line 205.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 230.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 237.
-[5</home/henri/stuff/japanese/kanji/chap1//two.pdf></home/henri/stuff/japanese/k
-anji/chap1//so_two.pdf></home/henri/stuff/japanese/kanji/chap1//three.pdf></home
-/henri/stuff/japanese/kanji/chap1//so_three.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//sun.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//sun.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//sun.pdf  used o
-n input line 246.
+(Font)              No change on input line 212.
+File: /home/henri/stuff/japanese/kanji/chap2//country.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//country.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//country.pdf  us
+ed on input line 220.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_sun.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//so_sun.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_sun.pdf  use
-d on input line 246.
+File: /home/henri/stuff/japanese/kanji/chap2//so_country.pdf Graphic file (type 
+pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//so_country.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_country.pdf 
+ used on input line 220.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 246--246
+Overfull \hbox (0.81456pt too wide) in alignment at lines 220--220
 [][][]
  []
 
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 248.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 255.
+[5</home/henri/stuff/japanese/kanji/chap2//heart.pdf></home/henri/stuff/japanese
+/kanji/chap2//so_heart.pdf></home/henri/stuff/japanese/kanji/chap2//country.pdf>
+</home/henri/stuff/japanese/kanji/chap2//so_country.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//complete.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap2//complete.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//complete.pdf  u
+sed on input line 264.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_complete.pdf Graphic file (type
+ pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//so_complete.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_complete.pdf
+  used on input line 264.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
 Overfull \hbox (0.81456pt too wide) in alignment at lines 264--264
 [][][]
  []
 
+
+LaTeX Warning: Reference `glyph:person' on page 6 undefined on input line 269.
+
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
+(Font)              No change on input line 292.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
+(Font)              No change on input line 292.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
+(Font)              No change on input line 292.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
+(Font)              No change on input line 292.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
+(Font)              No change on input line 292.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
+(Font)              No change on input line 292.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 279.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 286.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 286.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 286.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 286.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 293.
-File: /home/henri/stuff/japanese/kanji/chap1//white.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//white.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//white.pdf  used
- on input line 302.
+(Font)              No change on input line 299.
+File: /home/henri/stuff/japanese/kanji/chap2//ten.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//ten.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//ten.pdf  used o
+n input line 308.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_white.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap2//so_ten.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap2//so_ten.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_ten.pdf  use
+d on input line 308.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+LaTeX Warning: Reference `glyph:character' on page 6 undefined on input line 308
+.
+
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 308--308
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 337.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 342.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 342.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 349.
+[6</home/henri/stuff/japanese/kanji/chap2//complete.pdf></home/henri/stuff/japan
+ese/kanji/chap2//so_complete.pdf></home/henri/stuff/japanese/kanji/chap2//ten.pd
+f></home/henri/stuff/japanese/kanji/chap2//so_ten.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//early.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//early.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//early.pdf  used
+ on input line 358.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_early.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_white.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_white.pdf  u
-sed on input line 302.
+<use /home/henri/stuff/japanese/kanji/chap2//so_early.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_early.pdf  u
+sed on input line 358.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 302--302
+Overfull \hbox (0.81456pt too wide) in alignment at lines 358--358
 [][][]
  []
 
-(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 331.
+(Font)              No change on input line 385.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 331.
+(Font)              No change on input line 385.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 331.
+(Font)              No change on input line 385.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 331.
+(Font)              No change on input line 385.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 331.
+(Font)              No change on input line 385.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 331.
+(Font)              No change on input line 385.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 338.
-[6</home/henri/stuff/japanese/kanji/chap1//sun.pdf></home/henri/stuff/japanese/k
-anji/chap1//so_sun.pdf></home/henri/stuff/japanese/kanji/chap1//white.pdf></home
-/henri/stuff/japanese/kanji/chap1//so_white.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//mouth.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//mouth.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//mouth.pdf  used
- on input line 348.
+(Font)              No change on input line 392.
+File: /home/henri/stuff/japanese/kanji/chap2//upper.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//upper.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//upper.pdf  used
+ on input line 401.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_mouth.pdf Graphic file (type pd
+File: /home/henri/stuff/japanese/kanji/chap2//so_upper.pdf Graphic file (type pd
 f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_mouth.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_mouth.pdf  u
-sed on input line 348.
+<use /home/henri/stuff/japanese/kanji/chap2//so_upper.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_upper.pdf  u
+sed on input line 401.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 348--348
+Overfull \hbox (0.81456pt too wide) in alignment at lines 401--401
+[][][]
+ []
+
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 416--416
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 375.
+(Font)              No change on input line 431.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 375.
+(Font)              No change on input line 431.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 375.
+(Font)              No change on input line 431.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 375.
+(Font)              No change on input line 431.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 375.
+(Font)              No change on input line 431.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 375.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 382.
-File: /home/henri/stuff/japanese/kanji/chap1//rotate.pdf Graphic file (type pdf)
+(Font)              No change on input line 431.
 
-<use /home/henri/stuff/japanese/kanji/chap1//rotate.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//rotate.pdf  use
-d on input line 392.
+Overfull \hbox (0.81456pt too wide) in alignment at lines 431--431
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 438.
+[7</home/henri/stuff/japanese/kanji/chap2//early.pdf></home/henri/stuff/japanese
+/kanji/chap2//so_early.pdf></home/henri/stuff/japanese/kanji/chap2//upper.pdf></
+home/henri/stuff/japanese/kanji/chap2//so_upper.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//lower.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//lower.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//lower.pdf  used
+ on input line 447.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_rotate.pdf Graphic file (type p
+File: /home/henri/stuff/japanese/kanji/chap2//so_lower.pdf Graphic file (type pd
+f)
+<use /home/henri/stuff/japanese/kanji/chap2//so_lower.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_lower.pdf  u
+sed on input line 447.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 447--447
+[][][]
+ []
+
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 462--462
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 478.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 482.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 489.
+File: /home/henri/stuff/japanese/kanji/chap2//rice.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//rice.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//rice.pdf  used 
+on input line 497.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_rice.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//so_rice.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_rice.pdf  us
+ed on input line 497.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 497--497
+[][][]
+ []
+
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 513--513
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 527.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 534.
+
+Overfull \vbox (10.27998pt too high) has occurred while \output is active []
+
+
+[8</home/henri/stuff/japanese/kanji/chap2//lower.pdf></home/henri/stuff/japanese
+/kanji/chap2//so_lower.pdf></home/henri/stuff/japanese/kanji/chap2//rice.pdf></h
+ome/henri/stuff/japanese/kanji/chap2//so_rice.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//self.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//self.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//self.pdf  used 
+on input line 543.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_self.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//so_self.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_self.pdf  us
+ed on input line 543.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 543--543
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 558.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 558--558
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 570.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 570.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 570.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 570.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 570.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 577.
+File: /home/henri/stuff/japanese/kanji/chap2//inside.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap2//inside.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//inside.pdf  use
+d on input line 586.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_inside.pdf Graphic file (type p
 df)
-<use /home/henri/stuff/japanese/kanji/chap1//so_rotate.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_rotate.pdf  
-used on input line 392.
+<use /home/henri/stuff/japanese/kanji/chap2//so_inside.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_inside.pdf  
+used on input line 586.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 392--392
+Overfull \hbox (0.81456pt too wide) in alignment at lines 586--586
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 420.
+(Font)              No change on input line 613.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 420.
+(Font)              No change on input line 613.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 420.
+(Font)              No change on input line 613.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 420.
+(Font)              No change on input line 613.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 420.
+(Font)              No change on input line 613.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 420.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 420--420
-[][][]
- []
-
-[7</home/henri/stuff/japanese/kanji/chap1//mouth.pdf></home/henri/stuff/japanese
-/kanji/chap1//so_mouth.pdf></home/henri/stuff/japanese/kanji/chap1//rotate.pdf><
-/home/henri/stuff/japanese/kanji/chap1//so_rotate.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//four.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//four.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//four.pdf  used 
-on input line 437.
+(Font)              No change on input line 613.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 620.
+[9</home/henri/stuff/japanese/kanji/chap2//self.pdf></home/henri/stuff/japanese/
+kanji/chap2//so_self.pdf></home/henri/stuff/japanese/kanji/chap2//inside.pdf></h
+ome/henri/stuff/japanese/kanji/chap2//so_inside.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//migi.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//migi.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//migi.pdf  used 
+on input line 630.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_four.pdf Graphic file (type pdf
+File: /home/henri/stuff/japanese/kanji/chap2//so_migi.pdf Graphic file (type pdf
 )
-<use /home/henri/stuff/japanese/kanji/chap1//so_four.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_four.pdf  us
-ed on input line 437.
+<use /home/henri/stuff/japanese/kanji/chap2//so_migi.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_migi.pdf  us
+ed on input line 630.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 437--437
+Overfull \hbox (0.81456pt too wide) in alignment at lines 630--630
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
+(Font)              No change on input line 658.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
+(Font)              No change on input line 658.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
+(Font)              No change on input line 658.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
+(Font)              No change on input line 658.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
+(Font)              No change on input line 658.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
+(Font)              No change on input line 658.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 467.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 474.
-File: /home/henri/stuff/japanese/kanji/chap1//moon.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//moon.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//moon.pdf  used 
-on input line 482.
+(Font)              No change on input line 665.
+File: /home/henri/stuff/japanese/kanji/chap2//have.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//have.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//have.pdf  used 
+on input line 673.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_moon.pdf Graphic file (type pdf
+File: /home/henri/stuff/japanese/kanji/chap2//so_have.pdf Graphic file (type pdf
 )
-<use /home/henri/stuff/japanese/kanji/chap1//so_moon.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_moon.pdf  us
-ed on input line 482.
+<use /home/henri/stuff/japanese/kanji/chap2//so_have.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_have.pdf  us
+ed on input line 673.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 482--482
+Overfull \hbox (0.81456pt too wide) in alignment at lines 673--673
 [][][]
  []
 
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 510.
-[8</home/henri/stuff/japanese/kanji/chap1//four.pdf></home/henri/stuff/japanese/
-kanji/chap1//so_four.pdf></home/henri/stuff/japanese/kanji/chap1//moon.pdf></hom
-e/henri/stuff/japanese/kanji/chap1//so_moon.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//bright.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//bright.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//bright.pdf  use
-d on input line 527.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_bright.pdf Graphic file (type p
-df)
-<use /home/henri/stuff/japanese/kanji/chap1//so_bright.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_bright.pdf  
-used on input line 527.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 527--527
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 552.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 552.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 552.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 552.
-File: /home/henri/stuff/japanese/kanji/chap1//tree.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//tree.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//tree.pdf  used 
-on input line 567.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_tree.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap1//so_tree.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_tree.pdf  us
-ed on input line 567.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 567--567
-[][][]
- []
-
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 584--584
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 596.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 596.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 596.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 596.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 596.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 605.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 605--605
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 612.
-[9</home/henri/stuff/japanese/kanji/chap1//bright.pdf></home/henri/stuff/japanes
-e/kanji/chap1//so_bright.pdf></home/henri/stuff/japanese/kanji/chap1//tree.pdf><
-/home/henri/stuff/japanese/kanji/chap1//so_tree.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//five.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//five.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//five.pdf  used 
-on input line 622.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_five.pdf Graphic file (type pdf
-)
-<use /home/henri/stuff/japanese/kanji/chap1//so_five.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_five.pdf  us
-ed on input line 622.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 622--622
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 631.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 650.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 657.
-File: /home/henri/stuff/japanese/kanji/chap1//eye.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//eye.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//eye.pdf  used o
-n input line 666.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_eye.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//so_eye.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_eye.pdf  use
-d on input line 666.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 666--666
-[][][]
- []
-
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 681--681
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 693.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 693.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 693.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 693.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 693.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
 (Font)              No change on input line 700.
-[10</home/henri/stuff/japanese/kanji/chap1//five.pdf></home/henri/stuff/japanese
-/kanji/chap1//so_five.pdf></home/henri/stuff/japanese/kanji/chap1//eye.pdf></hom
-e/henri/stuff/japanese/kanji/chap1//so_eye.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//woman.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//woman.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//woman.pdf  used
- on input line 709.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 700.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 700.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 700.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 700.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 700.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 707.
+[10</home/henri/stuff/japanese/kanji/chap2//migi.pdf></home/henri/stuff/japanese
+/kanji/chap2//so_migi.pdf></home/henri/stuff/japanese/kanji/chap2//have.pdf></ho
+me/henri/stuff/japanese/kanji/chap2//so_have.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//meat.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//meat.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//meat.pdf  used 
+on input line 718.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_woman.pdf Graphic file (type pd
-f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_woman.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_woman.pdf  u
-sed on input line 709.
+File: /home/henri/stuff/japanese/kanji/chap2//so_meat.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//so_meat.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_meat.pdf  us
+ed on input line 718.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 709--709
+Overfull \hbox (0.81456pt too wide) in alignment at lines 718--718
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 736.
+(Font)              No change on input line 744.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 736.
+(Font)              No change on input line 744.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 736.
+(Font)              No change on input line 744.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 736.
+(Font)              No change on input line 744.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 736.
+(Font)              No change on input line 744.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 736.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 743.
-File: /home/henri/stuff/japanese/kanji/chap1//large.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//large.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//large.pdf  used
- on input line 752.
+(Font)              No change on input line 751.
+File: /home/henri/stuff/japanese/kanji/chap2//half.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//half.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//half.pdf  used 
+on input line 760.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_large.pdf Graphic file (type pd
-f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_large.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_large.pdf  u
-sed on input line 752.
+File: /home/henri/stuff/japanese/kanji/chap2//so_half.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//so_half.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_half.pdf  us
+ed on input line 760.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 752--752
-[][][]
- []
-
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 769--769
+Overfull \hbox (0.81456pt too wide) in alignment at lines 760--760
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
+(Font)              No change on input line 787.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
+(Font)              No change on input line 787.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
+(Font)              No change on input line 787.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
+(Font)              No change on input line 787.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 783.
+(Font)              No change on input line 787.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
 (Font)              No change on input line 787.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
 (Font)              No change on input line 794.
-[11</home/henri/stuff/japanese/kanji/chap1//woman.pdf></home/henri/stuff/japanes
-e/kanji/chap1//so_woman.pdf></home/henri/stuff/japanese/kanji/chap1//large.pdf><
-/home/henri/stuff/japanese/kanji/chap1//so_large.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//middle.pdf Graphic file (type pdf)
-
-<use /home/henri/stuff/japanese/kanji/chap1//middle.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//middle.pdf  use
-d on input line 805.
+[11</home/henri/stuff/japanese/kanji/chap2//meat.pdf></home/henri/stuff/japanese
+/kanji/chap2//so_meat.pdf></home/henri/stuff/japanese/kanji/chap2//half.pdf></ho
+me/henri/stuff/japanese/kanji/chap2//so_half.pdf>]
+File: /home/henri/stuff/japanese/kanji/chap2//nine.pdf Graphic file (type pdf)
+<use /home/henri/stuff/japanese/kanji/chap2//nine.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//nine.pdf  used 
+on input line 804.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_middle.pdf Graphic file (type p
+File: /home/henri/stuff/japanese/kanji/chap2//so_nine.pdf Graphic file (type pdf
+)
+<use /home/henri/stuff/japanese/kanji/chap2//so_nine.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_nine.pdf  us
+ed on input line 804.
+(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 804--804
+[][][]
+ []
+
+
+Overfull \hbox (0.81456pt too wide) in alignment at lines 820--820
+[][][]
+ []
+
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 832.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 832.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 832.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 832.
+LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
+(Font)              No change on input line 839.
+File: /home/henri/stuff/japanese/kanji/chap2//spring.pdf Graphic file (type pdf)
+
+<use /home/henri/stuff/japanese/kanji/chap2//spring.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//spring.pdf  use
+d on input line 848.
+(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
+File: /home/henri/stuff/japanese/kanji/chap2//so_spring.pdf Graphic file (type p
 df)
-<use /home/henri/stuff/japanese/kanji/chap1//so_middle.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_middle.pdf  
-used on input line 805.
+<use /home/henri/stuff/japanese/kanji/chap2//so_spring.pdf>
+Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap2//so_spring.pdf  
+used on input line 848.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 805--805
+Overfull \hbox (0.81456pt too wide) in alignment at lines 848--848
 [][][]
  []
 
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 834.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 841.
-File: /home/henri/stuff/japanese/kanji/chap1//eight.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//eight.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//eight.pdf  used
- on input line 849.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_eight.pdf Graphic file (type pd
-f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_eight.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_eight.pdf  u
-sed on input line 849.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 849--849
-[][][]
- []
+LaTeX Warning: Reference `glyph:three' on page 12 undefined on input line 853.
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
+(Font)              No change on input line 875.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
+(Font)              No change on input line 875.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
+(Font)              No change on input line 875.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
+(Font)              No change on input line 875.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
+(Font)              No change on input line 875.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
+(Font)              No change on input line 875.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 877.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 884.
-[12</home/henri/stuff/japanese/kanji/chap1//middle.pdf></home/henri/stuff/japane
-se/kanji/chap1//so_middle.pdf></home/henri/stuff/japanese/kanji/chap1//eight.pdf
-></home/henri/stuff/japanese/kanji/chap1//so_eight.pdf>]
-File: /home/henri/stuff/japanese/kanji/chap1//small.pdf Graphic file (type pdf)
-<use /home/henri/stuff/japanese/kanji/chap1//small.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//small.pdf  used
- on input line 894.
-(luatex.def)             Requested size: 56.90388pt x 56.90388pt.
-File: /home/henri/stuff/japanese/kanji/chap1//so_small.pdf Graphic file (type pd
-f)
-<use /home/henri/stuff/japanese/kanji/chap1//so_small.pdf>
-Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap1//so_small.pdf  u
-sed on input line 894.
-(luatex.def)             Requested size: 56.8991pt x 56.8991pt.
-
-Overfull \hbox (0.81456pt too wide) in alignment at lines 894--894
-[][][]
- []
-
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 921.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 921.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 921.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 921.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 921.
-LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 928.
-) [13</home/henri/stuff/japanese/kanji/chap1//small.pdf></home/henri/stuff/japan
-ese/kanji/chap1//so_small.pdf>] (./tuttle.aux)
+(Font)              No change on input line 882.
+) [12</home/henri/stuff/japanese/kanji/chap2//nine.pdf></home/henri/stuff/japane
+se/kanji/chap2//so_nine.pdf></home/henri/stuff/japanese/kanji/chap2//spring.pdf>
+</home/henri/stuff/japanese/kanji/chap2//so_spring.pdf>] (./tuttle.aux)
 Package rerunfilecheck Info: File `tuttle.out' has not changed.
-(rerunfilecheck)             Checksum: 08D804EC1F7568C014185AF80EB46BBD;90.
+(rerunfilecheck)             Checksum: AF9CEA1376BA3B5A243E6D586D6C55CC;95.
+
+
+LaTeX Warning: There were undefined references.
+
 )
 
 Here is how much of LuaTeX's memory you used:
- 41093 strings out of 478903
- 746568,1648299 words of node,token memory allocated
- 301140 words of node memory still in use:
-   11 hlist, 3 vlist, 7 rule, 3 glue, 1118 kern, 1 glyph, 106856 attribute, 8149
- glue_spec, 7588 attribute_list, 2 write, 6407 user_defined nodes
-   avail lists: 1:39,2:93453,3:950,4:2018,5:495,6:289,7:11611,8:66,9:5536,10:14,
-11:408
- 57756 multiletter control sequences out of 65536+600000
- 79 fonts using 59157999 bytes
- 121i,23n,118p,1211b,663s stack positions out of 5000i,500n,10000p,200000b,200000s
+ 41091 strings out of 478903
+ 746597,1648299 words of node,token memory allocated
+ 286440 words of node memory still in use:
+   11 hlist, 3 vlist, 7 rule, 3 glue, 1068 kern, 1 glyph, 102937 attribute, 7143
+ glue_spec, 7289 attribute_list, 2 write, 6161 user_defined nodes
+   avail lists: 1:40,2:91454,3:923,4:2219,5:784,6:280,7:11761,8:66,9:5362,10:17,
+11:378
+ 57755 multiletter control sequences out of 65536+600000
+ 78 fonts using 59026311 bytes
+ 121i,19n,118p,1211b,620s stack positions out of 5000i,500n,10000p,200000b,200000s
 </usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.ot
 f></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.o
 tf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.o
@@ -2515,17 +2479,14 @@ iGothic-Medium.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/har
 anoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2020/texmf-dist/fonts/ope
 ntype/public/lm/lmroman10-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/
 opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/w
-asy-type1/wasy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/wasy
--type1/wasyb10.pfb>
-Output written on tuttle.pdf (13 pages, 583344 bytes).
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/wasy-type1/wasy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/wasy-type1/wasyb10.pfb>
+Output written on tuttle.pdf (12 pages, 601025 bytes).
 
-PDF statistics: 569 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 36 named destinations out of 1000 (max. 131072)
+PDF statistics: 557 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 35 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 
