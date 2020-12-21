@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.16)  20 DEC 2020 18:56
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.16)  21 DEC 2020 18:28
  restricted system commands enabled.
 **tuttle.tex
 (./tuttle.tex
@@ -2430,10 +2430,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of LuaTeX's memory you used:
  41095 strings out of 478903
  746580,1648299 words of node,token memory allocated
- 295341 words of node memory still in use:
-   11 hlist, 3 vlist, 7 rule, 9 glue, 1094 kern, 1 glyph, 106828 attribute, 7076
- glue_spec, 7524 attribute_list, 2 write, 6364 user_defined nodes
-   avail lists: 1:46,2:88639,3:845,4:2135,5:751,6:256,7:11404,8:66,9:5092,10:20,
+ 295464 words of node memory still in use:
+   11 hlist, 3 vlist, 7 rule, 9 glue, 1097 kern, 1 glyph, 106879 attribute, 7076
+ glue_spec, 7527 attribute_list, 2 write, 6364 user_defined nodes
+   avail lists: 1:47,2:88639,3:845,4:2135,5:751,6:256,7:11404,8:66,9:5092,10:20,
 11:363
  57759 multiletter control sequences out of 65536+600000
  80 fonts using 59289751 bytes
@@ -2453,7 +2453,7 @@ entype/public/lm/lmroman10-regular.otf></usr/local/texlive/2020/texmf-dist/fonts
 ype1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
 1/public/wasy-type1/wasy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/wasy-type1/wasyb10.pfb>
-Output written on tuttle.pdf (12 pages, 617457 bytes).
+Output written on tuttle.pdf (12 pages, 617525 bytes).
 
 PDF statistics: 558 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams
