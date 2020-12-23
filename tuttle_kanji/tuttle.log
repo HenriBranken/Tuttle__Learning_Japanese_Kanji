@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.16)  22 DEC 2020 23:12
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.12.16)  23 DEC 2020 23:50
  restricted system commands enabled.
 **tuttle.tex
 (./tuttle.tex
@@ -2373,50 +2373,50 @@ Overfull \hbox (0.81456pt too wide) in alignment at lines 791--791
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 820.
+(Font)              No change on input line 819.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 827.
+(Font)              No change on input line 826.
 File: /home/henri/stuff/japanese/kanji/chap3//winter.pdf Graphic file (type pdf)
 
 <use /home/henri/stuff/japanese/kanji/chap3//winter.pdf>
 Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap3//winter.pdf  use
-d on input line 835.
+d on input line 834.
 (luatex.def)             Requested size: 56.90388pt x 56.90388pt.
 File: /home/henri/stuff/japanese/kanji/chap3//so_winter.pdf Graphic file (type p
 df)
 <use /home/henri/stuff/japanese/kanji/chap3//so_winter.pdf>
 Package luatex.def Info: /home/henri/stuff/japanese/kanji/chap3//so_winter.pdf  
-used on input line 835.
+used on input line 834.
 (luatex.def)             Requested size: 56.8991pt x 56.8991pt.
 
-Overfull \hbox (0.81456pt too wide) in alignment at lines 835--835
+Overfull \hbox (0.81456pt too wide) in alignment at lines 834--834
 [][][]
  []
 
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 861.
+(Font)              No change on input line 860.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 861.
+(Font)              No change on input line 860.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 861.
+(Font)              No change on input line 860.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 861.
+(Font)              No change on input line 860.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 861.
+(Font)              No change on input line 860.
 LaTeX Font Info:    Kanji font shape `JY3/mc/m/it' undefined
-(Font)              No change on input line 868.
+(Font)              No change on input line 867.
 ) [12</home/henri/stuff/japanese/kanji/chap3//fire.pdf></home/henri/stuff/japane
 se/kanji/chap3//so_fire.pdf></home/henri/stuff/japanese/kanji/chap3//winter.pdf>
 </home/henri/stuff/japanese/kanji/chap3//so_winter.pdf>] (./tuttle.aux)
@@ -2426,18 +2426,15 @@ Package rerunfilecheck Info: File `tuttle.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
  41097 strings out of 478903
  746583,1648299 words of node,token memory allocated
- 297533 words of node memory still in use:
-   11 hlist, 3 vlist, 7 rule, 9 glue, 1094 kern, 1 glyph, 107707 attribute, 7092
- glue_spec, 7583 attribute_list, 2 write, 6423 user_defined nodes
-   avail lists: 1:46,2:88639,3:846,4:2135,5:751,6:256,7:11404,8:66,9:5092,10:20,
+ 297625 words of node memory still in use:
+   11 hlist, 3 vlist, 7 rule, 9 glue, 1094 kern, 1 glyph, 107737 attribute, 7096
+ glue_spec, 7585 attribute_list, 2 write, 6425 user_defined nodes
+   avail lists: 1:46,2:89627,3:846,4:2141,5:751,6:256,7:11404,8:66,9:5092,10:20,
 11:363
  57761 multiletter control sequences out of 65536+600000
  81 fonts using 59421439 bytes
@@ -2458,7 +2455,7 @@ ype1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/wasy-type1/wasy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
 ic/wasy-type1/wasyb10.pfb>
-Output written on tuttle.pdf (12 pages, 625027 bytes).
+Output written on tuttle.pdf (12 pages, 625186 bytes).
 
 PDF statistics: 562 PDF objects out of 1000 (max. 8388607)
  369 compressed objects within 4 object streams
