@@ -1,0 +1,86 @@
+\documentclass[10pt, a4paper]{ltjbook}
+\usepackage{luatexja}
+\usepackage[left=1.9cm,right=1.9cm,bottom=1.5cm,top=1.5cm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{ruby}
+\usepackage{tikz,pgfplots,xfrac,makecell,aurical,array,booktabs,multicol,multirow,calc}
+\usepackage{environ}
+\usepackage{tabularx}
+\usepackage{hhline}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{microtype}
+\usepackage{color}
+\usetikzlibrary{patterns}
+\usepackage[none]{hyphenat}
+\setlength{\columnseprule}{0.4pt}
+
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE, RO]{\leftmark}
+\fancyhead[RE, LO]{ページ{\;}\thepage}
+\fancyhead[CE, CO]{\href{https://github.com/HenriBranken/Tuttle__Learning_Japanese_Kanji}{Branken-kun/ブランケン君\textsuperscript{\textcopyright}}}
+
+\newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
+
+\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
+\setlength{\parindent}{0cm}
+
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\newcommand{\rye}[2]{\multicolumn{#1}{|l|}{\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+
+\usepackage{tocloft}
+\newcommand{\listofdecomps}{List of Sentences}
+\newlistof{decomp}{lod}{\listofdecomps}
+\NewEnviron{decomp}[1]
+{\refstepcounter{decomp}%
+\begin{center}
+\begin{tabularx}{\textwidth}{|*{#1}{@{}A}@{}|}
+\multicolumn{#1}{@{}|l|@{}}{\cellcolor{black}{\color{white}\textbf{\large{Sentence{\;}\thedecomp}}}}\\
+\BODY
+\end{tabularx}
+\end{center}
+}
+
+% -------------------------------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{decomp}{6}
+この&古い&本&を& 読んでいます&か。\\
+この&ふるい&ホン&を&よんでいます&か。\\
+this&old&book&を&are reading&か。\\\hline
+&&&&&\\\hline
+\multicolumn{6}{|l|}{この古い本を読んでいますか。}\\\hline
+\multicolumn{6}{|r|}{\textit{Are you reading this old book?}}\\\hline
+\end{decomp}
+
+\begin{decomp}{8}
+あの&国&にわ&安全&な&水道水&が&ありません。\\
+あの&くに&にわ&アンゼン&な&スイドウスイ&が&ありません。\\
+that&country&にわ&safe&な&tap water&が&isn't\\\hline
+&&&&&&&\\\hline
+\multicolumn{8}{|l|}{あの国にわ安全な水道水ありません。}\\\hline
+\multicolumn{8}{|r|}{\textit{There is no safe tap water in that country.}}\\\hline
+\end{decomp}
+
+\end{document}
