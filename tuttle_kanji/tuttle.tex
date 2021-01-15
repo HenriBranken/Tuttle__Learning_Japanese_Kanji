@@ -139,6 +139,15 @@
 \end{tabularx}%
 }
 
+\NewEnviron{decomp}[1]
+{%
+\begin{tabularx}{\columnwidth}{|*{#1}{@{}A}@{}|}%
+\hhline{|*{#1}{-}|}\multicolumn{#1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\%
+\hhline{|*{#1}{-}|}\rule{0pt}{\baselineskip}%
+\BODY%
+\end{tabularx}%
+}
+
 \newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
 \newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
 \newcommand{\notcov}{\hspace{-0.7pt}\textsuperscript{\ensuremath{\star}}}
@@ -216,13 +225,13 @@
 %\begin{multicols}{2}
 %\input{chap9}
 
-\chapter{漢字 181--200}
-\begin{multicols}{2}
-\input{chap10}
-
-%\chapter{漢字 201--225}
+%\chapter{漢字 181--200}
 %\begin{multicols}{2}
-%\input{chap11}
+%\input{chap10}
+
+\chapter{漢字 201--225}
+\begin{multicols}{2}
+\input{chap11}
 
 %\chapter{漢字 226--250}
 %\begin{multicols}{2}
