@@ -1,5 +1,8 @@
 \documentclass[10pt, a4paper]{ltjbook}
 \usepackage{luatexja}
+\usepackage{cellspace}
+\setlength\cellspacetoplimit{3pt}
+\setlength\cellspacebottomlimit{3pt}
 \usepackage[left=1.9cm,right=1.9cm,bottom=1.5cm,top=1.5cm]{geometry}
 \usepackage[table]{xcolor}
 \usepackage{amsmath}
@@ -65,10 +68,8 @@
 	\begin{tabularx}{\columnwidth}{@{}|A|A|A|@{}}
 	\hhline{|---|}\multicolumn{3}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
 	\hhline{|---|}\multicolumn{1}{|c}{\raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{#2.pdf}}} & \multicolumn{1}{|c}{\raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{so_#2.pdf}}} & \multicolumn{1}{|c|}{}\\\hline % row comp
-	\multicolumn{3}{|B|}{\begin{tabularx}{0.95\columnwidth}{@{}l@{}}
-	\BODY
-	\end{tabularx}}\\\hline
-	\end{tabularx}
+	\multicolumn{3}{|B|}{\renewcommand{\arraystretch}{1.2}\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+	\end{tabularx}\renewcommand{\arraystretch}{1}
 }
 
 \NewEnviron{comps}
