@@ -16,6 +16,7 @@
 \usepackage{ulem}
 \usetikzlibrary{patterns}
 \usepackage[none]{hyphenat}
+\usepackage{xparse}
 \setlength{\columnseprule}{0.4pt}
 
 
@@ -54,7 +55,9 @@
 
 \renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
 
-\newcommand{\rye}[2]{\multicolumn{#1}{|l|}{\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+\newcommand{\rye}[2]{\multicolumn{#1}{|l@{}|}{\renewcommand{\arraystretch}{1.2}\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+%\newcommand{\ryeexp}[2]{\multicolumn{#1}{|l@{}|}{\renewcommand{\arraystretch}{1.2}\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+
 
 \usepackage{tocloft}
 \newcommand{\listofkanji}{List of Kanji}
