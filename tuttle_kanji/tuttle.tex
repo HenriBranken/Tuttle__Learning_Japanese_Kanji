@@ -17,6 +17,7 @@
 \usetikzlibrary{patterns}
 \usepackage[none]{hyphenat}
 \usepackage{xparse}
+\usepackage{imakeidx}
 \setlength{\columnseprule}{0.4pt}
 
 
@@ -180,6 +181,7 @@
 %-------------------------------------------------------
 %-------------------------------------------------------
 %-------------------------------------------------------
+\makeindex[columns=3, title=漢字 Entries]
 \begin{document}
 
 \begin{multicols}{2}
@@ -279,4 +281,5 @@
 \begin{multicols}{2}
 \input{chap22}
 
+\printindex
 \end{document}
