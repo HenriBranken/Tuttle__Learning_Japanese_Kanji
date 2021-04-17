@@ -18,6 +18,9 @@
 \usepackage[none]{hyphenat}
 \usepackage{xparse}
 \usepackage{imakeidx}
+\makeindex[name=kanji, columns=4, title={Index of 漢字}, intoc, columnseprule, options= -s experiment.ist]
+\makeindex[name=stroke, columns=4, title={Index of 漢字 by Stroke Count}, intoc, columnseprule]
+\makeindex[name=compounds, title={Index of Compounds}]
 \setlength{\columnseprule}{0.4pt}
 
 
@@ -151,6 +154,8 @@
 \end{tabularx}%
 }
 
+\newcommand{\strindex}[2]{\index[stroke]{#1@#1!#2}}
+
 \newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
 \newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
 \newcommand{\notcov}{\hspace{-0.7pt}\textsuperscript{\ensuremath{\star}}}
@@ -281,5 +286,6 @@
 %\begin{multicols}{2}
 %\input{chap22}
 
-\printindex
+\printindex[kanji]
+\printindex[stroke]
 \end{document}
