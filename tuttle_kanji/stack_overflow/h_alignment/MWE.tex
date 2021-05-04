@@ -1,0 +1,131 @@
+\documentclass[10pt, a4paper]{ltjbook}
+\usepackage{luatexja}
+\usepackage[left=1.9cm,right=1.9cm,bottom=1.5cm,top=1.5cm]{geometry}
+\usepackage{array,longtable,supertabular,booktabs,multicol,multirow}
+\usepackage{tabularx}
+\usepackage{hhline}
+\usepackage{blindtext}
+\usepackage{imakeidx}
+\setlength{\columnseprule}{0.4pt}
+\newsavebox\ltmcbox
+% This command inhibits a column break after a group letter in the index
+% It also swallows the following \\, because the \\ is here before the \nopagebreak.
+\newcommand{\dontbreak}[1]{\\\nopagebreak} % Swallow the following \\
+\begin{filecontents*}{general.ist}
+	headings_flag 5
+	heading_prefix "\n\\rmfamily\\textbf{"heading_suffix "}\\dontbreak "
+	preamble "\\chapter*{\\indexname}%
+	\\newcommand\\ignoreNL[1]{}%
+	\\begin{multicols}{4}
+	\\setbox\\ltmcbox\\vbox{
+		\\makeatletter\\col@number\\@ne\\makeatother
+		\\begin{longtable}{llr}
+		"
+		postamble "\\end{longtable}
+		\\unskip
+		\\unpenalty
+		\\unpenalty}
+	\\unvbox\\ltmcbox
+	\\end{multicols}
+	"
+	item_0 "\\\\\n "
+	delim_0 "&"
+	delim_1 "\\hfill "
+	group_skip "\n \\\\[5pt] \\ignoreNL "
+\end{filecontents*}
+
+\makeindex[name=gen, title={Index of Kanji}, columns=4, columnseprule, options=-s general.ist]
+
+\newcommand{\gindex}[2]{\index[gen]{#1 & #2}}
+
+\begin{document}
+	\Blindtext
+	\gindex{One}{一}
+	
+	\gindex{Two}{二}
+	
+	\gindex{Three}{三}
+	
+	\Blindtext
+	\gindex{Four}{四}
+	
+	\gindex{Five}{五}
+	
+	\gindex{Six}{六}
+	
+	\gindex{Seven}{七}
+	
+	\gindex{Eight}{八}
+	
+	\gindex{Nine}{九}
+	
+	\blindtext
+	\gindex{Ten}{十}
+	
+	\gindex{Eleven}{十一}
+	
+	\gindex{Twelve}{十二}
+	
+	\gindex{Thirteen}{十三}
+	
+	\gindex{Fourteen}{十四}
+	
+	\gindex{Fifteen}{十五}
+	
+	\gindex{Sixteen}{十六}
+	
+	\gindex{Seventeen}{十七}
+	
+	\gindex{Eighteen}{十八}
+	
+	\gindex{Nineteen}{十九}
+	
+	\gindex{Twenty}{二十}
+	
+	\gindex{Mouth}{口}
+	
+	\gindex{Neck}{首}
+	
+	\gindex{Head}{頭}
+	
+	\gindex{Lips}{唇}
+	
+	\gindex{Arms}{腕}
+	
+	\gindex{Feet}{足}
+	
+	\gindex{Sunday}{日曜日}
+	
+	\gindex{Monday}{月曜日}
+	
+	\gindex{Tuesday}{火曜日}
+	
+	\gindex{Wednesday}{水曜日}
+	
+	\gindex{Thursday}{木曜日}
+	
+	\gindex{Friday}{金曜日}
+	
+	\gindex{Saturday}{土曜日}
+	
+	\gindex{Wind}{風}
+	
+	\gindex{Water}{水}
+	
+	\gindex{Fire}{火}
+	
+	\gindex{Flower}{花}
+	
+	\blindtext
+	\gindex{East}{東}
+	
+	\gindex{South}{南}
+	
+	\gindex{North}{北}
+	
+	\blindtext
+	\gindex{West}{西}
+	
+	\printindex[gen]
+	
+\end{document}

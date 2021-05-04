@@ -1,0 +1,17 @@
+headings_flag 0
+
+preamble "\\chapter*{\\indexname}%
+\\renewcommand{\\tabcolsep}{0pt}%
+\\begin{multicols}{4}
+\\setlength\\parindent{0pt}
+\\setlength\\parskip{5pt}
+"
+
+postamble "\n\\end{multicols}
+"
+
+delim_1 "\\hfill "
+item_0 "\\par\n"
+item_1 "\\\\\n"
+item_x1 "\\\\*\n"
+group_skip "\n \\\\[5pt] \\ignoreNL "

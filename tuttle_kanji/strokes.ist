@@ -1,0 +1,16 @@
+headings_flag 0
+
+preamble "\\chapter*{\\indexname}%
+\\renewcommand{\\tabcolsep}{0pt}%
+\\begin{multicols}{4}\\raggedcolumns
+\\setlength\\parindent{0pt}
+\\setlength\\parskip{0pt}
+"
+
+postamble "\\par\n\\end{multicols}
+"
+
+delim_1 "\\hfill "
+item_0 "\\par\n\\strokesection "
+item_1 "\\par\n"
+item_x1 "\\par\n"

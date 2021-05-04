@@ -1,0 +1,31 @@
+\documentclass[10pt, a4paper]{ltjbook}
+\usepackage{luatexja}
+\usepackage{imakeidx}
+\makeindex[name=stroke, columns=4, title={Index of 漢字 by Stroke Count}, intoc, columnseprule]
+\newcommand{\strindex}[2]{\index[stroke]{#1@#1!#2}}
+
+%-------------------------------------------------------
+%-------------------------------------------------------
+%-------------------------------------------------------
+\begin{document}
+
+The kanji for dry, 干, consists of 3 strokes.\strindex{3}{干}
+
+The kanji for gold, 金, consists of 8 strokes.\strindex{8}{金}
+
+Words > 語 > 14 strokes.\strindex{14}{語}
+
+Gentleman > 士 > 3 strokes.\strindex{3}{士}
+
+Morning > 朝 > 12 strokes.\strindex{12}{朝}
+
+Blue > 青 > 8 strokes.\strindex{8}{青}
+
+Earth > 土 > 3 strokes.\strindex{3}{土}
+
+Hang > 掛 > 11 strokes.\strindex{11}{掛}
+
+Ten Thousand > 万 > 3 strokes.\strindex{3}{万}
+
+\printindex[stroke]
+\end{document}

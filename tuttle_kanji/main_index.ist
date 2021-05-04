@@ -1,0 +1,9 @@
+headings_flag 1
+
+heading_prefix "\n\\rmfamily\\noindent\\textbf{"heading_suffix "}\\nopagebreak"
+
+item_0 "\n \\item "
+
+delim_0 "\\hfill"
+delim_1 "\\hfill"
+delim_2 "\\hfill"
