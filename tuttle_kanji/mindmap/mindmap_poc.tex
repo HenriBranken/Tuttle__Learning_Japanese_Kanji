@@ -1,0 +1,196 @@
+\documentclass[12pt, a4paper]{ltjbook}
+\usepackage{luatexja}
+\usepackage[left=1.9cm,right=1.9cm,bottom=1.5cm,top=1.5cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{mindmap, decorations.pathmorphing, shapes}  % Mindmap drawing library
+
+\tikzstyle{circle connection bar}=[to path={
+	[every circle connection bar]
+%	decorate [decoration={snake}]
+	{ -- (\tikztotarget) \tikztonodes}
+},
+append after command={[fill=white,draw=black]}]
+
+\tikzset{concept/.append style={shape=circle, fill={none}, text width=, minimum size=0cm, inner sep=1mm, concept color=black, text=black, font=\bfseries\fontsize{12pt}{14pt}}}
+
+\tikzset{level_1/.append style={shape=rectangle, concept color=black, text=black, level distance=1.6cm, font=\fontsize{11pt}{13pt}}}
+
+\tikzset{set angles for level/.style={level #1/.append style={sibling angle=360/\the\tikznumberofchildren}},level/.append style={set angles for level=#1}}
+
+\begin{document}
+\begin{center}
+\vspace*{\fill}
+\begin{tikzpicture}[
+	mindmap,
+	every node/.style = {concept},
+	grow cyclic,
+	level 1/.append style = {level_1}
+]
+\node[anchor=center] (read) {読}
+	child {node[level_1] {読む}}
+	child {node[level_1] {読み切る}}
+	child {node[level_1] {読者}}
+	child {node[level_1] {読み物}}
+	child {node[level_1] {多読家}};
+
+\node[anchor=west, xshift=3.5cm] (road) at (read.east)  {道}
+	child {node[level_1] {小道}}
+	child {node[level_1] {水道}}
+	child {node[level_1] {下水道}}
+	child {node[level_1] {歩道}}
+	child {node[level_1] {国道}};
+
+\node[anchor=west, xshift=3.5cm] (heaven) at (road.east) {天}
+	child {node[level_1] {天国}}
+	child {node[level_1] {天下}}
+	child {node[level_1] {天体}}
+	child {node[level_1] {天王星}}
+	child {node[level_1] {天気}};
+
+\node[anchor=west, xshift=3.5cm] (part) at (heaven.east) {分}
+	child {node[level_1] {分かる}}
+	child {node[level_1] {分ける}}
+	child {node[level_1] {自分}}
+	child {node[level_1] {半分}}
+	child {node[level_1] {春分}}
+	child {node[level_1] {秋分}};
+\end{tikzpicture}
+\vskip 20pt
+
+\begin{tikzpicture}[
+	mindmap,
+	every node/.style = {concept},
+	grow cyclic,
+	level 1/.append style = {level_1}
+]
+\node[anchor=center] (thing) {物}
+	child {node[level_1] {買い物}}
+	child {node[level_1] {読み物}}
+	child {node[level_1] {人物}}
+	child {node[level_1] {見物}}
+	child {node[level_1] {物体}};
+
+\node[xshift=2cm, anchor=west] (axe) at (thing.east) {斤};
+
+\node[xshift=2cm, anchor=west] (new) at (axe.east) {新}
+	child {node[level_1] {新しい}}
+	child {node[level_1] {一新}}
+	child {node[level_1] {新月}}
+	child {node[level_1] {新星}}
+	child {node[level_1] {最新}};
+
+\node[xshift=3.5cm, anchor=west] (flower) at (new.east) {花}
+	child {node[level_1] {生花}}
+	child {node[level_1] {花見}}
+	child {node[level_1] {花火}}
+	child {node[level_1] {火花}}
+	child {node[level_1] {開花}};
+
+\node[xshift=2.5cm, anchor=west] (chuucenter) at (flower.east) {央}
+	child {node[level_1] {中央}}
+	child {node[level_1] {中央口}};
+\end{tikzpicture}
+\vskip 20pt
+
+\begin{tikzpicture}[
+	mindmap,
+	every node/.style = {concept},
+	grow cyclic,
+	level 1/.append style = {level_1}
+]
+\node[anchor=center] (name) {名}
+	child {node[level_1] {名高い}}
+	child {node[level_1] {有名}}
+	child {node[level_1] {名山}}
+	child {node[level_1] {名物}}
+	child {node[level_1] {名前}};
+
+\node[anchor=west, xshift=3.6cm] (mother) at (name.east) {母}
+    child {node[level_1] {お母さん}}
+    child[level distance=1.8cm] {node[level_1] {伯母さん}}
+    child {node[level_1] {母親}}
+    child {node[level_1] {母国語}}
+    child {node[level_1] {母の日}}
+    child {node[level_1] {父母}};
+
+\node[anchor=west, xshift=3.7cm] (private) at (mother.east) {私}
+	child {node[level_1] {私有}}
+	child {node[level_1] {私道}}
+	child {node[level_1] {私物}}
+	child {node[level_1] {私学}};
+
+\node[anchor=west, xshift=3cm] (night) at (private.east) {夜}
+	child {node[level_1] {夜中}}
+	child {node[level_1] {夜明け}}
+	child {node[level_1] {月夜}}
+	child {node[level_1] {夜間}};
+\end{tikzpicture}
+\vskip 20pt
+
+\begin{tikzpicture}[
+	mindmap,
+	every node/.style = {concept},
+	grow cyclic,
+	level 1/.append style = {level_1}
+]
+\node[anchor=center] (before) {前}
+	child {node[level_1] {名前}}
+	child {node[level_1] {手前}}
+	child {node[level_1] {前半}}
+	child {node[level_1] {前者}}
+	child {node[level_1] {午前}};
+
+\node[anchor=west, xshift=3cm] (many) at (before.east) {多}
+	child {node[level_1] {多い}}
+	child {node[level_1] {多少}}
+	child {node[level_1] {多分}}
+	child {node[level_1] {多大}}
+	child {node[level_1] {多読家}};
+
+\node[anchor=west, xshift=3cm] (hold) at (many.east) {持}
+	child {node[level_1] {持つ}}
+	child {node[level_1] {金持ち}}
+	child[level distance=2cm] {node[level_1] {持ち上げる}}
+	child {node[level_1] {持ち物}}
+	child {node[level_1] {気持ち}};
+
+\node[anchor=west, xshift=3.5cm] (write) at (hold.east) {書}
+	child {node[level_1] {書く}}
+	child[level distance=2cm] {node[level_1] {書き入れる}}
+	child {node[level_1] {書き入れ}}
+	child {node[level_1] {書道}}
+	child {node[level_1] {前書}};
+\end{tikzpicture}
+\vskip 20pt
+
+\begin{tikzpicture}[
+	mindmap,
+	every node/.style = {concept},
+	grow cyclic,
+	level 1/.append style = {level_1}
+]
+\node[anchor=center] (sound) {音}
+	child {node[level_1] {音読み}}
+	child {node[level_1] {音読}}
+	child {node[level_1] {物音}}
+	child {node[level_1] {足音}};
+
+\node[anchor=west, xshift=3.5cm] (meet) at (sound.east) {会}
+	child {node[level_1] {会う}}
+	child {node[level_1] {会見}}
+	child {node[level_1] {大会}}
+	child {node[level_1] {開会}}
+	child {node[level_1] {入会金}};
+
+\node[anchor=east, xshift=4.4cm] (hear) at (meet.east) {聞}
+	child {node[level_1] {聞こえる}}
+	child {node[level_1] {聞く}}
+	child {node[level_1] {聞き出す}}
+	child[level distance=2cm] {node[level_1] {聞き入れる}}
+	child {node[level_1] {新聞}}
+	child {node[level_1] {見聞}};
+\end{tikzpicture}
+
+\vspace*{\fill}
+\end{center}
+\end{document}
