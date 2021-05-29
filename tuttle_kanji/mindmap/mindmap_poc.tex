@@ -11,9 +11,9 @@
 },
 append after command={[fill=white,draw=black]}]
 
-\tikzset{concept/.append style={shape=circle, fill={none}, text width=, minimum size=0cm, inner sep=1mm, concept color=black, text=black, font=\bfseries\fontsize{12pt}{14pt}}}
+\tikzset{concept/.append style={shape=circle, fill={lightgray}, line width=2pt, text width=, minimum size=0cm, inner sep=1mm, concept color=black, text=black, font=\bfseries\fontsize{12pt}{14pt}}}
 
-\tikzset{level_1/.append style={shape=rectangle, concept color=black, text=black, level distance=1.6cm, font=\fontsize{11pt}{13pt}}}
+\tikzset{level_1/.append style={shape=rectangle, fill={none}, line width=1pt, concept color=black, text=black, level distance=1.6cm, font=\fontsize{11pt}{13pt}}}
 
 \tikzset{set angles for level/.style={level #1/.append style={sibling angle=360/\the\tikznumberofchildren}},level/.append style={set angles for level=#1}}
 

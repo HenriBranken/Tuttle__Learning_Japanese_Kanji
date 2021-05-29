@@ -11,8 +11,7 @@
 \NewEnviron{decomp}[1]
 {%
 \begin{tabularx}{\columnwidth}{|*{#1}{@{}A}@{}|}%
-\hhline{|*{#1}{-}|}\multicolumn{#1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\%
-\hhline{|*{#1}{-}|}\rule{0pt}{\baselineskip}%
+\hhline{|*{#1}{-}|}\multicolumn{#1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\\hline
 \BODY%
 \end{tabularx}%
 }
@@ -20,7 +19,7 @@
 \begin{document}
 
 \begin{decomp}{6}
-\multicolumn{5}{|c|}{The sentence below is an example of the polite past tense.}\\\hline
+\multicolumn{6}{|l|}{The sentence below is an example of the polite past tense.}\\\hline
 先生&は&一週間&前&に&来ました。\\\hline
 センセイ&は&イッシュウカン&まえ&に&きました。\\\hline
 teacher&は&1 week&before&に&came\\\hline
