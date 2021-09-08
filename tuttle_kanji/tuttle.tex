@@ -9,6 +9,7 @@
 \usetikzlibrary{patterns, mindmap, positioning, automata}
 \usepackage{environ}
 \usepackage{tabularx}
+\usepackage{booktabs}
 \usepackage{textcomp}
 \usepackage{hhline}
 \usepackage{textcomp}
@@ -68,7 +69,7 @@
 \newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
 \newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
 
-\newcommand{\specialc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\specialc}[2][c]{\renewcommand{\arraystretch}{1}\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
 \newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 \newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
 
