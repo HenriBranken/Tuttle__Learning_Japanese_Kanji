@@ -16,7 +16,7 @@
 \usepackage{wasysym}
 \usepackage{multicol}
 \usepackage{microtype}
-\usepackage{color}
+\usepackage[table]{xcolor}
 \usepackage{ulem}
 \usepackage[none]{hyphenat}
 \usepackage{xparse}
@@ -124,7 +124,7 @@
 \NewEnviron{prons}%
 {%
 %\keepXColumns
-\begin{tabularx}{\columnwidth}{@{}|l|B|B|@{}}%
+\begin{tabularx}{\columnwidth}{|p{5.5mm}|B|B|@{}}%
 \hhline{~|--|}\multicolumn{1}{c|}{} & \multicolumn{2}{c|}{\cellcolor{lightgray}\bfseries{{\textmusicalnote} Pronunciations}}\\
 \hhline{~|-|-|}\multicolumn{1}{c|}{} & \multicolumn{1}{l|}{\cellcolor{lightgray}音読み} & \multicolumn{1}{l|}{\cellcolor{lightgray}訓読み}\\\hline
 \BODY
@@ -220,13 +220,13 @@
 
 \setlength{\columnseprule}{0pt}
 
-\chapter{漢字 1--20}
-\begin{multicols}{2}
-\input{chap1}
-
-%\chapter{漢字 21--40}
+%\chapter{漢字 1--20}
 %\begin{multicols}{2}
-%\input{chap2}
+%\input{chap1}
+
+\chapter{漢字 21--40}
+\begin{multicols}{2}
+\input{chap2}
 
 %\chapter{漢字 41--60}
 %\begin{multicols}{2}
