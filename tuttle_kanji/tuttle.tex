@@ -21,6 +21,7 @@
 \usepackage[none]{hyphenat}
 \usepackage{xparse}
 \usepackage{imakeidx}
+\usepackage{setspace}
 
 %>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 \newsavebox\ltmcbox
@@ -63,13 +64,13 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE, RO]{\leftmark}
-\fancyhead[RE, LO]{頁{\;}\thepage}
+\fancyhead[RE, LO]{ページ{\;}\thepage}
 \fancyhead[CE, CO]{\href{https://github.com/HenriBranken/Tuttle__Learning_Japanese_Kanji}{Branken-kun/ブランケン君\textsuperscript{\textcopyright}}}
 
 \newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
 \newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
 
-\newcommand{\specialc}[2][c]{\renewcommand{\arraystretch}{1}\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\specialc}[2][c]{\setstretch{0.87}\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
 \newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 \newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
 
