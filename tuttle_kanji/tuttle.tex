@@ -28,7 +28,7 @@
 % The following command inhibits a column break after a group letter in the index
 % It also swallows the following \\, because the \\ is here before the \nopagebreak.
 \newcommand{\dontbreak}[1]{\\\nopagebreak} % Swallow the following \\
-\makeindex[name=gen, columns=4, title={Main Index of 漢字}, intoc, columnseprule, options=-s general.ist]
+\makeindex[name=gen, columns=4, title={漢字 Index}, intoc, columnseprule, options=-s general.ist]
 \newcommand{\gindex}[2]{\index[gen]{#1 & #2}}
 %<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -66,6 +66,10 @@
 \fancyhead[LE, RO]{\leftmark}
 \fancyhead[RE, LO]{ページ{\;}\thepage}
 \fancyhead[CE, CO]{\href{https://github.com/HenriBranken/Tuttle__Learning_Japanese_Kanji}{Branken-kun/ブランケン君\textsuperscript{\textcopyright}}}
+%\fancyfoot[CE, CO]{\color{white}random}
+%\fancyfoot[LE, RO]{\color{white}random}
+%\fancyfoot[LO, RE]{\color{white}random}
+%\newcommand{\footrulewidth}{1pt}% the default is 0pt.
 
 \newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
 \newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
