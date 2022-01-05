@@ -81,7 +81,7 @@
 
 \usepackage{graphicx}
 \graphicspath{
-    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/}{/home/henri/stuff/japanese/kanji/chap13/}{/home/henri/stuff/japanese/kanji/chap14/}{/home/henri/stuff/japanese/kanji/chap15/}{/home/henri/stuff/japanese/kanji/chap16/}{/home/henri/stuff/japanese/kanji/chap17/}{/home/henri/stuff/japanese/kanji/chap18/}{/home/henri/stuff/japanese/kanji/chap19/}{/home/henri/stuff/japanese/kanji/chap20/}{/home/henri/stuff/japanese/kanji/chap21/}{/home/henri/stuff/japanese/kanji/chap22/} }
+    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/}{/home/henri/stuff/japanese/kanji/chap13/}{/home/henri/stuff/japanese/kanji/chap14/}{/home/henri/stuff/japanese/kanji/chap15/}{/home/henri/stuff/japanese/kanji/chap16/}{/home/henri/stuff/japanese/kanji/chap17/}{/home/henri/stuff/japanese/kanji/chap18/}{/home/henri/stuff/japanese/kanji/chap19/}{/home/henri/stuff/japanese/kanji/chap20/}{/home/henri/stuff/japanese/kanji/chap21/}{/home/henri/stuff/japanese/kanji/chap22/}{/home/henri/stuff/japanese/python_get_images/english/} }
 
 \pgfplotsset{compat=newest,compat/show suggested version=false}
 \usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
@@ -98,10 +98,15 @@
 \NewEnviron{glyph}[2]% environment name
 {	\refstepcounter{glyph}%
 	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
-	\begin{tabularx}{\columnwidth}{@{}|A|A|A|@{}}
-	\hhline{|---|}\multicolumn{3}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
-	\hhline{|---|}\multicolumn{1}{|c}{\raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{#2.pdf}}} & \multicolumn{1}{|c}{\raisebox{-0.80\totalheight}{\includegraphics[width=2cm,height=2cm]{so_#2.pdf}}} & \multicolumn{1}{|c|}{}\\\hline % row comp
-	\multicolumn{3}{|B|}{\renewcommand{\arraystretch}{1.2}\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+	\begin{tabularx}{\columnwidth}{@{}|A|A|A|A|@{}}
+	\hhline{|----|}
+	\multicolumn{4}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
+	\hhline{|----|}
+	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{so_#2.pdf}} & \multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2.pdf}} &
+	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2_block.pdf}} &
+	\multicolumn{1}{|c|}{\includegraphics[width=0.197\linewidth]{#2_curs.pdf}}\\\hline
+	\multicolumn{4}{|B|}{\renewcommand{\arraystretch}{1.2}
+	\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
 	\end{tabularx}\renewcommand{\arraystretch}{1}
 }
 
