@@ -1,0 +1,108 @@
+\documentclass[10pt, a4paper]{ltjbook}
+\usepackage{luatexja}
+\usepackage{CJKutf8}
+\usepackage[left=1.9cm,right=1.9cm,bottom=1.5cm,top=1.5cm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{ruby}
+\usepackage{tikz,pgfplots,makecell,array,aurical,longtable,booktabs,multicol,multirow}
+\usetikzlibrary{patterns, mindmap, positioning, automata}
+\usepackage{environ}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{hhline}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\usepackage{ulem}
+\usepackage[none]{hyphenat}
+\usepackage{xparse}
+\usepackage{imakeidx}
+\usepackage{setspace}
+
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+\newsavebox\ltmcbox
+% The following command inhibits a column break after a group letter in the index
+% It also swallows the following \\, because the \\ is here before the \nopagebreak.
+\newcommand{\dontbreak}[1]{\\\nopagebreak} % Swallow the following \\
+\makeindex[name=gen, columns=4, title={漢字 Index}, intoc, columnseprule, options=-s general.ist]
+\newcommand{\gindex}[2]{\index[gen]{#1 & #2}}
+%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+\newcommand\strokesection{} % to make sure we can use this command
+\def\strokesection#1\par#2\par{\vspace{5pt}\par
+	\parbox[t]{\linewidth}{{#1}\\#2\strut}\par
+}
+
+\makeatletter
+\patchcmd\LT@array{\tabskip\z@}{\tabskip\fill}{\typeout{OK}}{\typeout{BAD}}
+\setlength\LTleft{0pt}\setlength\LTright{0pt}
+\makeatletter
+
+\makeindex[name=stroke, columns=4, title={漢字 by Stroke Count}, intoc, columnseprule, options=-s strokes.ist]
+\newcommand{\strokeshead}[1]{%
+	\rmfamily\textbf{#1 Stroke\ifnum#1>1 s\fi}%
+}
+\newcommand{\strindex}[2]{\index[stroke]{#1@\strokeshead{#1}!#2}}
+%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+\newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
+\newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
+
+\newcommand{\specialc}[2][c]{\setstretch{0.87}\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+
+\usepackage{graphicx}
+
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
+
+\setlength{\parindent}{0cm}
+
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\newcommand{\rye}[2]{\multicolumn{#1}{|l@{}|}{\renewcommand{\arraystretch}{1.2}\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+
+\usepackage{tocloft}
+\newcommand{\listofkanji}{List of Kanji}
+\newlistof{glyph}{lok}{\listofkanji}
+\NewEnviron{glyph}[2]% environment name
+{	\refstepcounter{glyph}%
+	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
+	\begin{tabularx}{\columnwidth}{@{}|A|A|A|A|@{}}
+		\hhline{|----|}
+		\multicolumn{4}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
+		\hhline{|----|}
+		\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{example-image-a}} & \multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{example-image-a}} &
+		\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{example-image-a}} &
+		\multicolumn{1}{|c|}{\includegraphics[width=0.197\linewidth]{example-image-a}}\\\hline
+		\multicolumn{4}{|B|}{\renewcommand{\arraystretch}{1.2}
+			\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+	\end{tabularx}\renewcommand{\arraystretch}{1}
+}
+
+\begin{document}
+\begin{multicols}{2}
+\begin{glyph}{Anew (更)}{anew}\label{glyph:anew}
+The idea of \textit{doing things anew}, be it through \textsuperscript{[1]}\textit{revision}, \textsuperscript{[2]}\textit{reform} or \textsuperscript{[3]}\textit{renewal}, amongst others.\\\hline
+A secondary meaning　has to do with \textit{staying up late}, or \textit{the day growing late}.
+\end{glyph}
+\end{multicols}
+
+\end{document}
