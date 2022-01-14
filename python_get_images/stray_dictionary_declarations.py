@@ -2,8 +2,9 @@ import json
 from os import listdir, rename, path
 
 kanji_eng_dict = {
-    "区": "partition",
-    "是": "approve"
+    "個": "solo",
+    "数": "number2",
+    "菜": "vegetable"
 }
 
 squares = [f for f in listdir("./") if f.endswith(".pdf")]

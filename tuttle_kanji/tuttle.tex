@@ -95,18 +95,32 @@
 \usepackage{tocloft}
 \newcommand{\listofkanji}{List of Kanji}
 \newlistof{glyph}{lok}{\listofkanji}
-\NewEnviron{glyph}[2]% environment name
-{	\refstepcounter{glyph}%
+%\NewEnviron{glyph}[2]% environment name
+%{	\refstepcounter{glyph}%
+%	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
+%	\begin{tabularx}{\columnwidth}{@{}|A|A|A|A|@{}}
+%	\hhline{|----|}
+%	\multicolumn{4}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
+%	\hhline{|----|}
+%	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{so_#2.pdf}} & \multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2.pdf}} &
+%	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2_block.pdf}} &
+%	\multicolumn{1}{|c|}{\includegraphics[width=0.197\linewidth]{#2_curs.pdf}}\\\hline
+%	\multicolumn{4}{|B|}{\renewcommand{\arraystretch}{1.2}
+%	\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+%	\end{tabularx}\renewcommand{\arraystretch}{1}
+%}
+
+\NewEnviron{glyph}[2]% added <<<<<<<<<<<<<<<<<<<<<
+{   \refstepcounter{glyph}%
 	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
-	\begin{tabularx}{\columnwidth}{@{}|A|A|A|A|@{}}
-	\hhline{|----|}
-	\multicolumn{4}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
-	\hhline{|----|}
-	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{so_#2.pdf}} & \multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2.pdf}} &
-	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2_block.pdf}} &
-	\multicolumn{1}{|c|}{\includegraphics[width=0.197\linewidth]{#2_curs.pdf}}\\\hline
-	\multicolumn{4}{|B|}{\renewcommand{\arraystretch}{1.2}
-	\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+	\begin{tabularx}{\columnwidth}{|A|A|A|A|}
+		\multicolumn{4}{|l|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp  
+		\includegraphics[width=\linewidth]{so_#2.pdf} & 
+		\includegraphics[width=\linewidth]{#2.pdf} &
+		\includegraphics[width=\linewidth]{#2_block.pdf} &
+		\includegraphics[width=\linewidth]{#2_curs.pdf}\\\hline
+		\multicolumn{4}{|l|}{\renewcommand{\arraystretch}{0.9}
+			\begin{tabularx}{0.933\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
 	\end{tabularx}\renewcommand{\arraystretch}{1}
 }
 
@@ -302,25 +316,25 @@
 %\begin{multicols}{2}
 %\input{chap17}
 
-\chapter{漢字 386--410}
-\begin{multicols}{2}
-\input{chap18}
+%\chapter{漢字 386--410}
+%\begin{multicols}{2}
+%\input{chap18}
 
 %\chapter{漢字 411--440}
 %\begin{multicols}{2}
 %\input{chap19}
 
-%\chapter{漢字 441--465}
-%\begin{multicols}{2}
-%\input{chap20}
+\chapter{漢字 441--465}
+\begin{multicols}{2}
+\input{chap20}
 
-%\chapter{漢字 466--490}
-%\begin{multicols}{2}
-%\input{chap21}
+\chapter{漢字 466--490}
+\begin{multicols}{2}
+\input{chap21}
 
-%\chapter{漢字 491--520}
-%\begin{multicols}{2}
-%\input{chap22}
+\chapter{漢字 491--520}
+\begin{multicols}{2}
+\input{chap22}
 
 \setlength{\columnseprule}{0.4pt}
 \setlength{\columnsep}{1.5em}

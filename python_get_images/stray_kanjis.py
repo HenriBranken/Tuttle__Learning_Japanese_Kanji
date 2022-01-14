@@ -2,7 +2,7 @@ import requests
 import os
 
 ls_kanji = [
-    "是", "区"
+    "個", "数", "菜"
 ]
 
 ls_curs_retry = []

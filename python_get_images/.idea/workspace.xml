@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/approve_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/approve_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/partition_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/partition_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/個_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/個_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/菜_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/菜_curs.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stray_dictionary_declarations.py" beforeDir="false" afterPath="$PROJECT_DIR$/stray_dictionary_declarations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stray_kanjis.py" beforeDir="false" afterPath="$PROJECT_DIR$/stray_kanjis.py" afterDir="false" />
