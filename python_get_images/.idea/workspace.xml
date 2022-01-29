@@ -2,15 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/number2_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/number2_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/solo_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/solo_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/vegetable_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/vegetable_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/direction_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/direction_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/half_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/half_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/heavy_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/heavy_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/hidari_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/hidari_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/light_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/light_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/match_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/match_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/middle_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/middle_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/migi_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/migi_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/mind_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/mind_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/mix_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/mix_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/noon_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/noon_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/proper_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/proper_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/quality_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/quality_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/reside_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/reside_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/serve_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/serve_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/show_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/show_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/te_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/te_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/ushi_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/ushi_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/voice_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/voice_curs.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stray_dictionary_declarations.py" beforeDir="false" afterPath="$PROJECT_DIR$/stray_dictionary_declarations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stray_kanjis.py" beforeDir="false" afterPath="$PROJECT_DIR$/stray_kanjis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap12.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap12.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap15.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap15.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap16.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap16.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap17.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap17.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap2.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap2.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap3.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap3.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap5.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap5.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap6.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap6.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap7.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap7.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.tex" afterDir="false" />
     </list>
