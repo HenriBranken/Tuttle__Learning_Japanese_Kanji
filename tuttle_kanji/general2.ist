@@ -2,19 +2,16 @@ headings_flag 5
 heading_prefix "\n\\rmfamily\\textbf{"
 heading_suffix "}\\dontbreak "
 preamble "\\chapter*{\\indexname}%
-\\renewcommand{\\tabcolsep}{0pt}%
 \\newcommand\\ignoreNL[1]{}%
-\\begin{multicols}{4}
-\\makeatletter\\mysavecolroom=\\@colroom\\makeatother
 \\setbox\\ltmcbox\\vbox{
-\\makeatletter\\col@number\\@ne\\makeatother
+\\setlength\\tabcolsep{0pt}
 \\begin{longtable}[l]{@{}llr@{}}
 "
 postamble "\\end{longtable}
 \\unskip
 \\unpenalty
 \\unpenalty}
-\\makeatletter\\@colroom=\\mysavecolroom\\makeatother
+\\begin{multicols}{4}
 \\unvbox\\ltmcbox
 \\end{multicols}
 "
