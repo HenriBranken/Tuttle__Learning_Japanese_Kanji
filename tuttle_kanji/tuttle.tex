@@ -111,6 +111,30 @@
 %	\end{tabularx}\renewcommand{\arraystretch}{1}
 %}
 
+% Make the Chapter heading to be exactly 2 lines
+\newcommand{\chapterheading}[1]{%
+    \mbox{}\par\nobreak
+    \raisebox{5pt}[0pt][0pt]{%
+      \textbf{\large #1}%
+    }%
+    \par\nobreak
+}
+\newcommand{\addchaptertolok}[1]{%
+  \addtocontents{lok}{%
+    \protect\chapterheading{#1}%
+  }%
+}
+
+% Redefine \chapter command
+\newcommand{\origchapter}{}
+\let\origchapter\chapter
+\RenewDocumentCommand \chapter { s m }
+{
+  \IfBooleanTF{#1}
+  {\origchapter*{#2}} % \chapter* keeps the same
+  {\origchapter{#1}\addchaptertolok{Chapter \thechapter}} % \chapter add to lok
+}
+
 \NewEnviron{glyph}[2]% added <<<<<<<<<<<<<<<<<<<<<
 {   \refstepcounter{glyph}%
 	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
@@ -241,6 +265,7 @@
 \begin{document}
 \setlength{\columnseprule}{0.4pt}
 \begin{multicols}{2}
+    \vspace*{-4pt plus 10pt minus 10pt} % try to align the two columns
 	\listofglyph
 \end{multicols}
 
