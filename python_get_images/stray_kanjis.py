@@ -2,31 +2,15 @@ import requests
 import os
 
 ls_kanji = [
-    "中",
-    "右",
-    "半",
-    "左",
-    "手",
-    "牛",
-    "意",
-    "交",
-    "午",
-    "質",
-    "正",
-    "方",
-    "声",
-    "住",
-    "示",
-    "仕",
-    "重",
-    "軽",
-    "合"
+    "中"
 ]
 
 ls_curs_retry = []
 ls_block_retry = []
 for kanji in ls_kanji:
     print(kanji, end=": ")
+    path_typ_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=HGRKK.TTC&fontsize=300&color=black"
+    path_so_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=sod.ttf&fontsize=300&color=black"
     path_block_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=HGRMB.TTC&fontsize=300&color=black"
     path_curs_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=epgyosho.ttf&fontsize=300&color=black"
 

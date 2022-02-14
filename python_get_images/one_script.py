@@ -1,0 +1,78 @@
+import requests
+import os
+
+ls_kanji = {
+    "政": "politics"
+}
+
+ls_so_retry = []
+ls_typical_retry = []
+ls_curs_retry = []
+ls_block_retry = []
+for kanji, english in ls_kanji.items():
+    print(kanji, end=": ")
+    path_so_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=sod.ttf&fontsize=300&color=black"
+    path_typ_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=HGRKK.TTC&fontsize=300&color=black"
+    path_block_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=HGRMB.TTC&fontsize=300&color=black"
+    path_curs_dest = f"http://kanji.nihongo.cz/image.php?text={kanji}&font=epgyosho.ttf&fontsize=300&color=black"
+
+    try:
+        if os.path.exists(f"english/so_{english}.pdf"):
+            print("e", end=" ")
+        else:
+            response_so = requests.get(path_so_dest)
+            with open(f"english/so_{english}.pdf", "wb") as file:
+                file.write(response_so.content)
+                print(1, end=" ")
+    except Exception as e:
+        print(0, end=" ")
+        print(f"Stuggled to get the stroke-ordered {kanji}...")
+        ls_so_retry.append(path_so_dest)
+
+    try:
+        if os.path.exists(f"english/{english}.pdf"):
+            print("e", end=" ")
+        else:
+            response = requests.get(path_typ_dest)
+            with open(f"english/{english}.pdf", "wb") as file:
+                file.write(response.content)
+                print(1, end=" ")
+    except Exception as e:
+        print(0, end=" ")
+        print(f"Stuggled to get the typical {kanji}...")
+        ls_typical_retry.append(path_typ_dest)
+
+    try:
+        if os.path.exists(f"english/{english}_block.pdf"):
+            print("e", end=" ")
+        else:
+            response_block = requests.get(path_block_dest)
+            with open(f"english/{english}_block.pdf", "wb") as file:
+                file.write(response_block.content)
+                print(1, end=" ")
+    except Exception as e:
+        print(0, end=" ")
+        print(f"Stuggled to get the block {kanji}...")
+        ls_block_retry.append(path_block_dest)
+
+    try:
+        if os.path.exists(f"english/{english}_curs.pdf"):
+            print("e")
+        else:
+            response_curs = requests.get(path_curs_dest)
+            with open(f"english/{english}_curs.pdf", "wb") as file:
+                file.write(response_curs.content)
+                print(1)
+    except Exception as e:
+        print(0)
+        print(f"Struggled to get the cursive {kanji}...")
+        ls_curs_retry.append(path_curs_dest)
+
+if ls_so_retry:
+    print(f"Unsuccessful stroke-ordered Kanji include: {ls_so_retry}.")
+if ls_typical_retry:
+    print(f"Unsuccessful typical Kanji include: {ls_typical_retry}.")
+if ls_block_retry:
+    print(f"Unsuccessful block Kanji include: {ls_block_retry}.")
+if ls_curs_retry:
+    print(f"Unsuccessful cursive Kanji include: {ls_curs_retry}.")
