@@ -2,7 +2,9 @@ import requests
 import os
 
 ls_kanji = {
-    "政": "politics"
+    "政": "politics",
+    "議": "deliberation",
+    "連": "take_along"
 }
 
 ls_so_retry = []
