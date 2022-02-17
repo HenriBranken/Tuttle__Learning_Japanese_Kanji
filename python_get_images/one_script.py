@@ -4,7 +4,8 @@ import os
 ls_kanji = {
     "政": "politics",
     "議": "deliberation",
-    "連": "take_along"
+    "連": "take_along",
+    "戦": "war"
 }
 
 ls_so_retry = []
