@@ -5,7 +5,9 @@ ls_kanji = {
     "政": "politics",
     "議": "deliberation",
     "連": "take_along",
-    "戦": "war"
+    "戦": "war",
+    "当": "hit2",
+    "約": "promise"
 }
 
 ls_so_retry = []
