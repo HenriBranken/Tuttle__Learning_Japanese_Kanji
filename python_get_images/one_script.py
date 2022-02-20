@@ -7,7 +7,8 @@ ls_kanji = {
     "連": "take_along",
     "戦": "war",
     "当": "hit2",
-    "約": "promise"
+    "約": "promise",
+    "性": "sex"
 }
 
 ls_so_retry = []
