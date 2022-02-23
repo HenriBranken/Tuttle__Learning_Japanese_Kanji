@@ -10,7 +10,8 @@ ls_kanji = {
     "約": "promise",
     "性": "sex",
     "務": "task",
-    "加": "add"
+    "加": "add",
+    "権": "authority"
 }
 
 ls_so_retry = []
