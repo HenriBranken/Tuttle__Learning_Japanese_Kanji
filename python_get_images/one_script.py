@@ -11,7 +11,11 @@ ls_kanji = {
     "性": "sex",
     "務": "task",
     "加": "add",
-    "権": "authority"
+    "権": "authority",
+    "支": "branch",
+    "報": "report",
+    "済": "settle",
+    "得": "acquire"
 }
 
 ls_so_retry = []
