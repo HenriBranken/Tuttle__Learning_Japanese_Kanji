@@ -16,7 +16,8 @@ ls_kanji = {
     "報": "report",
     "済": "settle",
     "得": "acquire",
-    "解": "unravel"
+    "解": "unravel",
+    "資": "assets"
 }
 
 ls_so_retry = []
