@@ -8,7 +8,8 @@ preamble "\\chapter*{\\indexname}%
 \\makeatletter\\mysavecolroom=\\@colroom\\makeatother
 \\setbox\\ltmcbox\\vbox{
 \\makeatletter\\col@number\\@ne\\makeatother
-\\begin{longtable}[l]{@{}llr@{}}
+\\setlength\\LTleft{0pt}\\setlength\\LTright{0pt}
+\\begin{longtable}{@{}l@{\\extracolsep{\\fill}}lr@{}}
 "
 postamble "\\end{longtable}
 \\unskip
