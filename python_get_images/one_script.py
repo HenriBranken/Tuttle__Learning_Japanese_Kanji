@@ -18,7 +18,10 @@ ls_kanji = {
     "得": "acquire",
     "解": "unravel",
     "資": "assets",
-    "勝": "victory"
+    "勝": "victory",
+    "告": "revelation",
+    "判": "judgement",
+    "認": "acknowledge"
 }
 
 ls_so_retry = []
