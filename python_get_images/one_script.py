@@ -21,7 +21,8 @@ ls_kanji = {
     "勝": "victory",
     "告": "revelation",
     "判": "judgement",
-    "認": "acknowledge"
+    "認": "acknowledge",
+    "参": "participate"
 }
 
 ls_so_retry = []

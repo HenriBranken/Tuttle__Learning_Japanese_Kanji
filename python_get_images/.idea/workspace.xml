@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/acknowledge.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/acknowledge_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/acknowledge_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/judgement.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/judgement_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/judgement_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/revelation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/revelation_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/revelation_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_acknowledge.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_judgement.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_revelation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/participate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/participate_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/participate_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_nonplussed.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_participate.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap23.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap23.tex" afterDir="false" />
