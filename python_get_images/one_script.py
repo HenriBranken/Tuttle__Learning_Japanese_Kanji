@@ -22,7 +22,8 @@ ls_kanji = {
     "告": "revelation",
     "判": "judgement",
     "認": "acknowledge",
-    "参": "participate"
+    "参": "participate",
+    "在": "exist"
 }
 
 ls_so_retry = []
