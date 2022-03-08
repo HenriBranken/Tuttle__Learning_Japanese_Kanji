@@ -23,7 +23,10 @@ ls_kanji = {
     "判": "judgement",
     "認": "acknowledge",
     "参": "participate",
-    "在": "exist"
+    "在": "exist",
+    "件": "affair",
+    "任": "responsibility",
+    "求": "request"
 }
 
 ls_so_retry = []
