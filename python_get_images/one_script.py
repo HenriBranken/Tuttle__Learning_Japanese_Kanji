@@ -28,7 +28,8 @@ ls_kanji = {
     "任": "responsibility",
     "求": "request",
     "論": "argument",
-    "増": "increase"
+    "増": "increase",
+    "感": "emotion"
 }
 
 ls_so_retry = []
