@@ -139,7 +139,7 @@
 {   \refstepcounter{glyph}%
 	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
 	\begin{tabularx}{\columnwidth}{|A|A|A|A|}
-		\multicolumn{4}{|l|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp  
+		\multicolumn{4}{|l|}{\cellcolor{black}{\color{white}\textbf{\large{\theglyph{:}\;{#1}}}}} \\\hline %row comp  
 		\includegraphics[width=\linewidth]{so_#2.pdf} & 
 		\includegraphics[width=\linewidth]{#2.pdf} &
 		\includegraphics[width=\linewidth]{#2_block.pdf} &
@@ -373,10 +373,15 @@
 %\chapter{漢字 491--520}
 %\begin{multicols}{2}
 %\input{chap22}
-
-\chapter{漢字 521--545}
+%
+%\chapter{漢字 521--545}
+%\begin{multicols}{2}
+%\input{chap23}
+%
+\chapter{漢字 546--570}
 \begin{multicols}{2}
-\input{chap23}
+\input{chap24}
+
 
 \setlength{\columnseprule}{0.4pt}
 \setlength{\columnsep}{1.5em}

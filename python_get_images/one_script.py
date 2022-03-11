@@ -26,7 +26,9 @@ ls_kanji = {
     "在": "exist",
     "件": "affair",
     "任": "responsibility",
-    "求": "request"
+    "求": "request",
+    "論": "argument",
+    "増": "increase"
 }
 
 ls_so_retry = []
