@@ -29,7 +29,13 @@ ls_kanji = {
     "求": "request",
     "論": "argument",
     "増": "increase",
-    "感": "emotion"
+    "感": "emotion",
+    "情": "feelings",
+    "投": "throw",
+    "確": "assurance",
+    "果": "fruit",
+    "容": "contain",
+    "演": "performance"
 }
 
 ls_so_retry = []
