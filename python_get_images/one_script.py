@@ -35,7 +35,8 @@ ls_kanji = {
     "確": "assurance",
     "果": "fruit",
     "容": "contain",
-    "演": "performance"
+    "演": "performance",
+    "談": "discuss"
 }
 
 ls_so_retry = []
