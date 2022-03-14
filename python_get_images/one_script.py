@@ -37,7 +37,8 @@ ls_kanji = {
     "容": "contain",
     "演": "performance",
     "談": "discuss",
-    "能": "ability"
+    "能": "ability",
+    "位": "rank"
 }
 
 ls_so_retry = []
