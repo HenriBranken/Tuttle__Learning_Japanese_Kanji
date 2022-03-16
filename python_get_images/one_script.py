@@ -42,7 +42,8 @@ ls_kanji = {
     "置": "placement",
     "流": "current",
     "格": "status",
-    "疑": "doubt"
+    "疑": "doubt",
+    "過": "overdo"
 }
 
 ls_so_retry = []
