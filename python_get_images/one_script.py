@@ -38,7 +38,10 @@ ls_kanji = {
     "演": "performance",
     "談": "discuss",
     "能": "ability",
-    "位": "rank"
+    "位": "rank",
+    "置": "placement",
+    "流": "current",
+    "格": "status"
 }
 
 ls_so_retry = []

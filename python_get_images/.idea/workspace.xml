@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/rank.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/rank_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/rank_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_rank.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/current.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/current_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/current_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/placement.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/placement_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/placement_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_current.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_placement.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_status.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/status.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/status_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/status_curs.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap24.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap24.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
