@@ -41,7 +41,8 @@ ls_kanji = {
     "位": "rank",
     "置": "placement",
     "流": "current",
-    "格": "status"
+    "格": "status",
+    "疑": "doubt"
 }
 
 ls_so_retry = []
