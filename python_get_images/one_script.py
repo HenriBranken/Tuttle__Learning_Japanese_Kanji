@@ -44,7 +44,8 @@ ls_kanji = {
     "格": "status",
     "疑": "doubt",
     "過": "overdo",
-    "放": "set_free"
+    "放": "set_free",
+    "常": "usual"
 }
 
 ls_so_retry = []
