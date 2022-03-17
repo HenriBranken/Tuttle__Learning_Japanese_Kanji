@@ -45,7 +45,8 @@ ls_kanji = {
     "疑": "doubt",
     "過": "overdo",
     "放": "set_free",
-    "常": "usual"
+    "常": "usual",
+    "状": "status_quo"
 }
 
 ls_so_retry = []
