@@ -46,7 +46,9 @@ ls_kanji = {
     "過": "overdo",
     "放": "set_free",
     "常": "usual",
-    "状": "status_quo"
+    "状": "status_quo",
+    "球": "ball",
+    "職": "post"
 }
 
 ls_so_retry = []
