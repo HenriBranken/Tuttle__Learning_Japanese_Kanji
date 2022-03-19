@@ -48,7 +48,9 @@ ls_kanji = {
     "常": "usual",
     "状": "status_quo",
     "球": "ball",
-    "職": "post"
+    "職": "post",
+    "供": "submit",
+    "役": "duty"
 }
 
 ls_so_retry = []
