@@ -50,7 +50,8 @@ ls_kanji = {
     "球": "ball",
     "職": "post",
     "供": "submit",
-    "役": "duty"
+    "役": "duty",
+    "構": "posture"
 }
 
 ls_so_retry = []
