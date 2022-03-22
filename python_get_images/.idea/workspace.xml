@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/expense.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/expense_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/expense_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/proportion.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/proportion_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/proportion_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_expense.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_proportion.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/income.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/income_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/income_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_income.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_tenderness.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/tenderness.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/tenderness_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/tenderness_curs.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap24.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap24.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/empty_chap_25entries_v2.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/empty_chap_25entries_v2.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap25.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap25.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

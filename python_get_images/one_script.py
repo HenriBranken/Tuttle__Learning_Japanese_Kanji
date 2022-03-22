@@ -53,7 +53,9 @@ ls_kanji = {
     "役": "duty",
     "構": "posture",
     "割": "proportion",
-    "費": "expense"
+    "費": "expense",
+    "優": "tenderness",
+    "収": "income"
 }
 
 ls_so_retry = []
