@@ -55,7 +55,9 @@ ls_kanji = {
     "割": "proportion",
     "費": "expense",
     "優": "tenderness",
-    "収": "income"
+    "収": "income",
+    "断": "severance",
+    "違": "difference"
 }
 
 ls_so_retry = []
