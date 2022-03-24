@@ -57,7 +57,9 @@ ls_kanji = {
     "優": "tenderness",
     "収": "income",
     "断": "severance",
-    "違": "difference"
+    "違": "difference",
+    "消": "extinguish",
+    "規": "standard"
 }
 
 ls_so_retry = []
