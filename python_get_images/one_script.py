@@ -61,7 +61,8 @@ ls_kanji = {
     "消": "extinguish",
     "規": "standard",
     "備": "equip",
-    "宅": "home"
+    "宅": "home",
+    "害": "harm"
 }
 
 ls_so_retry = []
