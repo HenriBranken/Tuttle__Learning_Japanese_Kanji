@@ -59,7 +59,9 @@ ls_kanji = {
     "断": "severance",
     "違": "difference",
     "消": "extinguish",
-    "規": "standard"
+    "規": "standard",
+    "備": "equip",
+    "宅": "home"
 }
 
 ls_so_retry = []
