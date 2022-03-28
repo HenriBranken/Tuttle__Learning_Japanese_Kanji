@@ -62,7 +62,13 @@ ls_kanji = {
     "規": "standard",
     "備": "equip",
     "宅": "home",
-    "害": "harm"
+    "害": "harm",
+    "警": "admonish",
+    "蓆": "seat",
+    "訪": "call_on",
+    "想": "concept",
+    "助": "help",
+    "労": "labor"
 }
 
 ls_so_retry = []
