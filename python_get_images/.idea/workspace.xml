@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/admonish.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/admonish_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/admonish_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/call_on.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/call_on_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/call_on_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/concept.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/concept_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/concept_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/help.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/help_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/help_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/labor.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/labor_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/labor_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/seat.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/seat_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/seat_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_admonish.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_call_on.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_concept.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_help.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_labor.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_seat.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/example_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/example_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/limit.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/limit_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/limit_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_limit.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap25.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap25.tex" afterDir="false" />

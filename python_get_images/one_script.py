@@ -68,7 +68,9 @@ ls_kanji = {
     "訪": "call_on",
     "想": "concept",
     "助": "help",
-    "労": "labor"
+    "労": "labor",
+    "例": "example",
+    "限": "limit"
 }
 
 ls_so_retry = []
