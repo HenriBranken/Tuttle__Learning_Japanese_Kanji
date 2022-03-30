@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/example.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/example_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/example_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/limit.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/limit_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/limit_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_example.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_limit.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/chase.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/chase_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/chase_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/leaf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/leaf_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/leaf_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_chase.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_leaf.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap25.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap25.tex" afterDir="false" />

@@ -70,7 +70,9 @@ ls_kanji = {
     "助": "help",
     "労": "labor",
     "例": "example",
-    "限": "limit"
+    "限": "limit",
+    "追": "chase",
+    "葉": "leaf"
 }
 
 ls_so_retry = []
