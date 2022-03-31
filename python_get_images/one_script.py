@@ -72,7 +72,9 @@ ls_kanji = {
     "例": "example",
     "限": "limit",
     "追": "chase",
-    "葉": "leaf"
+    "葉": "leaf",
+    "景": "scenery",
+    "退": "retreat"
 }
 
 ls_so_retry = []
