@@ -74,7 +74,9 @@ ls_kanji = {
     "追": "chase",
     "葉": "leaf",
     "景": "scenery",
-    "退": "retreat"
+    "退": "retreat",
+    "負": "defeat",
+    "渡": "transit"
 }
 
 ls_so_retry = []
