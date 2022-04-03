@@ -76,7 +76,9 @@ ls_kanji = {
     "景": "scenery",
     "退": "retreat",
     "負": "defeat",
-    "渡": "transit"
+    "渡": "transit",
+    "差": "distinction",
+    "守": "guard"
 }
 
 ls_so_retry = []
