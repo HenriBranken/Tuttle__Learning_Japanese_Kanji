@@ -79,7 +79,9 @@ ls_kanji = {
     "渡": "transit",
     "差": "distinction",
     "守": "guard",
-    "種": "species"
+    "種": "species",
+    "命": "fate",
+    "福": "blessing"
 }
 
 ls_so_retry = []
