@@ -81,7 +81,9 @@ ls_kanji = {
     "守": "guard",
     "種": "species",
     "命": "fate",
-    "福": "blessing"
+    "福": "blessing",
+    "望": "ambition",
+    "観": "outlook"
 }
 
 ls_so_retry = []
