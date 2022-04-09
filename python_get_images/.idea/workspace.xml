@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/deep.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/deep_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/deep_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/discriminating.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/discriminating_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/discriminating_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/property.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/property_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/property_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_deep.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_discriminating.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_property.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/call.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/call_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/call_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/heights.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/heights_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/heights_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_call.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_heights.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap26.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap26.tex" afterDir="false" />

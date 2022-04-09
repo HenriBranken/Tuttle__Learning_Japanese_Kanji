@@ -88,7 +88,9 @@ ls_kanji = {
     "段": "grade",
     "深": "deep",
     "財": "property",
-    "識": "discriminating"
+    "識": "discriminating",
+    "呼": "call",
+    "阪": "heights"
 }
 
 ls_so_retry = []
