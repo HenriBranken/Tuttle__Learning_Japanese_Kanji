@@ -90,7 +90,11 @@ ls_kanji = {
     "財": "property",
     "識": "discriminating",
     "呼": "call",
-    "阪": "heights"
+    "阪": "heights",
+    "候": "climate",
+    "程": "extent",
+    "満": "full",
+    "敗": "failure"
 }
 
 ls_so_retry = []
