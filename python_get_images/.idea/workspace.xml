@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/climate.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/climate_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/climate_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/extent.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/extent_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/extent_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/failure.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/failure_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/failure_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/full.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/full_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/full_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_climate.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_extent.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_failure.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_full.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/price.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/price_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/price_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_price.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_stab.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/stab.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/stab_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/stab_curs.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap26.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap26.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

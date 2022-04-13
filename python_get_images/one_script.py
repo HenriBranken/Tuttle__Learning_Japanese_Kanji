@@ -94,7 +94,9 @@ ls_kanji = {
     "候": "climate",
     "程": "extent",
     "満": "full",
-    "敗": "failure"
+    "敗": "failure",
+    "値": "price",
+    "突": "stab"
 }
 
 ls_so_retry = []
