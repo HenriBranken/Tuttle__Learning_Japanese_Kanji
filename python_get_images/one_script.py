@@ -96,7 +96,9 @@ ls_kanji = {
     "満": "full",
     "敗": "failure",
     "値": "price",
-    "突": "stab"
+    "突": "stab",
+    "路": "path",
+    "積": "volume"
 }
 
 ls_so_retry = []
