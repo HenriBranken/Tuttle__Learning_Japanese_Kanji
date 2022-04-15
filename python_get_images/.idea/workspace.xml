@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/path.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/path_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/path_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_path.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_volume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/volume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/volume_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/volume_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/dispose.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/dispose_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/dispose_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/guest.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/guest_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/guest_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/other.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/other_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/other_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_dispose.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_guest.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_other.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
     </list>

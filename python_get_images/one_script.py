@@ -98,7 +98,10 @@ ls_kanji = {
     "値": "price",
     "突": "stab",
     "路": "path",
-    "積": "volume"
+    "積": "volume",
+    "他": "other",
+    "処": "dispose",
+    "客": "guest"
 }
 
 ls_so_retry = []
