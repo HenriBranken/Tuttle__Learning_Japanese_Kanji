@@ -103,7 +103,9 @@ ls_kanji = {
     "処": "dispose",
     "客": "guest",
     "否": "negate",
-    "師": "expert"
+    "師": "expert",
+    "易": "easy",
+    "存": "exist2"
 }
 
 ls_so_retry = []
