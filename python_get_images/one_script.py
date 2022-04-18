@@ -105,7 +105,10 @@ ls_kanji = {
     "否": "negate",
     "師": "expert",
     "易": "easy",
-    "存": "exist2"
+    "存": "exist2",
+    "殺": "kill",
+    "座": "squat",
+    "破": "rend"
 }
 
 ls_so_retry = []
