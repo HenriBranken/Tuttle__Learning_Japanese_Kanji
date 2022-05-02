@@ -116,7 +116,7 @@ ls_kanji = {
     "給": "salary",
     "苦": "suffering",
     "迎": "welcome",
-    "因": "cause",
+    "因": "cause2",
     "富": "wealth",
     "彼": "he",
     "舞": "dance",

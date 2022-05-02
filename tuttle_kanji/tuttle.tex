@@ -140,10 +140,10 @@
 	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
 	\begin{tabularx}{\columnwidth}{|A|A|A|A|}
 		\multicolumn{4}{|l|}{\cellcolor{black}{\color{white}\textbf{\large{\theglyph{:}\;{#1}}}}} \\\hline %row comp  
-		\includegraphics[width=\linewidth]{so_#2.pdf} & 
-		\includegraphics[width=\linewidth]{#2.pdf} &
-		\includegraphics[width=\linewidth]{#2_block.pdf} &
-		\includegraphics[width=\linewidth]{#2_curs.pdf}\\\hline
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{so_#2.pdf}} & 
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{#2.pdf}} &
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{#2_block.pdf}} &
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{#2_curs.pdf}}\\\hline
 		\multicolumn{4}{|l|}{\renewcommand{\arraystretch}{0.9}
 			\begin{tabularx}{0.932\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
 	\end{tabularx}\renewcommand{\arraystretch}{1}
