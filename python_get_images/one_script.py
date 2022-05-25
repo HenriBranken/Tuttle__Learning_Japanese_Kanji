@@ -148,7 +148,7 @@ ls_kanji = {
     "曲": "bend",
     "払": "pay",
     "徒": "on_foot",
-    "勤": "diligence",
+    "勤": "diligence2",
     "居": "reside",
     "招": "beckon",
     "刻": "engrave",
