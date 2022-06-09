@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af590a42-b5cb-427a-93e0-aeeb5ab556a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/english/diligence2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/diligence2_block.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/diligence2_curs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english/so_diligence2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/approve2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/approve2_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/approve2_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/reside2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/reside2_block.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/reside2_curs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_approve2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/english/so_reside2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text_chapters/Chapter_27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../text_chapters/Chapter_27.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap28.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap28.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/chap29.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/chap29.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tuttle_kanji/tuttle.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../tuttle_kanji/tuttle.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
