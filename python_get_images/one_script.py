@@ -193,7 +193,7 @@ ls_kanji = {
     "鳴": "chirp",
     "腹": "abdomen",
     "煙": "smoke",
-    "眠": "sleep",
+    "眠": "sleep2",
     "怖": "dreadful",
     "頂": "place_on_the_head",
     "箱": "box",
