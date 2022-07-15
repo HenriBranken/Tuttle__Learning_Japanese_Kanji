@@ -1,0 +1,24 @@
+headings_flag 5
+heading_prefix "\n\\rmfamily\\textbf{"
+heading_suffix "}\\dontbreak "
+preamble "\\chapter*{\\indexname}%
+\\renewcommand{\\tabcolsep}{0pt}%
+\\begin{multicols}{4}
+\\makeatletter\\mysavecolroom=\\@colroom\\makeatother
+\\setbox\\ltmcbox\\vbox{
+\\makeatletter\\col@number\\@ne\\makeatother
+\\setlength\\LTleft{0pt}\\setlength\\LTright{0pt}
+\\begin{longtable}{@{}l@{\\extracolsep{\\fill}}lr@{}}
+"
+postamble "\\end{longtable}
+\\unskip
+\\unpenalty
+\\unpenalty}
+\\makeatletter\\@colroom=\\mysavecolroom\\makeatother
+\\unvbox\\ltmcbox
+\\end{multicols}
+"
+item_0 "\\\\\n "
+delim_0 "&"
+delim_1 "\\hfill "
+group_skip "\n \\\\[5pt] \\ignoreNL "

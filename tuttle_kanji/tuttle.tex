@@ -33,6 +33,16 @@
 \newcommand{\gindex}[2]{\index[gen]{#1 & #2}}
 %<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+\newsavebox\ltmcbox
+\newlength\mysavecolroom
+% The following command inhibits a column break after a group letter in the index
+% It also swallows the following \\, because the \\ is here before the \nopagebreak.
+\newcommand{\dontbreak}[1]{\\\nopagebreak} % Swallow the following \\
+\makeindex[name=romaji, columns=4, title={ロマジ Index}, intoc, columnseprule, options=-s romaji.ist]
+\newcommand{\rindex}[2]{\index[romaji]{#1 & #2}}
+%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 
 %>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 \newcommand\strokesection{} % to make sure we can use this command
@@ -65,7 +75,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[LE, RO]{\leftmark}
-\fancyhead[RE, LO]{ページ{\;}\thepage}
+\fancyhead[RE, LO]{頁{\;}\thepage}
 \fancyhead[CE, CO]{\href{https://github.com/HenriBranken/Tuttle__Learning_Japanese_Kanji}{Branken-kun/ブランケン君\textsuperscript{\textcopyright}}}
 %\fancyfoot[CE, CO]{\color{white}random}
 %\fancyfoot[LE, RO]{\color{white}random}
@@ -410,6 +420,7 @@
 \setlength{\columnsep}{1.5em}
 
 \printindex[gen]
+\printindex[romaji]
 \printindex[stroke]
 
 \end{document}
