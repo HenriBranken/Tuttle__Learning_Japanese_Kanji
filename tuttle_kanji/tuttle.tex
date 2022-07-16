@@ -34,11 +34,8 @@
 %<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 %>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-\newsavebox\ltmcbox
-\newlength\mysavecolroom
 % The following command inhibits a column break after a group letter in the index
 % It also swallows the following \\, because the \\ is here before the \nopagebreak.
-\newcommand{\dontbreak}[1]{\\\nopagebreak} % Swallow the following \\
 \makeindex[name=romaji, columns=4, title={ロマジ Index}, intoc, columnseprule, options=-s romaji.ist]
 \newcommand{\rindex}[2]{\index[romaji]{#1 & #2}}
 %<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
