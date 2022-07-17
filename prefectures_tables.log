@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.3.20)  16 JUL 2022 21:54
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.3.20)  17 JUL 2022 14:01
  restricted system commands enabled.
 **prefectures_tables.tex
 (./prefectures_tables.tex
@@ -1350,24 +1350,32 @@ Overfull \vbox (0.13513pt too high) detected at line 256
 Overfull \vbox (0.13513pt too high) detected at line 256
  []
 
-[4] [5] (./prefectures_tables.aux))
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 260.
+
+[4] [5]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+(./prefectures_tables.aux))
 
 Here is how much of LuaTeX's memory you used:
  8738 strings out of 478534
- 596369,662416 words of node,token memory allocated
+ 596370,662416 words of node,token memory allocated
  61219 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 2 glue, 219 kern, 1 glyph, 22729 attribute, 1510 g
 lue_spec, 1305 attribute_list, 2 write, 1065 user_defined nodes
-   avail lists: 1:41,2:172092,3:235,4:2431,5:1341,6:2,7:9405,8:2,9:6299,11:110
+   avail lists: 1:38,2:172974,3:235,4:2431,5:1341,6:2,7:9495,8:2,9:6344,11:110
  28032 multiletter control sequences out of 65536+600000
  61 fonts using 23750015 bytes
- 102i,13n,97p,1757b,426s stack positions out of 5000i,500n,10000p,200000b,200000s
+ 102i,13n,97p,1757b,482s stack positions out of 5000i,500n,10000p,200000b,200000s
 </usr/local/texlive/2020/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMin
 cho-Regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmr
 oman10-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/har
 anoaji/HaranoAjiGothic-Medium.otf></usr/local/texlive/2020/texmf-dist/fonts/open
 type/public/lm/lmroman10-bold.otf>
-Output written on prefectures_tables.pdf (5 pages, 84354 bytes).
+Output written on prefectures_tables.pdf (5 pages, 84603 bytes).
 
 PDF statistics: 48 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
