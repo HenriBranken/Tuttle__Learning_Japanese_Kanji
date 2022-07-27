@@ -1071,3 +1071,30 @@ that&car&は&really&small&isn't it\\\hline
 %%--------------------------------------------------------------------
 %%--------------------------------------------------------------------
 \pagebreak
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}
+\matrix (m) 
+[
+matrix of nodes,
+nodes=
+{
+	draw,
+	rectangle,
+	ultra thick,
+	outer sep=0,
+	inner sep=0,
+	anchor=center
+}
+]
+{
+	{\includegraphics[width=4cm]{mountain.pdf}} & {\includegraphics[width=4cm]{person.pdf}} & {\includegraphics[width=4cm]{one.pdf}} & {\includegraphics[width=4cm]{two.pdf}} \\
+	{\includegraphics[width=4cm]{three.pdf}} & {\includegraphics[width=4cm]{sun.pdf}} & {\includegraphics[width=4cm]{white.pdf}} & {\includegraphics[width=4cm]{mouth.pdf}} \\
+	{\includegraphics[width=4cm]{rotate.pdf}} & {\includegraphics[width=4cm]{four.pdf}} & {\includegraphics[width=4cm]{moon.pdf}} & {\includegraphics[width=4cm]{bright.pdf}} \\
+	{\includegraphics[width=4cm]{tree.pdf}} & {\includegraphics[width=4cm]{five.pdf}} & {\includegraphics[width=4cm]{eye.pdf}} & {\includegraphics[width=4cm]{woman.pdf}} \\
+	{\includegraphics[width=4cm]{large.pdf}} & {\includegraphics[width=4cm]{middle.pdf}} & {\includegraphics[width=4cm]{eight.pdf}} & {\includegraphics[width=4cm]{small.pdf}} \\
+};
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
