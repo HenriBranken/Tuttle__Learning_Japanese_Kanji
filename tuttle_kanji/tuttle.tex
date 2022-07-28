@@ -37,7 +37,13 @@
 % The following command inhibits a column break after a group letter in the index
 % It also swallows the following \\, because the \\ is here before the \nopagebreak.
 \makeindex[name=romaji, columns=4, title={ロマジ Index}, intoc, columnseprule, options=-s romaji.ist]
-\newcommand{\rindex}[2]{\index[romaji]{#1 & #2}}
+\newcommand{\rgobble}[1]{}
+\let\rgobble\relax
+\newcommand{\threedigits}[1]{%
+	\ifnum \value{#1}<10 00\else
+	\ifnum \value{#1}<100 0\fi\fi
+	\arabic{#1}}
+\newcommand{\rindex}[2]{\index[romaji]{#1 & \rgobble{\threedigits{page}}#2}}
 %<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
@@ -56,7 +62,7 @@
 \newcommand{\strokeshead}[1]{%
 	\rmfamily\textbf{#1 画}%
 	}
-\newcommand{\strindex}[2]{\index[stroke]{#1@\strokeshead{#1}!#2}}
+\newcommand{\strindex}[2]{\index[stroke]{#1@\strokeshead{#1}!\arabic{page}@#2}}
 %<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 \usepackage{hyperref}
@@ -289,45 +295,45 @@
 
 \setlength{\columnseprule}{0pt}
 
-%\chapter{漢字 1--20}
-%\begin{multicols}{2}
-%\input{chap1}
-%
-%\chapter{漢字 21--40}
-%\begin{multicols}{2}
-%\input{chap2}
-%
-%\chapter{漢字 41--60}
-%\begin{multicols}{2}
-%\input{chap3}
-%
-%\chapter{漢字 61--80}
-%\begin{multicols}{2}
-%\input{chap4}
-%
-%\chapter{漢字 81--100}
-%\begin{multicols}{2}
-%\input{chap5}
-%
-%\chapter{漢字 101--120}
-%\begin{multicols}{2}
-%\input{chap6}
-%
-%\chapter{漢字 121--140}
-%\begin{multicols}{2}
-%\input{chap7}
-%
-%\chapter{漢字 141--160}
-%\begin{multicols}{2}
-%\input{chap8}
-%
-%\chapter{漢字 161--180}
-%\begin{multicols}{2}
-%\input{chap9}
-%
-%\chapter{漢字 181--200}
-%\begin{multicols}{2}
-%\input{chap10}
+\chapter{漢字 1--20}
+\begin{multicols}{2}
+\input{chap1}
+
+\chapter{漢字 21--40}
+\begin{multicols}{2}
+\input{chap2}
+
+\chapter{漢字 41--60}
+\begin{multicols}{2}
+\input{chap3}
+
+\chapter{漢字 61--80}
+\begin{multicols}{2}
+\input{chap4}
+
+\chapter{漢字 81--100}
+\begin{multicols}{2}
+\input{chap5}
+
+\chapter{漢字 101--120}
+\begin{multicols}{2}
+\input{chap6}
+
+\chapter{漢字 121--140}
+\begin{multicols}{2}
+\input{chap7}
+
+\chapter{漢字 141--160}
+\begin{multicols}{2}
+\input{chap8}
+
+\chapter{漢字 161--180}
+\begin{multicols}{2}
+\input{chap9}
+
+\chapter{漢字 181--200}
+\begin{multicols}{2}
+\input{chap10}
 %
 %\chapter{漢字 201--225}
 %\begin{multicols}{2}
@@ -405,9 +411,9 @@
 %\begin{multicols}{2}
 %\input{chap29}
 %
-\chapter{漢字 696-722}
-\begin{multicols}{2}
-\input{chap30}
+%\chapter{漢字 696-722}
+%\begin{multicols}{2}
+%\input{chap30}
 
 \setlength{\columnseprule}{0.4pt}
 \setlength{\columnsep}{1.5em}

@@ -6,6 +6,7 @@ preamble "\\chapter*{\\indexname}%
 \\begin{multicols}{4}
 \\makeatletter\\mysavecolroom=\\@colroom\\makeatother
 \\setbox\\ltmcbox\\vbox{
+\\def\\rgobble#1{}
 \\makeatletter\\col@number\\@ne\\makeatother
 \\setlength\\LTleft{0pt}\\setlength\\LTright{0pt}
 \\begin{longtable}{@{}l@{\\extracolsep{\\fill}}lr@{}}
