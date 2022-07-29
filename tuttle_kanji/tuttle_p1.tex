@@ -1,0 +1,407 @@
+\documentclass[10pt, a4paper]{ltjbook}
+\usepackage{luatexja}
+\usepackage{CJKutf8}
+\usepackage[left=1.9cm,right=1.9cm,bottom=1.5cm,top=1.5cm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{amsmath}
+\usepackage{ruby}
+\usepackage{tikz,pgfplots,makecell,array,aurical,longtable,booktabs,multicol,multirow}
+\usetikzlibrary{patterns, mindmap, positioning, automata}
+\usepackage{environ}
+\usepackage{tabularx}
+\usepackage{layout}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{hhline}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{microtype}
+\usepackage[table]{xcolor}
+\usepackage{ulem}
+\usepackage[none]{hyphenat}
+\usepackage{xparse}
+\usepackage{imakeidx}
+\usepackage{setspace}
+\usepackage{silence}
+\usepackage{lscape}
+
+
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+\newsavebox\ltmcbox
+\newlength\mysavecolroom
+% The following command inhibits a column break after a group letter in the index
+% It also swallows the following \\, because the \\ is here before the \nopagebreak.
+\newcommand{\dontbreak}[1]{\\\nopagebreak} % Swallow the following \\
+\makeindex[name=gen, columns=4, title={漢字 Index}, intoc, columnseprule, options=-s general1.ist]
+\newcommand{\gindex}[2]{\index[gen]{#1 & #2}}
+%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+% The following command inhibits a column break after a group letter in the index
+% It also swallows the following \\, because the \\ is here before the \nopagebreak.
+\makeindex[name=romaji, columns=4, title={ロマジ Index}, intoc, columnseprule, options=-s romaji.ist]
+\newcommand{\rgobble}[1]{}
+\let\rgobble\relax
+\newcommand{\threedigits}[1]{%
+	\ifnum \value{#1}<10 00\else
+	\ifnum \value{#1}<100 0\fi\fi
+	\arabic{#1}}
+\newcommand{\rindex}[2]{\index[romaji]{#1 & \rgobble{\threedigits{page}}#2}}
+%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+\newcommand\strokesection{} % to make sure we can use this command
+\def\strokesection#1\par#2\par{\vspace{5pt}\par
+	\parbox[t]{\linewidth}{{#1}\\#2\strut}\par
+}
+
+\makeatletter
+\patchcmd\LT@array{\tabskip\z@}{\tabskip\fill}{\typeout{OK}}{\typeout{BAD}}
+\setlength\LTleft{0pt}\setlength\LTright{0pt}
+\makeatletter
+
+\makeindex[name=stroke, columns=4, title={Stroke-Count Index}, intoc, columnseprule, options=-s strokes.ist]
+\newcommand{\strokeshead}[1]{%
+	\rmfamily\textbf{#1 画}%
+	}
+\newcommand{\strindex}[2]{\index[stroke]{#1@\strokeshead{#1}!\arabic{page}@#2}}
+%<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE, RO]{\leftmark}
+\fancyhead[RE, LO]{頁{\;}\thepage}
+\fancyhead[CE, CO]{\href{https://github.com/HenriBranken/Tuttle__Learning_Japanese_Kanji}{Branken-kun/ブランケン君\textsuperscript{\textcopyright}}}
+
+\newcolumntype{A}{>{\centering\let\newline\\\arraybackslash}X}
+\newcolumntype{B}{>{\raggedright\let\newline\\\arraybackslash}X}
+
+\newcommand{\specialc}[2][c]{\setstretch{0.87}\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\speciall}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\newcommand{\specialr}[2][c]{\begin{tabular}[#1]{@{}r@{}}#2\end{tabular}}
+
+
+\usepackage{graphicx}
+\graphicspath{
+    {/home/henri/stuff/japanese/kanji/chap1/}{/home/henri/stuff/japanese/kanji/chap2/}{/home/henri/stuff/japanese/kanji/chap3/}{/home/henri/stuff/japanese/kanji/chap4/}{/home/henri/stuff/japanese/kanji/chap5/}{/home/henri/stuff/japanese/kanji/chap6/}{/home/henri/stuff/japanese/kanji/chap7/}{/home/henri/stuff/japanese/kanji/chap8/}{/home/henri/stuff/japanese/kanji/chap9/}{/home/henri/stuff/japanese/kanji/chap10/}{/home/henri/stuff/japanese/kanji/chap11/}{/home/henri/stuff/japanese/kanji/chap12/}{/home/henri/stuff/japanese/kanji/chap13/}{/home/henri/stuff/japanese/kanji/chap14/}{/home/henri/stuff/japanese/kanji/chap15/}{/home/henri/stuff/japanese/kanji/chap16/}{/home/henri/stuff/japanese/kanji/chap17/}{/home/henri/stuff/japanese/kanji/chap18/}{/home/henri/stuff/japanese/kanji/chap19/}{/home/henri/stuff/japanese/kanji/chap20/}{/home/henri/stuff/japanese/kanji/chap21/}{/home/henri/stuff/japanese/kanji/chap22/}{/home/henri/stuff/japanese/python_get_images/english/} }
+
+\pgfplotsset{compat=newest,compat/show suggested version=false}
+\usetikzlibrary{pgfplots.groupplots,matrix,positioning,fit,calc,shapes,patterns,automata,plotmarks}
+
+\setlength{\parindent}{0cm}
+
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\newcommand{\rye}[2]{\multicolumn{#1}{|l@{}|}{\renewcommand{\arraystretch}{1.2}\begin{tabularx}{0.95\columnwidth}{@{}B@{}}#2\end{tabularx}}\\\hline}
+
+\usepackage{tocloft}
+\newcommand{\listofkanji}{List of 漢字}
+\newlistof{glyph}{lok}{\listofkanji}
+%\NewEnviron{glyph}[2]% environment name
+%{	\refstepcounter{glyph}%
+%	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
+%	\begin{tabularx}{\columnwidth}{@{}|A|A|A|A|@{}}
+%	\hhline{|----|}
+%	\multicolumn{4}{|B|}{\cellcolor{black}{\color{white}\textbf{\large{漢字{\,}\theglyph{:}\;{#1}}}}} \\\hline %row comp
+%	\hhline{|----|}
+%	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{so_#2.pdf}} & \multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2.pdf}} &
+%	\multicolumn{1}{|c}{\includegraphics[width=0.197\linewidth]{#2_block.pdf}} &
+%	\multicolumn{1}{|c|}{\includegraphics[width=0.197\linewidth]{#2_curs.pdf}}\\\hline
+%	\multicolumn{4}{|B|}{\renewcommand{\arraystretch}{1.2}
+%	\begin{tabularx}{0.95\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+%	\end{tabularx}\renewcommand{\arraystretch}{1}
+%}
+
+% Make the Chapter heading to be exactly 2 lines
+\newcommand{\chapterheading}[1]{%
+    \mbox{}\par\nobreak
+    \raisebox{5pt}[0pt][0pt]{%
+      \textbf{\large #1}%
+    }%
+    \par\nobreak
+}
+\newcommand{\addchaptertolok}[1]{%
+  \addtocontents{lok}{%
+    \protect\chapterheading{#1}%
+  }%
+}
+
+% Redefine \chapter command
+\newcommand{\origchapter}{}
+\let\origchapter\chapter
+\RenewDocumentCommand \chapter { s m }
+{
+  \IfBooleanTF{#1}
+  {\origchapter*{#2}} % \chapter* keeps the same
+  {\origchapter{#1}\addchaptertolok{Chapter \thechapter}} % \chapter add to lok
+}
+
+\NewEnviron{glyph}[2]% added <<<<<<<<<<<<<<<<<<<<<
+{   \refstepcounter{glyph}%
+	\addcontentsline{lok}{glyph}{\protect\numberline{\theglyph}{\;}{\;}#1}
+	\begin{tabularx}{\columnwidth}{|A|A|A|A|}
+		\multicolumn{4}{|l|}{\cellcolor{black}{\color{white}\textbf{\large{\theglyph{:}\;{#1}}}}} \\\hline %row comp  
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{so_#2.pdf}} & 
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{#2.pdf}} &
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{#2_block.pdf}} &
+		\raisebox{-0.5\height}{\includegraphics[width=\linewidth]{#2_curs.pdf}}\\\hline
+		\multicolumn{4}{|l|}{\renewcommand{\arraystretch}{0.9}
+			\begin{tabularx}{0.932\columnwidth}{@{}B@{}}\BODY\end{tabularx}}\\\hline
+	\end{tabularx}\renewcommand{\arraystretch}{1}
+}
+
+\NewEnviron{comps}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|l|A|@{}}
+\hhline{~|-|}\multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\cellcolor{lightgray}$\in$ \textbf{Composition}} \\
+\hline
+\BODY
+\end{tabularx}
+}
+
+\NewEnviron{somme}%
+{%
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|c|B|A|@{}}%
+\hline%
+\multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{+ Words and Compounds}}\\\hline%
+%\multicolumn{1}{|l|}{\cellcolor{lightgray}Example} & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronunciation\\\hline
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{prons}%
+{%
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{|p{5.5mm}|B|B|@{}}%
+\hhline{~|--|}\multicolumn{1}{c|}{} & \multicolumn{2}{c|}{\cellcolor{lightgray}\bfseries{{\textmusicalnote} Pronunciations}}\\
+\hhline{~|-|-|}\multicolumn{1}{c|}{} & \multicolumn{1}{l|}{\cellcolor{lightgray}音読み} & \multicolumn{1}{l|}{\cellcolor{lightgray}訓読み}\\\hline
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{pronss}%
+{%
+\begin{tabularx}{\columnwidth}{@{}|B|B|@{}}%
+\hline%
+\multicolumn{2}{|c|}{\cellcolor{lightgray}\bfseries{{\textmusicalnote} Pronunciations}}\\\hline%
+\multicolumn{1}{|l|}{\cellcolor{lightgray}音読み} & \multicolumn{1}{l|}{\cellcolor{lightgray}訓読み}\\\hline%
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{remglyph}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|B|@{}}%
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}$\bell\in$ \textbf{Meaning $\leftrightarrow$ Glyph Components}}\\%
+\hhline{|-|}\BODY%
+\end{tabularx}%
+}
+
+\NewEnviron{remprons}
+{
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{@{}|B|@{}}
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{{\bell\textmusicalnote} Meaning $\leftrightarrow$ Pronunciations}}\\
+\hhline{|-|}\BODY
+\end{tabularx}%
+}
+
+
+
+\NewEnviron{irrr}%
+{%
+\begin{tabularx}{\columnwidth}{@{}|c|B|A|@{}}%
+\hline%
+\multicolumn{3}{|c|}{\cellcolor{lightgray}\bfseries{** Irregular Reading(s)}}\\\hline%
+%\cellcolor{lightgray}Example & \cellcolor{lightgray}English & \cellcolor{lightgray}Pronunciation\\\hline
+\BODY
+\end{tabularx}%
+}
+
+\NewEnviron{sentence}
+{%
+%\keepXColumns
+\begin{tabularx}{\columnwidth}{|B|}%
+\hhline{|-|}\multicolumn{1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\%
+\hhline{|-|}\rule{0pt}{\baselineskip}%
+\BODY%
+\end{tabularx}%
+}
+
+\NewEnviron{decomp}[1]
+{%
+\begin{tabularx}{\columnwidth}{|*{#1}{@{}A}@{}|}%
+\hhline{|*{#1}{-}|}\multicolumn{#1}{|c|}{\cellcolor{lightgray}\textbf{$\lbrace\cdot\cdot\cdot\rbrace$ Sample Sentence}}\\\hline%
+\BODY%
+\end{tabularx}%
+}
+
+\newcommand{\tryout}[2][cc]{\begin{tabular}{#1}#2\end{tabular}}
+\newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
+\newcommand{\wsplit}{\;}
+\newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
+\newcommand{\iscov}{\textsuperscript{\ensuremath{\diamond}}\hspace{-0.5pt}}
+\newcommand{\notcov}{\hspace{-0.7pt}\textsuperscript{\ensuremath{\star}}}
+\newcommand{\warn}{\textsuperscript{\ensuremath{\ddagger}}\hspace{-0.7pt}}
+\newcommand{\weird}{\textsuperscript{?}\hspace{-0.7pt}}
+\newcommand{\ekwiv}{\ensuremath{\equiv}}
+
+\newcommand{\hooglig}[1]{\colorbox{lightgray!60!white}{#1}}
+\newcommand{\notyet}[1]{\color{gray}{#1}\color{black}}
+\newcommand{\splitter}[2]{\specialc{{#1}\vspace{-2.5pt}\\({#2}.)}}
+\newcommand{\splitterny}[2]{\notyet{\specialc{{#1}\\({#2}.)}}}
+
+\newcommand{\comon}[1]{\uppercase{\textbf{$\langle$#1$\rangle$}}}
+\newcommand{\comkun}[1]{\textbf{$\prec$#1$\succ$}}
+\newcommand{\ucomon}[1]{\uppercase{$\langle$#1$\rangle$}}
+\newcommand{\ucomkun}[1]{$\prec$#1$\succ$}
+
+\newcommand{\remcom}[1]{$\lceil$#1$\rfloor$}
+
+\newcommand{\comprtwocone}{\cellcolor{lightgray}Glyphs}
+\newcommand{\comprthreecone}{\cellcolor{lightgray}English}
+\newcommand{\pronsrtwocone}{\cellcolor{lightgray}\textbf{Cm.}}
+\newcommand{\pronsrthreecone}{\cellcolor{lightgray}L.C.}
+
+\setlength{\parskip}{4pt}
+
+\makeatletter
+   \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+%-------------------------------------------------------
+%-------------------------------------------------------
+%-------------------------------------------------------
+
+\begin{document}
+\setlength{\columnseprule}{0.4pt}
+\begin{multicols}{2}
+    \vspace*{-4pt plus 10pt minus 10pt} % try to align the two columns
+	\listofglyph
+\end{multicols}
+
+\clearpage
+\phantomsection
+
+\setlength{\columnseprule}{0pt}
+
+\chapter{漢字 1--20}
+\begin{multicols}{2}
+\input{chap1}
+
+\chapter{漢字 21--40}
+\begin{multicols}{2}
+\input{chap2}
+
+\chapter{漢字 41--60}
+\begin{multicols}{2}
+\input{chap3}
+
+\chapter{漢字 61--80}
+\begin{multicols}{2}
+\input{chap4}
+
+\chapter{漢字 81--100}
+\begin{multicols}{2}
+\input{chap5}
+
+\chapter{漢字 101--120}
+\begin{multicols}{2}
+\input{chap6}
+
+\chapter{漢字 121--140}
+\begin{multicols}{2}
+\input{chap7}
+
+\chapter{漢字 141--160}
+\begin{multicols}{2}
+\input{chap8}
+
+\chapter{漢字 161--180}
+\begin{multicols}{2}
+\input{chap9}
+
+\chapter{漢字 181--200}
+\begin{multicols}{2}
+\input{chap10}
+
+\chapter{漢字 201--225}
+\begin{multicols}{2}
+\input{chap11}
+
+\chapter{漢字 226--250}
+\begin{multicols}{2}
+\input{chap12}
+
+\chapter{漢字 251--280}
+\begin{multicols}{2}
+\input{chap13}
+
+\chapter{漢字 281--305}
+\begin{multicols}{2}
+\input{chap14}
+
+\chapter{漢字 306--330}
+\begin{multicols}{2}
+\input{chap15}
+
+\chapter{漢字 331--360}
+\begin{multicols}{2}
+\input{chap16}
+
+\chapter{漢字 361--385}
+\begin{multicols}{2}
+\input{chap17}
+
+\chapter{漢字 386--410}
+\begin{multicols}{2}
+\input{chap18}
+
+\chapter{漢字 411--440}
+\begin{multicols}{2}
+\input{chap19}
+
+\chapter{漢字 441--465}
+\begin{multicols}{2}
+\input{chap20}
+
+\chapter{漢字 466--490}
+\begin{multicols}{2}
+\input{chap21}
+
+\chapter{漢字 491--520}
+\begin{multicols}{2}
+\input{chap22}
+
+% ---------------------------------------------------------------
+
+\appendix
+\chapter{The 漢字 Radicals}
+\input{inserts/henri__table_of_radicals}
+%%
+
+\chapter{The 47 Prefectures of 日本}
+\input{inserts/prefectures_tables}
+%%
+
+\setlength{\columnseprule}{0.4pt}
+\setlength{\columnsep}{1.5em}
+
+\printindex[gen]
+\printindex[romaji]
+\printindex[stroke]
+
+\end{document}

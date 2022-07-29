@@ -9,12 +9,12 @@
 \usetikzlibrary{patterns, mindmap, positioning, automata}
 \usepackage{environ}
 \usepackage{tabularx}
+\usepackage{layout}
 \usepackage{booktabs}
 \usepackage{textcomp}
 \usepackage{hhline}
 \usepackage{textcomp}
 \usepackage{wasysym}
-\usepackage{multicol}
 \usepackage{microtype}
 \usepackage[table]{xcolor}
 \usepackage{ulem}
@@ -22,6 +22,9 @@
 \usepackage{xparse}
 \usepackage{imakeidx}
 \usepackage{setspace}
+\usepackage{silence}
+\usepackage{lscape}
+
 
 %>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 \newsavebox\ltmcbox
@@ -247,8 +250,8 @@
 \end{tabularx}%
 }
 
+\newcommand{\tryout}[2][cc]{\begin{tabular}{#1}#2\end{tabular}}
 \newcommand{\middel}{\hspace{-0.9pt}\ensuremath{\cdot}\hspace{-0.9pt}}
-%\newcommand{\wsplit}{\hspace{-0.5pt}\ensuremath{\boldsymbol\vert}\hspace{-0.5pt}}
 \newcommand{\wsplit}{\;}
 \newcommand{\diff}{\textsuperscript{*}\hspace{-0.7pt}}
 \newcommand{\iscov}{\textsuperscript{\ensuremath{\diamond}}\hspace{-0.5pt}}
@@ -334,86 +337,95 @@
 \chapter{漢字 181--200}
 \begin{multicols}{2}
 \input{chap10}
-%
-%\chapter{漢字 201--225}
-%\begin{multicols}{2}
-%\input{chap11}
-%
-%\chapter{漢字 226--250}
-%\begin{multicols}{2}
-%\input{chap12}
-%
-%\chapter{漢字 251--280}
-%\begin{multicols}{2}
-%\input{chap13}
-%
-%\chapter{漢字 281--305}
-%\begin{multicols}{2}
-%\input{chap14}
-%
-%\chapter{漢字 306--330}
-%\begin{multicols}{2}
-%\input{chap15}
-%
-%\chapter{漢字 331--360}
-%\begin{multicols}{2}
-%\input{chap16}
-%
-%\chapter{漢字 361--385}
-%\begin{multicols}{2}
-%\input{chap17}
-%
-%\chapter{漢字 386--410}
-%\begin{multicols}{2}
-%\input{chap18}
-%
-%\chapter{漢字 411--440}
-%\begin{multicols}{2}
-%\input{chap19}
-%
-%\chapter{漢字 441--465}
-%\begin{multicols}{2}
-%\input{chap20}
-%
-%\chapter{漢字 466--490}
-%\begin{multicols}{2}
-%\input{chap21}
-%
-%\chapter{漢字 491--520}
-%\begin{multicols}{2}
-%\input{chap22}
-%
-%\chapter{漢字 521--545}
-%\begin{multicols}{2}
-%\input{chap23}
-%
-%\chapter{漢字 546--570}
-%\begin{multicols}{2}
-%\input{chap24}
-%
-%\chapter{漢字 571--595}
-%\begin{multicols}{2}
-%\input{chap25}
-%
-%\chapter{漢字 596--620}
-%\begin{multicols}{2}
-%\input{chap26}
-%
-%\chapter{漢字 621-645}
-%\begin{multicols}{2}
-%\input{chap27}
-%
-%\chapter{漢字 646-670}
-%\begin{multicols}{2}
-%\input{chap28}
-%
-%\chapter{漢字 671-695}
-%\begin{multicols}{2}
-%\input{chap29}
-%
-%\chapter{漢字 696-722}
-%\begin{multicols}{2}
-%\input{chap30}
+
+\chapter{漢字 201--225}
+\begin{multicols}{2}
+\input{chap11}
+
+\chapter{漢字 226--250}
+\begin{multicols}{2}
+\input{chap12}
+
+\chapter{漢字 251--280}
+\begin{multicols}{2}
+\input{chap13}
+
+\chapter{漢字 281--305}
+\begin{multicols}{2}
+\input{chap14}
+
+\chapter{漢字 306--330}
+\begin{multicols}{2}
+\input{chap15}
+
+\chapter{漢字 331--360}
+\begin{multicols}{2}
+\input{chap16}
+
+\chapter{漢字 361--385}
+\begin{multicols}{2}
+\input{chap17}
+
+\chapter{漢字 386--410}
+\begin{multicols}{2}
+\input{chap18}
+
+\chapter{漢字 411--440}
+\begin{multicols}{2}
+\input{chap19}
+
+\chapter{漢字 441--465}
+\begin{multicols}{2}
+\input{chap20}
+
+\chapter{漢字 466--490}
+\begin{multicols}{2}
+\input{chap21}
+
+\chapter{漢字 491--520}
+\begin{multicols}{2}
+\input{chap22}
+
+
+\chapter{漢字 521--545}
+\begin{multicols}{2}
+\input{chap23}
+
+\chapter{漢字 546--570}
+\begin{multicols}{2}
+\input{chap24}
+
+\chapter{漢字 571--595}
+\begin{multicols}{2}
+\input{chap25}
+
+\chapter{漢字 596--620}
+\begin{multicols}{2}
+\input{chap26}
+
+\chapter{漢字 621-645}
+\begin{multicols}{2}
+\input{chap27}
+
+\chapter{漢字 646-670}
+\begin{multicols}{2}
+\input{chap28}
+
+\chapter{漢字 671-695}
+\begin{multicols}{2}
+\input{chap29}
+
+\chapter{漢字 696-722}
+\begin{multicols}{2}
+\input{chap30}
+
+\appendix
+\chapter{The 漢字 Radicals}
+\input{inserts/henri__table_of_radicals}
+%%
+
+\chapter{The 47 Prefectures of 日本}
+\input{inserts/prefectures_tables}
 
 \setlength{\columnseprule}{0.4pt}
 \setlength{\columnsep}{1.5em}

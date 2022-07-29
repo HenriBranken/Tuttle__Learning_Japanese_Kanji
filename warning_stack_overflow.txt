@@ -1,0 +1,141 @@
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:24653: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.375 \end{comps}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:24482: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:24482: stack overflow
+
+.
+<template> \endtemplate
+
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:24868: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:24868: stack overflow
+
+.
+<template> \endtemplate
+
+l.379 \end{remglyph}
+
+
+warning  (node filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-202
+1-01-07.lua:35032: stack overflow
+
+.
+<recently read> \endgraf
+
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:35032: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...020/texmf-dist/tex/luatex/luaotfload/luaotfl
+oad-szss.lua:48: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...020/texmf-dist/tex/luatex/luaotfload/luaotfl
+oad-szss.lua:48: stack overflow
+
+.
+<template> \endtemplate
+
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...020/texmf-dist/tex/luatex/luaotfload/luaotfl
+oad-szss.lua:48: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...ve/2020/texmf-dist/tex/luatex/luatexja/ltj-d
+irection.lua:516: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...live/2020/texmf-dist/tex/luatex/luatexja/ltj
+-jfmglue.lua:1311: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:34923: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:35101: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (hpack filter): error: ...xmf-dist/tex/luatex/luaotfload/fontloader-20
+21-01-07.lua:35101: stack overflow
+
+.
+<to be read again>
+\ltj@@reset@badness
+l.379 \end{remglyph}
+
+
+warning  (mlist to hlist): error: ...ve/2020/texmf-dist/tex/luatex/luatexja/ltj
+-charrange.lua:83: stack overflow
+.
+\remcom #1->$\lceil $
+                     #1$\rfloor $
+l.379 \end{remglyph}
