@@ -282,6 +282,8 @@
 \makeatletter
    \def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
 \makeatother
+
+\directlua{luatexbase.remove_from_callback('append_to_vlist_filter', 'ltj.lineskip')}
 %-------------------------------------------------------
 %-------------------------------------------------------
 %-------------------------------------------------------
