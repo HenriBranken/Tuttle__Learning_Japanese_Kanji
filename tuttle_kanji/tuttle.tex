@@ -144,8 +144,9 @@
 {
   \IfBooleanTF{#1}
   {\origchapter*{#2}} % \chapter* keeps the same
-  {\origchapter{#1}\addchaptertolok{Chapter \thechapter}} % \chapter add to lok
+  {\origchapter{#1}\addchaptertolok{\Chaptername~\thechapter}} % \chapter add to lok
 }
+\newcommand{\Chaptername}{Chapter}
 
 \NewEnviron{glyph}[2]% added <<<<<<<<<<<<<<<<<<<<<
 {   \refstepcounter{glyph}%
@@ -422,6 +423,8 @@
 \input{chap30}
 
 \appendix
+\renewcommand{\Chaptername}{Appendix}
+
 \chapter{The 漢字 Radicals}
 \input{inserts/henri__table_of_radicals}
 %%
