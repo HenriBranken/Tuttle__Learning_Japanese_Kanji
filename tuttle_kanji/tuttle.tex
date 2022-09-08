@@ -136,6 +136,12 @@
     \protect\chapterheading{#1}%
   }%
 }
+\newcommand{\addappendixtolok}[1]{%
+  \addtocontents{lok}{%
+    \mbox{}\par\vspace{-5pt}%
+  }%
+  \addcontentsline{lok}{glyph}{\textbf{\large #1}}%
+}
 
 % Redefine \chapter command
 \newcommand{\origchapter}{}
@@ -424,6 +430,7 @@
 
 \appendix
 \renewcommand{\Chaptername}{Appendix}
+\let\addchaptertolok\addappendixtolok
 
 \chapter{The 漢字 Radicals}
 \input{inserts/henri__table_of_radicals}
