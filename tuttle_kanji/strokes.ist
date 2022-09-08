@@ -3,7 +3,7 @@ headings_flag 0
 preamble "\\chapter*{\\indexname}%
 \\markboth{\\indexname}{}%
 \\renewcommand{\\tabcolsep}{0pt}%
-\\begin{multicols}{4}\\raggedcolumns
+\\begin{multicols}{6}\\raggedcolumns
 \\setlength\\parindent{0pt}
 \\setlength\\parskip{0pt}
 "
