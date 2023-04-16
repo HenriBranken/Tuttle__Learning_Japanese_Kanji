@@ -1,17 +1,24 @@
 headings_flag 0
 
+heading_prefix "\n\\rmfamily\\textbf{"heading_suffix "}\\dontbreak "
 preamble "\\chapter*{\\indexname}%
-\\renewcommand{\\tabcolsep}{0pt}%
-\\begin{multicols}{4}
+\\renewcommand{\\tabcolsep}{0pt}
 \\setlength\\parindent{0pt}
 \\setlength\\parskip{5pt}
+\\begin{multicols}{4}
+\\setbox\\ltmcbox\\vbox{
+\\makeatletter\\col@number\\@ne\\makeatother
+\\begin{longtable}{lr}
 "
-
-postamble "\n\\end{multicols}
+postamble "\\end{longtable}
+\\unskip
+\\unpenalty
+\\unpenalty}
+\\unvbox\\ltmcbox
+\n\\end{multicols}
 "
-
 delim_1 "\\hfill "
-item_0 "\\par\n"
+item_0 "\\\\\n "
 item_1 "\\\\\n"
 item_x1 "\\\\*\n"
 group_skip "\n \\\\[5pt] \\ignoreNL "

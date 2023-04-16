@@ -1,0 +1,47 @@
+%
+%\thispagestyle{empty}
+%\includepdfmerge{chapters/special.pdf,1}
+%
+\documentclass[11pt,oneside]{report}
+\usepackage{calligra}
+\usepackage{luatexja}
+\usepackage{CJKutf8}
+\usepackage[pages=some,scale=1,angle=0,opacity=0.2]{background}
+
+\begin{document}
+\thispagestyle{empty}
+
+%\BgThispage
+%\backgroundsetup
+%	{
+%		contents={\includegraphics[width=0.9\textwidth]{picture/almond2.jpg}}
+%	}
+
+\vspace{4cm}
+{
+	\calligra\Huge
+	\begin{flushleft}
+		You know{\ldots}
+	\end{flushleft}
+	
+	\vspace{0.2\baselineskip}
+	\begin{flushright}
+		You really are something{\ldots} 
+	\end{flushright}
+	
+	\vspace{1.4\baselineskip}
+	
+	{
+	\LARGE
+	\begin{center}
+		Kyo Sohma 「フルバ」
+	\end{center}
+	}
+
+	\vspace{2\baselineskip}
+	\includegraphics[width=0.7\textwidth]{picture/love_blooming_sakura.png}
+}
+
+\normalfont  %Skip back to the normal font.
+
+\end{document}
